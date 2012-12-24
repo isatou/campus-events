@@ -1,0 +1,353 @@
+/* the bit that does the work */body {
+  margin:0;
+  border:0;
+  padding:0;
+  height:100%; 
+  max-height:100%; 
+  /*background:#fff;*/
+  background:url('img/bg.jpg') #f2f2f2; 
+  font-family:arial, verdana, sans-serif; 
+  font-size:76%;
+  color:#0196e3;
+  overflow: hidden; 
+  }/* for internet explorer */
+* html body {
+  padding:120px 0 50px 0; 
+  }#container {
+  font-family:"times new roman", serif;
+  font-size: 1.2em;
+  position:fixed; 
+  top:40px;
+  left:0;
+  bottom:50px;   right:0;   overflow:auto;   /*background:#fff;*/ background:url('img/bg.jpg') #f2f2f2;  padding:20px;  text-align:center;  }* html #container {  height:100%;   width:100%;   }
+
+
+
+#content
+{  float:left; text-align:justify; background:url('img/bg.jpg') #f2f2f2;  border-right: 1px solid #999;  border-left: 1px solid #999;
+position:absolute;     width:60%; left:20%; padding-right: 2%;     }* html #header {height:120px;}
+
+  .dynamicDiv {
+    width:200px;
+    height:100px;
+    border:solid 1px #c0c0c0;
+    background-color:#e1e1e1;
+    font-size:11px;
+    font-family:verdana;
+    color:#000;
+    padding:5px;
+
+    }
+
+
+
+#contentContainer h2{	/* No margins above <h2> tags */
+	margin-top:0px;
+}
+
+#mainContainer{
+	width:555px;
+	margin:0 auto;
+	text-align:left;
+	padding:5px;
+	margin-top:20px;
+	border:1px solid #000;
+	background-color: #FFF;
+}
+#contentContainer{
+	float:left;
+	border:1px solid #000;
+	background-color: #E8E7E3;
+	overflow:auto;
+	margin-right:10px;
+	padding:10px;
+	
+	/* CSS HACK */
+	width: 397px;	/* IE 5.x */
+	width/* */:/**/380px;	/* Other browsers */
+	width: /**/380px;
+	
+	/* CSS HACK */
+	height: 412px;	/* IE 5.x */
+	height/* */:/**/390px;	/* Other browsers */
+	height: /**/390px;
+			
+}
+
+
+#contentContainer .openingText{
+	color:red;
+}
+
+
+#articleListContainer{	/* <ul> container for article list */
+	float:left;
+	height:410px;
+	overflow:auto;	
+	width:140px;
+	border:1px solid #000;
+	background-color:#FFF;	
+}
+
+
+.articleList{
+	margin:0px;
+	padding:2px;
+}
+.articleList li{	/* General layout article in list */
+	list-style-type:none;
+	border:1px solid #999;
+	background-color:#EEE;
+	height:50px;
+	margin:1px;
+	padding:2px;
+	color:#333;
+	cursor:pointer;
+}
+.articleList li.articleMouseOver{	/* Mouse over article in list - layout */
+	border:1px solid #000;
+	color:#000;
+}
+.articleList li.articleClick{	/* Active article in list - layout */
+	border:1px solid #000;
+	color:#000;
+	background-color:#317082;
+	color:#FFF;
+}
+
+.keyText{	/* Just a column I use for key text inside articles - the one with the light blue bg and dotted border */
+	background-color:#FFF;
+	border:1px dotted #000;
+	float:right;
+	margin-top:5px;
+	margin-left:5px;
+	margin-bottom:5px;
+	width:150px;
+	padding:3px
+}
+.clear{
+	clear:both;
+}
+
+#content1
+{  
+position:relative; width: 75%; height: 100px;} 
+
+textarea#styled {
+        width: 100%;
+       
+        border: 3px solid #cccccc;
+        padding: 5px;
+        font-family: Tahoma, sans-serif;
+        background-image: url(bg.gif);
+        background-position: bottom right;
+        background-repeat: no-repeat;
+}
+
+textarea#description_short {
+        width: 100%;
+       
+        border: 3px solid #cccccc;
+        padding: 5px;
+        font-family: Tahoma, sans-serif;
+        background-image: url(bg.gif);
+        background-position: bottom right;
+        background-repeat: no-repeat;
+}
+
+div.cover
+{
+  border-bottom: 1px solid #999;
+ background:#EAFCCF;
+}
+
+div.comment
+{
+  border-bottom: 1px solid #999;
+ background:#E8E7E3;
+ width:75%;
+}
+
+div.cover1
+{
+  border-bottom: 1px solid #999;
+ background:#E8E7E3;
+top:0;
+}
+
+
+
+div.vote_cover
+{
+  border: 2px solid #999;
+
+}
+
+
+
+
+#content-container1
+{
+
+	float: left;
+	width: 100%;
+	background:url('img/bg.jpg') #f2f2f2;
+	
+}
+
+#content-container2
+{
+
+	float: left;
+	width: 100%;
+
+	background:url('img/bg.jpg') #f2f2f2;
+}
+
+#content-container3
+{
+
+	float: left;
+	width: 100%;
+
+	background:url('img/bg.jpg') #f2f2f2;
+}
+
+
+
+
+
+
+#section-navigation ul
+{
+	margin: 0;
+	padding: 0;
+
+}
+
+#section-navigation ul li
+{
+	margin: 0 0 1em;
+	padding: 0;
+	list-style-type: none;
+
+}
+
+
+
+div.ex
+{
+//width:50%;
+padding:10px;
+border:5px solid gray;
+margin: 0 2% 0 0;
+//position:relative;
+//left:25%;
+}
+
+div.pic
+{
+border:2px solid gray;
+width:50px;
+height:50px;
+
+}
+
+
+
+#aside
+{
+
+
+	float: right;
+	width: 15%;
+	padding: 20px 0;
+	background:url('img/bg.jpg') #f2f2f2;
+	left:1%;
+	display: inline;
+	border-right: 1px solid #999;
+position:relative;
+
+	
+}
+
+
+
+
+
+
+#aside_one
+{
+
+
+	float: right;
+	width: 15%;
+	padding: 20px 0;
+	
+	display: inline;
+position:relative;
+border-right: 1px solid #999;
+
+	
+}
+
+
+
+
+
+#navigation{position:absolute; display:block;  top:0;   left:0;   width:100%;   height:40px;   overflow:auto;   background:#151B8D;  border-bottom:4px solid #58B9EB; border-top:4px solid #58B9EB;  }* html #navigation {height:120px;}
+
+
+#navigation ul	{			margin:0px; 		padding:0px;	}		/*First level list 
+items******************************/		#navigation ul li		{			display:inline; 			float:left; 			height:30px;			line-height:30px;			list-style:none; 			margin-left:15px; 			position:relative; 		}			/*First level anchor tags************************/			#navigation li a			{				color:#0196e3; 				text-decoration:none;			}			#navigation li a:hover			{				text-decoration:underline;			}						/*Second level menu*****************************/			#navigation li ul			{				background-color:#999;				display:none; 				left:0px; 				margin:0px; 				padding:0px; 				position:absolute; 				top:30px; 			}			#navigation li:hover ul			{				display:block; 				width:160px;			}								/*Second level list items*******************/				#navigation li li				{						list-style:none; 					display:list-item;				}										/*Second level anchors*****************/					#navigation li li a					{						color:#73a2bd; 						text-decoration:none;					}					#navigation li li a:hover					{						text-decoration:underline;
+					}
+
+
+
+
+
+
+#header {  position:absolute;   top:0;   left:0;   width:100%;   height:116px;   overflow:auto;   background:#53829d;  border-bottom:4px solid #73a2bd;  }* html #header {height:120px;}
+
+#footer {  position:absolute;   bottom:0;   left:0;  width:100%;   height:45px;   overflow:auto;   text-align:right;   background:#73a2bd;  border-top:5px solid #53829d;  }* html #footer {height:50px;}/* end of bit that does the work */h1 {font-size:4em; margin:0; padding:0;}
+
+
+#section-navigation2 li a			{				color:red; 				text-decoration:none;			}			
+#section-navigation2 li a:hover			{				text-decoration:underline;
+}
+
+#section-navigation{ 
+padding-left:2%;
+position:fixed;    display: inline;  left:0%;  top:50px; height:100%; width:12%;   font-size:1em; color:#red;z-index:4; background:url('img/bg.jpg') #f2f2f2}* html #header, * html #footer,* html #section-navigation {position:absolute;}
+
+#footer p {  color:#blue;   margin:5px 10px 0 10px;  }#header img {  margin:10px 10px 0 10px;  }#container img {margin:5px;}#absolute {  position:absolute;   top:400px;   right:100px;   width:200px;   background:#ddd;   padding:10px;   border:1px solid #000;  }#left {  float:left;   background:#eee;   padding:10px;   border:1px solid #000;   color:#000;   width:50%;  }#right {  float:right;   background:#ddd;   padding:10px;   border:1px solid #000;   color:#000;   }a, a:visited {  font-size:1.1em;  text-decoration:none;  color:#ddd;  }a:hover {  color:#blue;   text-decoration:none;  }.grey {color:#888;}.ltgrey {color:#ddd;}img#mascot {float:right;}#header ul {  clear:both;   text-align:center;   border-top:1px solid #73a2bd;  }#header ul {  margin:0;   padding:0;   list-style-type:none;   background:transparent;   height:3em;  }#header ul li {  display:inline;   color:#73a2bd;  }.strike {text-decoration:line-through;}.lft {float:left;}.rgt{float:right;}
+
+.columnone{width:50%; float:left; text-align:justify; margin-right:2%; padding-left:14%; border-right: 1px solid #999;}
+
+.columntwo {width:21%; float:left; text-align:justify; margin-right:2%; border-right: 1px solid #999; }
+
+
+.columnthree {width: 10%; float:left; text-align:justify; border:1px solid #fff;}* html .columnthree {border:0;}hr {clear:both; border:0; height:1px; color:#888; background-color:#888;}.columnthree a, .columnthree a:visited {font-size:1em; color:#000; text-decoration:underline;}.columnthree a:hover {color:#888; text-decoration:none;}
+
+.navigation1 {
+//margin: 0 3em;
+//padding: 0.5em 0;
+//border-bottom: 1px solid;
+text-align: center;
+list-style: none;
+}
+
+.navigation1 li {
+display: inline;
+margin: 0 7px;
+height: 0;
+}
+
+.navigation1 a:link, .navigation1 a:visited {
+background: transparent;
+color: #329;
+}
+.navigation1 a:hover {
+background: transparent;
+color: #c00;
+}

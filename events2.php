@@ -1,0 +1,212 @@
+
+<!-- Put IE into quirks mode -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title> College Campus Events </title>
+<link href="agenda.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="styles.css" />
+<meta name="Author" content="Isatou" />
+
+</head>
+<body>
+
+<?php
+include('side_bar.php');
+?>
+
+<div id="container">
+
+<div id="content-container1">
+<div id="content-container3">
+		
+
+
+			<div id="content">
+
+<b style="color:#0196e3";> Promoted Event: </b>
+<?php
+$result_pro=mysql_query($qry_pro);
+if($result_pro)
+{
+$row_pro=mysql_fetch_assoc($result_pro);
+$url="event_page.php?id=";
+$url .=$row_pro['event_id'];
+
+echo '	<div id="submissionPromotion" style="color:#0196e3";>
+		<b #0196e3><a href="'.$url.'">  '.$row_pro['title'].' @ '.$row_pro['location'].' from '.$row_pro['start_hour'].':'.$start.' '.$row_pro['start'].' to '.$row_pro['end_hour'].':'.$end.' '.$row_pro['end'].'</a></b>
+<br/>
+'.$row_pro['details'].'
+<br/>'; 
+foreach ($extra as $i)
+		{
+			echo ' *'.$i.'* ';
+		}
+}
+else
+{
+die("promotion query failed!");
+}
+
+?>
+</div>
+
+
+<?php
+	if( isset($_SESSION['ERRMSG_ARR']) && is_array($_SESSION['ERRMSG_ARR']) && count($_SESSION['ERRMSG_ARR']) >0 ) {
+		echo '<ul class="err">';
+		foreach($_SESSION['ERRMSG_ARR'] as $msg) {
+			echo '<li>',$msg,'</li>'; 
+		}
+		echo '</ul>';
+		unset($_SESSION['ERRMSG_ARR']);
+	}
+?>
+
+
+<form action="events2.php" method="get">
+<p>
+
+<input type="checkbox" value='0' name="free" id="free">free events
+<input type="checkbox" value='1' name="refreshments" id="refreshments">refreshments served
+<input type="checkbox" value='1' name="giveaways" id="giveaways">giveaways
+
+
+<select name="department" id="drop">
+<option style="background-color:#58B9EB"; value="choose_department">All Departments</option>
+<option style="background-color:#58B9EB"; value="Engineering">Engineering</option>
+<option style="background-color:#58B9EB"; value="Science">Science</option>
+<option style="background-color:#58B9EB"; value="Humanities">Humanities</option>
+<option style="background-color:#58B9EB"; value="Sophie Davis">Sophie Davis</option>
+<option style="background-color:#58B9EB"; value="Architecture">Architecture</option>
+<option style="background-color:#58B9EB"; value="Education">Education</option>
+</select>
+<input type="submit" id="submit" value="Update">
+</form>
+</p>
+<?php
+
+if($result)
+{
+
+	if(mysql_num_rows($result)==0)
+	{
+		echo "The are no events!";
+	}
+	else
+	{
+	while($row=mysql_fetch_assoc($result))
+		{
+
+		if($row['start_minute']==0)
+			{
+				$start='00';	
+			}
+		if($row['end_minute']==0)
+			{
+				$end='00';	
+			}
+		if($row['admission']==0)
+		{
+			$admission='free';
+		}
+		else
+		{
+			$admission='$';
+			$admission .=$row['amount'];
+		}
+		if($row['reservation']==0)
+		{
+			$reservation='No';
+		}
+		else
+		{
+			$reservation="Yes";
+		}
+		
+		$count=0;
+		$extra[0]=$row['category'];
+		if($row['refreshments']==1)
+		{
+			$extra[1]='refreshments';
+			$count=$count+1;
+		}
+		if($row['raffle']==1)
+		{
+			$extra[2]="raffle";
+			$count=$count+1;
+		}
+
+		$url="event_page.php?id=";
+		$url .=$row['event_id'];
+		
+
+		
+
+		echo '	<div id="submissionContainer" style="color:#0196e3";>
+		<b><a href="'.$url.'">  '.$row['title'].' @ '.$row['location'].' from '.$row['start_hour'].':'.$start.' '.$row['start'].' to '.$row['end_hour'].':'.$end.' '.$row['end'].'</a></b>
+<br/>
+'.$row['details'].'
+<br/>'; 
+foreach ($extra as $i)
+		{
+			echo ' *'.$i.'* ';
+		}
+
+
+$november=5;
+$total=30;
+$count=0;
+
+
+echo '
+
+
+		
+		 </div>';
+		}
+	}
+
+}
+
+
+else
+{
+	die("Query failed!");
+}
+
+?>
+
+<?php
+include('adverts.php');
+?>
+
+
+
+			
+			
+	
+
+</div>
+</div>
+ </div>
+
+
+
+<?php
+include('menu.php');
+?>
+
+
+
+
+     
+ 
+
+
+
+
+
+</body></html>

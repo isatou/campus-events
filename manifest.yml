@@ -1,0 +1,17 @@
+---
+applications:
+  .:
+    name: dagenda
+    framework:
+      name: php
+      info:
+        mem: 128M
+        description: PHP Application
+        exec: 
+    infra: aws
+    url: http://campusevents.aws.af.cm/
+    mem: '256'
+    instances: 1
+    services:
+      mysql:
+        type: mysql
