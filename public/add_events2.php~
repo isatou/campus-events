@@ -102,6 +102,7 @@ function AmountForm(amount_num)
 <?php
 include('side_bar.php');
 ?>
+k
 
 <div id="container">
 
