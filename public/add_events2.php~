@@ -123,7 +123,7 @@ if($result_pro)
 
 			<div id="content">
 
-<b style="color:#0196e3";> Promoted Event: </b>	
+<b style="color:#0196e3";> Promoted Eventds: </b>	
 <?php
 	$row_pro=mysql_fetch_assoc($result_pro);
 	$url="event_page.php?id=";
