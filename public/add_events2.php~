@@ -102,8 +102,18 @@ function AmountForm(amount_num)
 <?php
 include('side_bar.php');
 ?>
-k
 
+
+
+<?php
+$result_pro=mysql_query($qry_pro);
+if($result_pro)
+{
+	
+
+	if(mysql_num_rows($result_pro) != 0)
+	{
+?>
 <div id="container">
 
 <div id="content-container1">
@@ -113,15 +123,8 @@ k
 
 			<div id="content">
 
-<b style="color:#0196e3";> Promoted Event: </b>
+<b style="color:#0196e3";> Promoted Event: </b>	
 <?php
-$result_pro=mysql_query($qry_pro);
-if($result_pro)
-{
-	
-
-	if(mysql_num_rows($result_pro) != 0)
-	{	
 	$row_pro=mysql_fetch_assoc($result_pro);
 	$url="event_page.php?id=";
 	$url .=$row_pro['event_id'];
