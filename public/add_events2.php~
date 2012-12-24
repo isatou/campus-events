@@ -117,7 +117,7 @@ include('side_bar.php');
 $result_pro=mysql_query($qry_pro);
 if($result_pro)
 {
-	echo mysql_num_rows($result_pro)
+	
 
 	if(mysql_num_rows($result_pro)!=0)
 	{	
