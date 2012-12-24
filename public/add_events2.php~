@@ -119,7 +119,7 @@ if($result_pro)
 {
 	
 
-	if(mysql_num_rows($result_pro) ==0)
+	if(mysql_num_rows($result_pro) != 0)
 	{	
 	$row_pro=mysql_fetch_assoc($result_pro);
 	$url="event_page.php?id=";
