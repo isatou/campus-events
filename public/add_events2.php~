@@ -64,7 +64,10 @@ function addAmount2(amount_num)
   	//d.removeChild(text);
 	//text.parentNode.removeChild(text);
 	//issue1.removeChild(issue1.firstChild);
-	issue1.removeChild(issue1.firstChild);
+
+
+	//issue1.removeChild(issue1.firstChild);
+	issue1.innerHTMl='<tr id="myDiv"></tr>'
 	}
 }
 
