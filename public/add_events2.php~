@@ -180,6 +180,7 @@ die("promotion query failed!");
 <option style="background-color:#58B9EB"; value="Education">Education</option>
 </select>
 <input type="submit" id="submit" value="Update">
+<br/>
 </form>
 </p>
 
@@ -678,7 +679,7 @@ die("promotion query failed!");
 <th>
 </th>
 <td>
-		<input type="submit" name='submit' id="submit" value="Submitt" >
+		<input type="submit" name='submit' id="submit" value="Submit" >
 </td>
 </tr> 
 
