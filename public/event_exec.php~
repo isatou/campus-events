@@ -194,7 +194,7 @@ VALUES ('$title', '$category', '$details, '$month', '$day', '$year', '$start_hou
 	$result=@mysql_query($qry);
 	if($result)
 	{
-	header("location: events.php");
+	header("location: events2.php");
 	exit();
 	}
 	else
