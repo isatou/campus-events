@@ -176,7 +176,7 @@ die("promotion query failed!");
 
 
 <select name="department" id="drop">
-<option style="background-color:#58B9EB"; value="choose_department">All Departments</option>
+<option style="background-color:#58B9EB"; value="choose_department">All Departmentss</option>
 <option style="background-color:#58B9EB"; value="Engineering">Engineering</option>
 <option style="background-color:#58B9EB"; value="Science">Science</option>
 <option style="background-color:#58B9EB"; value="Humanities">Humanities</option>
