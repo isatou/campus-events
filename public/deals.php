@@ -120,7 +120,7 @@ echo '
 <td>
 <img src="ad.jpg" align="middle" width="90%" height="120">
 </td>';
-$item = $item + 1
+$item = $item + 1;
 }
 
 
