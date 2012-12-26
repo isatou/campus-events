@@ -100,10 +100,14 @@ function AmountForm(amount_num)
 <body>
 
 <?php
-//include('side_bar.php');
+include('side_bar.php');
 ?>
 
+<div id="container">
 
+<div id="content-container1">
+<div id="content-container3">
+<div id="content">
 
 <?php
 $result_pro=mysql_query($qry_pro);
@@ -114,14 +118,11 @@ if($result_pro)
 	if(mysql_num_rows($result_pro) != 0)
 	{
 ?>
-<div id="container">
 
-<div id="content-container1">
-<div id="content-container3">
 		
 
 
-			<div id="content">
+			
 
 <b style="color:#0196e3";> Promoted Events: </b>	
 <?php
