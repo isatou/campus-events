@@ -100,9 +100,9 @@ if($result)
 	if(mysql_num_rows($result)==0)
 	{
 		echo "The are no deals!";
-?>
 
-<table width="100%" border="0" align="left" cellpadding="2" cellspacing="0">
+
+echo '<table width="100%" border="0" align="left" cellpadding="2" cellspacing="0">
 <table width="100%" border="0" align="left" cellpadding="2" cellspacing="0" id='submissionContainer' style="color:#0196e3";>
 <tr>
 <td>
@@ -121,9 +121,9 @@ if($result)
 <img src="ad5.jpg" align="middle" width="90%" height="120">
 </td>
 </tr>
-</table>
+</table>';
 
-<?php
+
 	}
 	/*else
 	{
