@@ -95,7 +95,7 @@ include('side_bar.php');
 		{
 */
 
-		$extrs=array()
+		$extra=array();
 		if($row['start_minute']==0)
 			{
 				$start='00';	
