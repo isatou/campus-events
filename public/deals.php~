@@ -103,7 +103,7 @@ if($result)
 
 
 echo '<table width="100%" border="0" align="left" cellpadding="2" cellspacing="0">
-<table width="100%" border="0" align="left" cellpadding="2" cellspacing="0" id='submissionContainer' style="color:#0196e3";>
+<table width="100%" border="0" align="left" cellpadding="2" cellspacing="0" id="submissionContainer" style="color:#0196e3";>
 <tr>
 <td>
 <img src="ad.jpg" align="middle" width="90%" height="120">
