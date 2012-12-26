@@ -101,26 +101,30 @@ if($result)
 	{
 		echo "The are no deals!";
 
-
+$item=1
 echo '<table width="100%" border="0" align="left" cellpadding="2" cellspacing="0">
 <table width="100%" border="0" align="left" cellpadding="2" cellspacing="0" id="submissionContainer" style="color:#0196e3";>
-<tr>
+<tr>';
+
+for ($i=0; $i<10; $i++)
+{
+
+if($item == 4 and $i != 9)
+{
+echo '</tr><tr>';
+$item=0
+}
+
+
+echo '
 <td>
 <img src="ad.jpg" align="middle" width="90%" height="120">
-</td>
-<td>
-<img src="ad2.jpg" align="middle" width="90%" height="120">
-</td>
-<td>
-<img src="ad3.jpg" align="middle" width="90%" height="120">
-</td>
-<td>
-<img src="ad4.jpg" align="middle" width="90%" height="120">
-</td>
-<td>
-<img src="ad5.jpg" align="middle" width="90%" height="120">
-</td>
-</tr>
+</td>';
+}
+
+if
+
+echo '</tr>
 </table>';
 
 
