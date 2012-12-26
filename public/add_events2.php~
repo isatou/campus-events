@@ -45,7 +45,7 @@ function addAmount2(amount_num)
 	
 //"Hello this is a test"; 
 	//issue1.appendChild(text);
-	issue1.innerHTML='<tr><th>Amount: ($) </th><td><input name="amount" type="text" class="textfield" id="amount" ></td></tr>';
+	issue1.innerHTML='<tr id="myDiv"><th>Amount: ($) </th><td><input name="amount" type="text" class="textfield" id="amount" ></td></tr>';
 	//issue1.removeChild(text);
 
 	}
@@ -175,7 +175,7 @@ die("promotion query failed!");
 
 
 <select name="department" id="drop">
-<option style="background-color:#58B9EB"; value="choose_department">All Departments</option>
+<option style="background-color:#58B9EB"; value="choose_department">All Departmentss</option>
 <option style="background-color:#58B9EB"; value="Engineering">Engineering</option>
 <option style="background-color:#58B9EB"; value="Science">Science</option>
 <option style="background-color:#58B9EB"; value="Humanities">Humanities</option>
