@@ -124,21 +124,21 @@ if($result_pro)
 
 			
 
-<b style="color:#0196e3";> Promoted Events: </b>	
-<?php
-	$row_pro=mysql_fetch_assoc($result_pro);
-	$url="event_page.php?id=";
-	$url .=$row_pro['event_id'];
+		<b style="color:#0196e3";> Promoted Events: </b>	
+		<?php
+			$row_pro=mysql_fetch_assoc($result_pro);
+			$url="event_page.php?id=";
+			$url .=$row_pro['event_id'];
 
-	echo '	<div id="submissionPromotion" style="color:#0196e3";>
-			<b #0196e3><a href="'.$url.'">  '.$row_pro['title'].' @ '.$row_pro['location'].' from '.$row_pro['start_hour'].':'.$start.' '.$row_pro['start'].' to '.$row_pro['end_hour'].':'.$end.' '.$row_pro['end'].'</a></b>
-	<br/>
-	'.$row_pro['details'].'
-	<br/>'; 
-	foreach ($extra as $i)
-			{
-				echo ' *'.$i.'* ';
-			}
+			echo '	<div id="submissionPromotion" style="color:#0196e3";>
+					<b #0196e3><a href="'.$url.'">  '.$row_pro['title'].' @ '.$row_pro['location'].' from '.$row_pro['start_hour'].':'.$start.' '.$row_pro['start'].' to '.$row_pro['end_hour'].':'.$end.' '.$row_pro['end'].'</a></b>
+			<br/>
+			'.$row_pro['details'].'
+			<br/>'; 
+			foreach ($extra as $i)
+				{
+					echo ' *'.$i.'* ';
+				}
 	}
 }
 else
@@ -147,7 +147,7 @@ die("promotion query failed!");
 }
 
 ?>
-</div>
+
 
 
 <?php
@@ -678,7 +678,7 @@ die("promotion query failed!");
 <th>
 </th>
 <td>
-		<input type="submit" name='submit' id="submit" value="Submitt" >
+		<input type="submit" name='submit' id="submit" value="Submit" >
 </td>
 </tr> 
 
@@ -686,8 +686,7 @@ die("promotion query failed!");
 </form>
 
 
- 
-</div>
+
 
 
 <?php
