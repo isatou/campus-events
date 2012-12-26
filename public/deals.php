@@ -117,7 +117,7 @@ $item=1;
 
 echo '
 <td id="submissionContainer" style="color:#0196e3";>
-<img src="ad.jpg" align="middle" width="90%" height="120">
+<a  href="#"> <img src="ad.jpg" align="middle" width="90%" height="120"  />  </a>
 </td>';
 $item = $item + 1;
 }
