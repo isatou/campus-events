@@ -66,8 +66,8 @@ function addAmount2(amount_num)
 	//issue1.removeChild(issue1.firstChild);
 
 
-	//issue1.removeChild(issue1.firstChild);
-	issue1.innerHTMl='<tr id="myDiv"></tr>'
+	issue1.removeChild(issue1.firstChild);
+	//issue1.innerHTMl='<tr id="myDiv"></tr>'
 	}
 }
 
@@ -175,7 +175,7 @@ die("promotion query failed!");
 
 
 <select name="department" id="drop">
-<option style="background-color:#58B9EB"; value="choose_department">All Departmentss</option>
+<option style="background-color:#58B9EB"; value="choose_department">All Departments</option>
 <option style="background-color:#58B9EB"; value="Engineering">Engineering</option>
 <option style="background-color:#58B9EB"; value="Science">Science</option>
 <option style="background-color:#58B9EB"; value="Humanities">Humanities</option>
