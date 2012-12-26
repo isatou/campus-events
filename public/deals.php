@@ -100,6 +100,10 @@ if($result)
 	if(mysql_num_rows($result)==0)
 	{
 		echo "The are no deals!";
+	}
+
+	else
+	{
 
 $item=1;
 echo '<table width="100%" align="left" >
