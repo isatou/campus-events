@@ -100,11 +100,14 @@ if($result)
 	if(mysql_num_rows($result)==0)
 	{
 		echo "The are no deals!";
+?>
 <img src="ad.jpg" align="middle" width="90%" height="120">
 <img src="ad2.jpg" align="middle" width="90%" height="120">
 <img src="ad3.jpg" align="middle" width="90%" height="120">
 <img src="ad4.jpg" align="middle" width="90%" height="120">
 <img src="ad5.jpg" align="middle" width="90%" height="120">
+
+<?php
 	}
 	/*else
 	{
