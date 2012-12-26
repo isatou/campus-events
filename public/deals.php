@@ -112,7 +112,7 @@ for ($i=0; $i<10; $i++)
 if($item == 4 && $i != 9)
 {
 echo '</tr><tr>';
-$item=0;
+$item=1;
 }
 
 
@@ -120,6 +120,7 @@ echo '
 <td>
 <img src="ad.jpg" align="middle" width="90%" height="120">
 </td>';
+$item = $item + 1
 }
 
 
