@@ -678,7 +678,7 @@ die("promotion query failed!");
 <th>
 </th>
 <td>
-		<input type="submit" name='submit' id="submit" value="Submit" >
+		<input type="submit" name='submit' id="submit" value="Submitt" >
 </td>
 </tr> 
 
@@ -687,7 +687,7 @@ die("promotion query failed!");
 
 
 
-
+</div>
 
 <?php
 include('adverts.php');
