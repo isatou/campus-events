@@ -103,7 +103,6 @@ if($result)
 
 $item=1;
 echo '<table width="100%" border="0" align="left" cellpadding="2" cellspacing="0">
-<table width="100%" border="0" align="left" cellpadding="2" cellspacing="0" id="submissionContainer" style="color:#0196e3";>
 <tr>';
 
 for ($i=0; $i<10; $i++)
@@ -117,7 +116,7 @@ $item=1;
 
 
 echo '
-<td>
+<td id="submissionContainer" style="color:#0196e3";>
 <img src="ad.jpg" align="middle" width="90%" height="120">
 </td>';
 $item = $item + 1;
