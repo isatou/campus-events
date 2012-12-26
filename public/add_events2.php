@@ -31,7 +31,7 @@ function FillContactEmail(contact)
 function addAmount2(amount_num)
 {
 	var issue1= document.getElementById('myDiv');
-	var text=document.createElement(); 
+	var text=document.createElement('div1'); 
 
 	text.innerHTML='<th>Amount: ($) </th><td><input name="amount" type="text" class="textfield" id="amount" ></td>';
 
@@ -44,7 +44,8 @@ function addAmount2(amount_num)
 	//text.innerHTML='<th>Amount: ($) </th><td><input name="amount" type="text" class="textfield" id="amount" ></td>';
 	
 //"Hello this is a test"; 
-	issue1.appendChild(text);
+	//issue1.appendChild(text);
+	issue1.innerHTML='<tr><th>Amount: ($) </th><td><input name="amount" type="text" class="textfield" id="amount" ></td></tr>';
 	//issue1.removeChild(text);
 
 	}
@@ -171,7 +172,7 @@ die("promotion query failed!");
 
 
 <select name="department" id="drop">
-<option style="background-color:#58B9EB"; value="choose_department">All Departmentsss</option>
+<option style="background-color:#58B9EB"; value="choose_department">All Departments</option>
 <option style="background-color:#58B9EB"; value="Engineering">Engineering</option>
 <option style="background-color:#58B9EB"; value="Science">Science</option>
 <option style="background-color:#58B9EB"; value="Humanities">Humanities</option>
