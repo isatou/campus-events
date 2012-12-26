@@ -31,7 +31,7 @@ function FillContactEmail(contact)
 function addAmount2(amount_num)
 {
 	var issue1= document.getElementById('myDiv');
-	var text=document.createElement('div1'); 
+	var text=document.createElement(); 
 
 	text.innerHTML='<th>Amount: ($) </th><td><input name="amount" type="text" class="textfield" id="amount" ></td>';
 
@@ -71,7 +71,7 @@ function addAmount()
 {
 
 var issue1= document.getElementById('myDiv');
-var text=document.createElement(); 
+var text=document.createElement('div1'); 
 text.innerHTML='<p> Issue: </p><textarea name="description_short" id="description_short"  ></textarea>';
 //"Hello this is a test";
 issue1.appendChild(text);
@@ -171,7 +171,7 @@ die("promotion query failed!");
 
 
 <select name="department" id="drop">
-<option style="background-color:#58B9EB"; value="choose_department">All Departmentss</option>
+<option style="background-color:#58B9EB"; value="choose_department">All Departmentsss</option>
 <option style="background-color:#58B9EB"; value="Engineering">Engineering</option>
 <option style="background-color:#58B9EB"; value="Science">Science</option>
 <option style="background-color:#58B9EB"; value="Humanities">Humanities</option>
