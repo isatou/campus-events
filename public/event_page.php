@@ -56,7 +56,6 @@ include('side_bar.php');
 
 <div id="content-container1">
 <div id="content-container3">
-		<div id="content-container2">
 
 
 			<div id="content">
@@ -135,14 +134,14 @@ include('side_bar.php');
 		}
 
 		echo '	
-		<b align="center">'.$row['title'].'</b>
+		<h2 align="center">'.$row['title'].'</h2>
 		<p>'.$row['details'].'</p>
-		<p>Date: '.$row['month'].' '.$row['day'].' '.$row['year'].'</p>
-		<p>Start Time: '.$row['start_hour'].':'.$start.' '.$row['start'].'</p>
-		<p>End Time: '.$row['end_hour'].':'.$end.' '.$row['end'].'</p>
-		<p>Location: '.$row['location'].'</p>
-		<p>Admission Fee: '.$admission.'</p>
-		<p>Reservation Required: '.$reservation.'</p>';
+		<p><b>Date:</b> '.$row['month'].' '.$row['day'].' '.$row['year'].'</p>
+		<p><b>Start Time:</b> '.$row['start_hour'].':'.$start.' '.$row['start'].'</p>
+		<p><b>End Time:</b> '.$row['end_hour'].':'.$end.' '.$row['end'].'</p>
+		<p><b>Location:</b> '.$row['location'].'</p>
+		<p><b>Admission Fee:</b> '.$admission.'</p>
+		<p><b>Reservation Required:</b> '.$reservation.'</p>';
 
 		if($count != 0)
 		{
@@ -203,7 +202,7 @@ include('adverts.php');
 </div>
 </div>
 </div>
- </div>
+
 
 
 
