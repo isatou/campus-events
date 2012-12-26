@@ -135,7 +135,7 @@ include('side_bar.php');
 
 		echo '	
 		<h2 align="center">'.$row['title'].'</h2>
-		<p>'.$row['details'].'</p>
+		'.$row['details'].'
 		<p><b>Date:</b> '.$row['month'].' '.$row['day'].' '.$row['year'].'</p>
 		<p><b>Start Time:</b> '.$row['start_hour'].':'.$start.' '.$row['start'].'</p>
 		<p><b>End Time:</b> '.$row['end_hour'].':'.$end.' '.$row['end'].'</p>
