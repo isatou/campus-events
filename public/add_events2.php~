@@ -687,7 +687,7 @@ die("promotion query failed!");
 
 
  
-
+</div>
 
 
 <?php
