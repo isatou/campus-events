@@ -101,7 +101,7 @@ if($result)
 	{
 		echo "The are no deals!";
 
-$item=1
+$item=1;
 echo '<table width="100%" border="0" align="left" cellpadding="2" cellspacing="0">
 <table width="100%" border="0" align="left" cellpadding="2" cellspacing="0" id="submissionContainer" style="color:#0196e3";>
 <tr>';
@@ -122,7 +122,6 @@ echo '
 </td>';
 }
 
-if
 
 echo '</tr>
 </table>';
