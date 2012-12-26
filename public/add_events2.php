@@ -100,7 +100,7 @@ function AmountForm(amount_num)
 <body>
 
 <?php
-include('side_bar.php');
+//include('side_bar.php');
 ?>
 
 
@@ -123,7 +123,7 @@ if($result_pro)
 
 			<div id="content">
 
-<b style="color:#0196e3";> Promoted Eventds: </b>	
+<b style="color:#0196e3";> Promoted Events: </b>	
 <?php
 	$row_pro=mysql_fetch_assoc($result_pro);
 	$url="event_page.php?id=";
