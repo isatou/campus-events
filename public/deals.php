@@ -109,7 +109,7 @@ echo '<table width="100%" border="0" align="left" cellpadding="2" cellspacing="0
 for ($i=0; $i<10; $i++)
 {
 
-if($item == 4 and $i != 9)
+if($item == 4 && $i != 9)
 {
 echo '</tr><tr>';
 $item=0
