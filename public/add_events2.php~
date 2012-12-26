@@ -71,7 +71,7 @@ function addAmount()
 {
 
 var issue1= document.getElementById('myDiv');
-var text=document.createElement('div1'); 
+var text=document.createElement(); 
 text.innerHTML='<p> Issue: </p><textarea name="description_short" id="description_short"  ></textarea>';
 //"Hello this is a test";
 issue1.appendChild(text);
