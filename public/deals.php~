@@ -102,7 +102,7 @@ if($result)
 		echo "The are no deals!";
 
 $item=1;
-echo '<table width="100%" border="0" align="left" cellpadding="2" cellspacing="0">
+echo '<table width="100%" align="left" >
 <tr>';
 
 for ($i=0; $i<10; $i++)
