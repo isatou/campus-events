@@ -238,8 +238,8 @@ lkk
 <?php 
 echo '<script type="text/javascript">getTime();</script>'; 
 
-$t = ?>  <script type="text/javascript">getTime();</script>
-<?php echo $t;
+$t = ?>  <?php echo '<script type="text/javascript">getTime();</script>';
+ echo $t;
 ?>
 
 
