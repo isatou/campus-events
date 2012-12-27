@@ -267,11 +267,13 @@ else
 
 ?>
 
-a
+
 <div id="demo"> </div>
 <?php 
-echo '<button type="button" onclick="getTime()">Display Date</button>';
+//echo '<button type="button" onclick="getTime()">Display Date</button>';
 ?>
+
+window.onload=getTime();
 
 
 <div class="fb-like" data-href="http://dagenda.phpfogapp.com/event_page.php?id=<?php echo ' '.$id.' ';?>" data-send="false" data-width="450" data-show-faces="true"></div>
