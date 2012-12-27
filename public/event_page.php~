@@ -303,8 +303,7 @@ $link = deleteFirstChar( $file );
 //$_SESSION['status'] = 0;
 
 echo 'day';
-
-echo ".$_SESSION['date'].";
+echo $_SESSION['date'];
 ?>
 
 <input type="hidden" value="getTime()" name="date">
