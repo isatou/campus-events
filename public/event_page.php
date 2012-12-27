@@ -136,15 +136,15 @@ include('side_bar.php');
 		<div id="submissionContainer" style="color:#0196e3";>
 		'.$row['details'].'
 		</div>
+		<b> When? </b>
 		<div id="submissionContainer" style="color:#0196e3";>
-		<b> When </b>
 		<p><b>Date:</b> '.$row['month'].' '.$row['day'].' '.$row['year'].'</p>
 		<p><b>Start Time:</b> '.$row['start_hour'].':'.$start.' '.$row['start'].'</p>
 		<p><b>End Time:</b> '.$row['end_hour'].':'.$end.' '.$row['end'].'</p>
 		</div>
-		<b> Where </b>
+		<b> Where? </b>
 		<div id="submissionContainer" style="color:#0196e3";>
-		<p><b>Location:</b> '.$row['location'].'</p>
+		<p>'.$row['location'].'</p>
 		</div>
 		<b> Admission Details </b>
 		<div id="submissionContainer" style="color:#0196e3";>
@@ -167,6 +167,10 @@ include('side_bar.php');
 
 		$contact_person =  $row['name'];
 			
+		if($row['check_phone'] == 1 | $row['check_email'] == 1)
+			{
+				echo 'Contact Details:';
+			}
 
 		if($row['check_phone'] == 1 & $row['check_email'] == 1)
 		{
