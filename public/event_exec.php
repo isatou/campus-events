@@ -113,23 +113,24 @@ if($amount == '') {
 */
 
 /*if($person == '') {
-		$errmsg_arr[] = 'No contact person added!';
-		$errflag = true;
-	}*/
-
+		//$errmsg_arr[] = 'No contact person added!';
+		//$errflag = true;
+		$person='NULL'
+	}
+*/
 if($email == '') {
 		$errmsg_arr[] = 'Submitter email not provided!';
 		$errflag = true;
 	}
 
-if($website == '') {
+/*if($website == '') {
 		$website='NULL';
 	}
 
 if($phone == '') {
 		$phone='NULL';
 	}
-
+*/
 
 if (isset($_POST['check_phone']))
 	{

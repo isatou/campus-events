@@ -121,57 +121,67 @@ include('side_bar.php');
 			$reservation="Yes";
 		}
 		
-		$count=0;
 		if($row['refreshments']==1)
 		{
 			$extra[]='refreshments';
-			$count=$count+1;
 		}
 		if($row['raffle']==1)
 		{
 			$extra[]="raffle";
-			$count=$count+1;
 		}
 
 		echo '	
-		<h2 align="center">'.$row['title'].'</h2>
+		<div id="submissionContainer" style="color:#0196e3";>
+		<h1 align="center">'.$row['title'].'</h1>
 		'.$row['details'].'
+		</div>
+		<div id="submissionContainer" style="color:#0196e3";>
 		<p><b>Date:</b> '.$row['month'].' '.$row['day'].' '.$row['year'].'</p>
 		<p><b>Start Time:</b> '.$row['start_hour'].':'.$start.' '.$row['start'].'</p>
 		<p><b>End Time:</b> '.$row['end_hour'].':'.$end.' '.$row['end'].'</p>
 		<p><b>Location:</b> '.$row['location'].'</p>
 		<p><b>Admission Fee:</b> '.$admission.'</p>
-		<p><b>Reservation Required:</b> '.$reservation.'</p>';
-
-		if($count != 0)
-		{
-			echo '<p>Available:</p>';
-		}
+		<p><b>Reservation Required:</b> '.$reservation.'</p>
+		</div>';
 		
+
+	
 		if(sizeof($extra) != 0)
 		{
+			echo '<div id="submissionContainer" style="color:#0196e3";>
+			<p>Available:</p>';
 			foreach ($extra as $i)
 			{
 				echo ' <li> '.$i.' </li>';
 			}
+			echo '</div>';
 		}
+
+		/*$contact_person =  $row['name']
+		if($contact_person != '')
+		{
+			$contact_person .= '$contact_person
+			*/
 
 		if($row['check_phone'] == 1 & $row['check_email'] == 1)
 		{
-			echo ' <p> For more information, call '.$row['phone'].' or send an email to '.$row['email'].'. </p>';
+			echo ' <div id="submissionContainer" style="color:#0196e3";>
+				<p> For more information, call '.$row['phone'].' or send an email to '.$row['email'].'. </p>';
 		}
 
 		else if($row['check_phone'] == 1)
 		{
-			echo ' <p> For more information, call '.$row['phone'].'. </p>';
+			echo ' <div id="submissionContainer" style="color:#0196e3";>
+			       <p> For more information, call '.$row['phone'].'. </p>';
 		}
 		
 		else if($row['check_email'] == 1)
 		{
-			echo ' <p> For more information, send an email to '.$row['email'].'. </p>';
+			echo '<div id="submissionContainer" style="color:#0196e3";>
+ 			     <p> For more information, send an email to '.$row['email'].'. </p>';
 		}
 		
-		
+		echo '</div>
 
 		echo '
 		<p>Category: '.$row['category'].'</p>
