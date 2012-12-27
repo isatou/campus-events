@@ -234,11 +234,13 @@ else
 
 ?>
 
-<script>
-var time= getTime()
-<?php $t ?> = time
-<?php echo $time ?>
-</script>
+lk
+<?php 
+echo '<script type="text/javascript">getTime();</script>'; 
+$t = echo '<script type="text/javascript">getTime();</script>'; 
+echo $t
+?>
+
 
 <div class="fb-like" data-href="http://dagenda.phpfogapp.com/event_page.php?id=<?php echo ' '.$id.' ';?>" data-send="false" data-width="450" data-show-faces="true"></div>
 			</div>
