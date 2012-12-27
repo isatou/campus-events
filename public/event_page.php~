@@ -167,6 +167,10 @@ include('side_bar.php');
 
 		$contact_person =  $row['name'];
 			
+		if($row['check_phone'] == 1 | $row['check_email'] == 1)
+			{
+				echo '<b>Contact Details:</b>';
+			}
 
 		if($row['check_phone'] == 1 & $row['check_email'] == 1)
 		{

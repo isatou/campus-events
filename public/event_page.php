@@ -169,7 +169,7 @@ include('side_bar.php');
 			
 		if($row['check_phone'] == 1 | $row['check_email'] == 1)
 			{
-				echo 'Contact Details:';
+				echo '<b>Contact Details:</b>';
 			}
 
 		if($row['check_phone'] == 1 & $row['check_email'] == 1)
