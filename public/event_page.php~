@@ -1,4 +1,23 @@
 <?php
+//Start session
+session_start();
+
+$date=$_GET["date"];
+if($date == '')
+{
+?>
+<script>
+window.location.reload()
+ </script>
+<?php	
+$_SESSION['date'] = $date;
+}
+
+else
+{
+$_SESSION['date']="wrong";
+
+
 //include("connect.php");
 require_once('connect.php');
 $id=$_GET["id"];
@@ -271,9 +290,25 @@ else
 <div id="demo"> </div>
 <?php 
 //echo '<button type="button" onclick="getTime()">Display Date</button>';
+$file = $_SERVER["SCRIPT_NAME"];
+
+
+function deleteFirstChar( $string ) {
+	return substr( $string, 1 );
+}
+
+// to delete / after main url
+$link = deleteFirstChar( $file );
+
+//$_SESSION['status'] = 0;
+
+echo 'day';
+echo '.$_SESSION['date'].';
 ?>
 
-<script>window.onload=getTime(); </script>
+<input type="hidden" value="getTime()" name="date">
+
+
 
 
 <div class="fb-like" data-href="http://dagenda.phpfogapp.com/event_page.php?id=<?php echo ' '.$id.' ';?>" data-send="false" data-width="450" data-show-faces="true"></div>
