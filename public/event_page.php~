@@ -40,11 +40,39 @@ var c_min = d.getMinutes();
 var c_sec = d.getSeconds();
 var month = d.getMonth();
 var day = d.getDay();
-var year = d.getYear();
+var year = d.getFullYear();
 //var t = d + ":" + c_hour + ":" + c_min + ":" + c_sec;
 var t= month + ' ' +  day + ' ' +  year;
 document.getElementById("demo").innerHTML=t;
 return t;
+}
+
+function getMonth()
+{
+var d=new Date();
+var month=new Array();
+month[0]="January";
+month[1]="February";
+month[2]="March";
+month[3]="April";
+month[4]="May";
+month[5]="June";
+month[6]="July";
+month[7]="August";
+month[8]="September";
+month[9]="October";
+month[10]="November";
+month[11]="December";
+var n = month[d.getMonth()];
+document.getElementById("demo").innerHTML=n;
+return n;
+}
+
+function getDay()
+{
+var d=new Date();
+var day= d.getDay();
+return day;
 }
 </script>
 
@@ -239,7 +267,7 @@ else
 
 ?>
 
-
+a
 <div id="demo"> </div>
 <?php 
 echo '<button type="button" onclick="getTime()">Display Date</button>';
