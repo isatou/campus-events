@@ -7,7 +7,7 @@ if($date == '')
 {
 ?>
 <script>
-window.location.reload()
+window.location.reload();
  </script>
 <?php	
 $_SESSION['date'] = $date;
@@ -304,6 +304,7 @@ $link = deleteFirstChar( $file );
 
 echo 'day';
 echo $_SESSION['date'];
+//echo ' '.$_SESSION['date'].' ';
 ?>
 
 <input type="hidden" value="getTime()" name="date">
