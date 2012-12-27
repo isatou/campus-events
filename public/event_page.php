@@ -235,10 +235,10 @@ else
 
 ?>
 
-lk
+l
 <div id="demo"> </div>
 <?php 
-echo '<button type="button" onclick="<button type="button" onclick="displayDate()">Display Date</button>">Display Date</button>';
+echo '<button type="button" onclick="<button type="button" onclick="getTime()">Display Date</button>">Display Date</button>';
 ?>
 
 
