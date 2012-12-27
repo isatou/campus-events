@@ -39,7 +39,7 @@ var c_hour = d.getHours();
 var c_min = d.getMinutes();
 var c_sec = d.getSeconds();
 var t = d + ":" + c_hour + ":" + c_min + ":" + c_sec;
-document.getElementById("demo").innerHTML=t;
+document.getElementById("demo").innerHTML=Date();
 return t;
 }
 </script>
@@ -235,10 +235,10 @@ else
 
 ?>
 
-l
+
 <div id="demo"> </div>
 <?php 
-echo '<button type="button" onclick="<button type="button" onclick="getTime()">Display Date</button>">Display Date</button>';
+echo '<button type="button" onclick="getTime()">Display Date</button>';
 ?>
 
 
