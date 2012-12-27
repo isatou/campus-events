@@ -141,9 +141,13 @@ include('side_bar.php');
 		<p><b>Date:</b> '.$row['month'].' '.$row['day'].' '.$row['year'].'</p>
 		<p><b>Start Time:</b> '.$row['start_hour'].':'.$start.' '.$row['start'].'</p>
 		<p><b>End Time:</b> '.$row['end_hour'].':'.$end.' '.$row['end'].'</p>
+		</div>
 		<b> Where </b>
+		<div id="submissionContainer" style="color:#0196e3";>
 		<p><b>Location:</b> '.$row['location'].'</p>
+		</div>
 		<b> Admission Details </b>
+		<div id="submissionContainer" style="color:#0196e3";>
 		<p><b>Admission Fee:</b> '.$admission.'</p>
 		<p><b>Reservation Required:</b> '.$reservation.'</p>
 		</div>';
