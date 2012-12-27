@@ -181,7 +181,7 @@ include('side_bar.php');
  			     <p> For more information, send an email to '.$row['email'].'. </p>';
 		}
 		
-		echo '</div>
+		echo '</div>';
 
 		echo '
 		<p>Category: '.$row['category'].'</p>
