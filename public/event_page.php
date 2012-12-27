@@ -38,7 +38,11 @@ var d = new Date();
 var c_hour = d.getHours();
 var c_min = d.getMinutes();
 var c_sec = d.getSeconds();
-var t = d + ":" + c_hour + ":" + c_min + ":" + c_sec;
+var month = d.getMonth();
+var day = d.getDay();
+var year = d.getYear();
+//var t = d + ":" + c_hour + ":" + c_min + ":" + c_sec;
+var t= month + ' ' +  day + ' ' +  year;
 document.getElementById("demo").innerHTML=t;
 return t;
 }
@@ -235,7 +239,7 @@ else
 
 ?>
 
-g
+
 <div id="demo"> </div>
 <?php 
 echo '<button type="button" onclick="getTime()">Display Date</button>';
