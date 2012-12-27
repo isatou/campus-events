@@ -157,7 +157,7 @@ include('side_bar.php');
 			echo '</div>';
 		}
 
-		$contact_person =  $row['name']
+		$contact_person =  $row['name'];
 			
 
 		if($row['check_phone'] == 1 & $row['check_email'] == 1)
