@@ -191,8 +191,8 @@ include('side_bar.php');
 			{
 				echo 'Contact Person: '.$contact_person.' ';
 			}
-			echo ' <p> Phone: '.$row['phone'].' </p>
-				<p> Email: '.$row['email'].'. </p>';
+			echo ' <p><b> Phone: </b>'.$row['phone'].' </p>
+				<p><b> Email: </b>'.$row['email'].'. </p>';
 		}
 
 		else if($row['check_phone'] == 1)
@@ -202,7 +202,7 @@ include('side_bar.php');
 			{
 				echo ' Contact Person: '.$contact_person.' ';
 			}
-			echo ' <p> Phone: '.$row['phone'].'. </p>';
+			echo ' <p><b> Phone: </b>'.$row['phone'].'. </p>';
 		}
 		
 		else if($row['check_email'] == 1)
@@ -212,7 +212,7 @@ include('side_bar.php');
 			{
 				echo 'Contact Person: '.$contact_person.' ';
 			}
-			echo ' <p> Email: '.$row['email'].'. </p>';
+			echo ' <p><b> Email: </b>'.$row['email'].'. </p>';
 		}
 		
 		echo '</div>';
