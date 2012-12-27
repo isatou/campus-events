@@ -31,6 +31,18 @@ $row=mysql_fetch_assoc($result)
 
 <meta name="Author" content="Isatou" />
 
+<script type="text/javascript">
+function getTime()
+{
+var d = new Date();
+var c_hour = d.getHours();
+var c_min = d.getMinutes();
+var c_sec = d.getSeconds();
+var t = d + ":" + c_hour + ":" + c_min + ":" + c_sec;
+return t;
+}
+</script>
+
 </head>
 <body>
 <div id="fb-root"></div>
@@ -208,6 +220,7 @@ include('side_bar.php');
 		echo '
 		<p>Category: '.$row['category'].'</p>
 		';
+
 		//}
 	//}
 
@@ -220,6 +233,12 @@ else
 }
 
 ?>
+
+<script>
+var time= getTime()
+<?php $t ?> = time
+<?php echo $time ?>
+</script>
 
 <div class="fb-like" data-href="http://dagenda.phpfogapp.com/event_page.php?id=<?php echo ' '.$id.' ';?>" data-send="false" data-width="450" data-show-faces="true"></div>
 			</div>

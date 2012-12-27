@@ -14,7 +14,7 @@
 <link rel="stylesheet" type="text/css" href="styles.css" />
 <meta name="Author" content="Isatou" />
 
-<script>
+<script type="text/javascript">
 
 function FillContactEmail(contact) 
 {
