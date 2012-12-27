@@ -131,8 +131,8 @@ include('side_bar.php');
 		}
 
 		echo '	
-		<div id="submissionContainer" style="color:#0196e3";>
 		<h1 align="center">'.$row['title'].'</h1>
+		<div id="submissionContainer" style="color:#0196e3";>
 		'.$row['details'].'
 		</div>
 		<div id="submissionContainer" style="color:#0196e3";>
@@ -157,28 +157,38 @@ include('side_bar.php');
 			echo '</div>';
 		}
 
-		/*$contact_person =  $row['name']
-		if($contact_person != '')
-		{
-			$contact_person .= '$contact_person
-			*/
+		$contact_person =  $row['name']
+			
 
 		if($row['check_phone'] == 1 & $row['check_email'] == 1)
 		{
-			echo ' <div id="submissionContainer" style="color:#0196e3";>
-				<p> For more information, call '.$row['phone'].' or send an email to '.$row['email'].'. </p>';
+			echo ' <div id="submissionContainer" style="color:#0196e3";> ';
+			if($contact_person != '')
+			{
+				echo 'Contact Person: '.$contact_person.' ';
+			}
+			echo ' <p> Phone: '.$row['phone'].' </p>
+				<p> Email: '.$row['email'].'. </p>';
 		}
 
 		else if($row['check_phone'] == 1)
 		{
-			echo ' <div id="submissionContainer" style="color:#0196e3";>
-			       <p> For more information, call '.$row['phone'].'. </p>';
+			echo ' <div id="submissionContainer" style="color:#0196e3";> ';
+			if($contact_person != '')
+			{
+				echo ' Contact Person: '.$contact_person.' ';
+			}
+			echo ' <p> Phone: '.$row['phone'].'. </p>';
 		}
 		
 		else if($row['check_email'] == 1)
 		{
-			echo '<div id="submissionContainer" style="color:#0196e3";>
- 			     <p> For more information, send an email to '.$row['email'].'. </p>';
+			echo ' <div id="submissionContainer" style="color:#0196e3";> ';
+			if($contact_person != '')
+			{
+				echo 'Contact Person: '.$contact_person.' ';
+			}
+			echo ' <p> Email: '.$row['email'].'. </p>';
 		}
 		
 		echo '</div>';
