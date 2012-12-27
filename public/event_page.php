@@ -237,7 +237,6 @@ else
 lkk
 <?php 
 echo '<script type="text/javascript">getTime();</script>'; 
-
 $t = ?>  <?php echo '<script type="text/javascript">getTime();</script>';
  echo $t;
 ?>
