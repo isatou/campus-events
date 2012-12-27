@@ -132,14 +132,18 @@ include('side_bar.php');
 
 		echo '	
 		<h1 align="center">'.$row['title'].'</h1>
+		<b> About </b>
 		<div id="submissionContainer" style="color:#0196e3";>
 		'.$row['details'].'
 		</div>
 		<div id="submissionContainer" style="color:#0196e3";>
+		<b> When </b>
 		<p><b>Date:</b> '.$row['month'].' '.$row['day'].' '.$row['year'].'</p>
 		<p><b>Start Time:</b> '.$row['start_hour'].':'.$start.' '.$row['start'].'</p>
 		<p><b>End Time:</b> '.$row['end_hour'].':'.$end.' '.$row['end'].'</p>
+		<b> Where </b>
 		<p><b>Location:</b> '.$row['location'].'</p>
+		<b> Admission Details </b>
 		<p><b>Admission Fee:</b> '.$admission.'</p>
 		<p><b>Reservation Required:</b> '.$reservation.'</p>
 		</div>';
