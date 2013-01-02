@@ -302,7 +302,7 @@ $link = deleteFirstChar( $file );
 
 //$_SESSION['status'] = 0;
 
-echo 'day';
+//echo 'day';
 //echo $_SESSION['date'];
 //echo ' '.$_SESSION['date'].' ';
 ?>
@@ -332,6 +332,5 @@ include('adverts.php');
 include('menu.php');
 ?>
      
- 
 
 </body></html>
