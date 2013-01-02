@@ -329,6 +329,5 @@ include('adverts.php');
 
 <?php
 include('menu.php');
-?>
-     
+?>   
 </body></html>
