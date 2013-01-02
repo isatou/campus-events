@@ -15,7 +15,7 @@ $_SESSION['date'] = $date;
 else
 {
 $_SESSION['date']="wrong";
-
+}
 
 //include("connect.php");
 require_once('connect.php');
@@ -330,4 +330,6 @@ include('adverts.php');
 <?php
 include('menu.php');
 ?>   
+
+
 </body></html>
