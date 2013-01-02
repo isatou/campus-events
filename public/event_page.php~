@@ -1,7 +1,23 @@
 <?php
 //Start session
 session_start();
+
 $date=$_GET["date"];
+if($date == '')
+{
+?>
+
+<?php	
+$_SESSION['date'] = $date;
+}
+
+else
+{
+$_SESSION['date']="wrong";
+}
+
+
+/* $date=$_GET["date"];
 if($date == '')
 {
 ?>
@@ -15,7 +31,7 @@ $_SESSION['date'] = $date;
 else
 {
 $_SESSION['date']="wrong";
-}
+} */
 
 //include("connect.php");
 require_once('connect.php');
@@ -307,7 +323,7 @@ echo $date;
 //echo ' '.$_SESSION['date'].' ';
 ?>
 
-<input type="hidden" value="getTime()" name="date">
+<input type="hidden" value="getTime()" name="date" id="date">
 
 
 
