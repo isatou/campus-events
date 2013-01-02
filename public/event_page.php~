@@ -1,3 +1,6 @@
+<script>
+window.location.reload();
+ </script>
 <?php
 //Start session
 session_start();
@@ -317,7 +320,7 @@ $link = deleteFirstChar( $file );
 
 //$_SESSION['status'] = 0;
 
-echo 'day';
+echo 'dayy';
 echo $date;
 //echo $_SESSION['date'];
 //echo ' '.$_SESSION['date'].' ';
