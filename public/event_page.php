@@ -1,13 +1,12 @@
 <?php
 //Start session
 session_start();
-
 $date=$_GET["date"];
 if($date == '')
 {
 ?>
 <script>
-window.location.reload();
+//window.location.reload();
  </script>
 <?php	
 $_SESSION['date'] = $date;
@@ -332,5 +331,4 @@ include('adverts.php');
 include('menu.php');
 ?>
      
-
 </body></html>
