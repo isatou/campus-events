@@ -1,6 +1,3 @@
-<script>
-window.location.reload();
- </script>
 <?php
 //Start session
 session_start();
