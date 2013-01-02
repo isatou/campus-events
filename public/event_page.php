@@ -6,7 +6,7 @@ if($date == '')
 {
 ?>
 <script>
-//window.location.reload();
+window.location.reload();
  </script>
 <?php	
 $_SESSION['date'] = $date;
@@ -301,7 +301,8 @@ $link = deleteFirstChar( $file );
 
 //$_SESSION['status'] = 0;
 
-//echo 'day';
+echo 'day';
+echo $date;
 //echo $_SESSION['date'];
 //echo ' '.$_SESSION['date'].' ';
 ?>
