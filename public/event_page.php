@@ -7,6 +7,10 @@ if($date == '')
 {
 ?>
 
+<script>
+window.location.reload();
+ </script>
+
 <?php	
 $_SESSION['date'] = $date;
 }
