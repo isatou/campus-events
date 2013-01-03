@@ -2,7 +2,7 @@
 //Start session
 session_start();
 
-$date=$_GET["date"];
+$date=$_POST["date"];
 if($date == '')
 {
 ?>
