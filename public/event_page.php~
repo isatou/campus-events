@@ -8,7 +8,7 @@ if($date == '')
 ?>
 
 <script>
-window.location.reload();
+//window.location.reload();
  </script>
 
 <?php	
