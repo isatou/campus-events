@@ -86,7 +86,7 @@ $qry .= $part_qry;
 $qry .="ORDER BY year ASC, month ASC, day ASC";
 }
 
-$qry .= ", group by month";
+//$qry .= ", group by month";
 if($month=='January')
 {
 $month_calendar=1;
