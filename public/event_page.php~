@@ -321,7 +321,7 @@ $link = deleteFirstChar( $file );
 
 //$_SESSION['status'] = 0;
 
-echo 'dayy';
+echo 'day';
 echo $date;
 //echo $_SESSION['date'];
 //echo ' '.$_SESSION['date'].' ';
