@@ -75,19 +75,6 @@ function addCategory(category_num)
 	issue1.innerHTML='';
 	}
 
-
-
-	if(category_num.category.value == '1')
-	{
-	issue1.innerHTML='<tr id="myDiv"><th>Amount: ($) </th><td><input name="amount" type="text" class="textfield" id="amount" ></td></tr>';
-	}
-	
-
-	if(category_num.category.value == '0')
-	{
-	issue1.removeChild(issue1.firstChild);
-	issue1.removeChild(issue1.firstChild);
-	}
 }
 
 
@@ -167,7 +154,7 @@ die("promotion query failed!");
 
 
     <tr>
-      <th > Title *** </th>
+      <th > Title * </th>
       <td><input name="title" size="70" type="text" class="textfield" id="title" /></td>
     </tr>
 
