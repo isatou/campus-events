@@ -30,53 +30,60 @@ function addCategory(category_num)
 
 	else if(category_num.category.value == 'housing wanted')
 	{
-	issue1.innerHTML='<tr id="myDiv"><th>Amount: ($) </th><td><input name="amount" type="text" class="textfield" id="amount" ></td></tr>';
+	issue1.innerHTML='<tr> <th>Amount </th> <td><input name="amount" type="text" class="textfield" id="amount" ></td></tr><tr><th > Submitter Email * </th><td><input name="email" size="70" type="text" class="textfield" id="email" ></td></tr> <tr> <th>  </th> <td> <input type="checkbox" name="contact_check" id="contact_check" value="1" onclick="FillContactEmail(this.form)"> same as above </td> </tr><tr><th> Contact Email  </th><td><input name="contact_email" size="70" type="text" class="textfield" id="contact_email" ></td></tr><tr><th> Contact Person </th><td><input name="person" size="70" type="text" class="textfield" id="person" ></td></tr><tr><th>Contact Phone </th><td><input name="phone" type="text" class="textfield" id="phone" ></td></tr><tr><th > Check to display on event page </th> <td><input type="checkbox" name="check_phone" id="check_phone" value="1"> phone<input type="checkbox" name="check_email" id="check_email" value="1"> email</td></tr><tr><th width="40%">Details *</th><td ><textarea name="details" id="details" style="width:400px; height:200px;" onfocus="this.value=''; setbg("#e5fff3");" onblur="setbg("white")"></textarea></td></tr><tr><th></th><td><input type="submit" name="submit" id="submit" value="Submit" ></td></tr>'; 
+
 	}
+
 
 	else if(category_num.category.value == 'housing available')
 	{
-	issue1.innerHTML='<tr id="myDiv"><th>Amount: ($) </th><td><input name="amount" type="text" class="textfield" id="amount" ></td></tr>';
+	issue1.innerHTML='<tr> <th>Amount </th> <td><input name="amount" type="text" class="textfield" id="amount" ></td></tr><tr><th > Submitter Email * </th><td><input name="email" size="70" type="text" class="textfield" id="email" ></td></tr> <tr> <th>  </th> <td> <input type="checkbox" name="contact_check" id="contact_check" value="1" onclick="FillContactEmail(this.form)"> same as above </td> </tr><tr><th> Contact Email  </th><td><input name="contact_email" size="70" type="text" class="textfield" id="contact_email" ></td></tr><tr><th> Contact Person </th><td><input name="person" size="70" type="text" class="textfield" id="person" ></td></tr><tr><th>Contact Phone </th><td><input name="phone" type="text" class="textfield" id="phone" ></td></tr><tr><th > Check to display on event page </th> <td><input type="checkbox" name="check_phone" id="check_phone" value="1"> phone<input type="checkbox" name="check_email" id="check_email" value="1"> email</td></tr><tr><th width="40%">Details *</th><td ><textarea name="details" id="details" style="width:400px; height:200px;" onfocus="this.value=''; setbg("#e5fff3");" onblur="setbg("white")"></textarea></td></tr><tr><th></th><td><input type="submit" name="submit" id="submit" value="Submit" ></td></tr>'; 
 	}
 
 	else if(category_num.category.value == 'job')
 	{
-	issue1.innerHTML='<tr id="myDiv"><th>Amount: ($) </th><td><input name="amount" type="text" class="textfield" id="amount" ></td></tr>';
+	issue1.innerHTML='<tr><th > Submitter Email * </th><td><input name="email" size="70" type="text" class="textfield" id="email" ></td></tr> <tr> <th>  </th> <td> <input type="checkbox" name="contact_check" id="contact_check" value="1" onclick="FillContactEmail(this.form)"> same as above </td> </tr><tr><th> Contact Email  </th><td><input name="contact_email" size="70" type="text" class="textfield" id="contact_email" ></td></tr><tr><th> Contact Person </th><td><input name="person" size="70" type="text" class="textfield" id="person" ></td></tr><tr><th>Contact Phone </th><td><input name="phone" type="text" class="textfield" id="phone" ></td></tr><tr><th > Check to display on event page </th> <td><input type="checkbox" name="check_phone" id="check_phone" value="1"> phone<input type="checkbox" name="check_email" id="check_email" value="1"> email</td></tr><tr><th width="40%">Details *</th><td ><textarea name="details" id="details" style="width:400px; height:200px;" onfocus="this.value=''; setbg("#e5fff3");" onblur="setbg("white")"></textarea></td></tr><tr><th></th><td><input type="submit" name="submit" id="submit" value="Submit" ></td></tr>'; 
 	}
 
 	else if(category_num.category.value == 'internship')
 	{
-	issue1.innerHTML='<tr id="myDiv"><th>Amount: ($) </th><td><input name="amount" type="text" class="textfield" id="amount" ></td></tr>';
+	issue1.innerHTML='<tr><th > Submitter Email * </th><td><input name="email" size="70" type="text" class="textfield" id="email" ></td></tr> <tr> <th>  </th> <td> <input type="checkbox" name="contact_check" id="contact_check" value="1" onclick="FillContactEmail(this.form)"> same as above </td> </tr><tr><th> Contact Email  </th><td><input name="contact_email" size="70" type="text" class="textfield" id="contact_email" ></td></tr><tr><th> Contact Person </th><td><input name="person" size="70" type="text" class="textfield" id="person" ></td></tr><tr><th>Contact Phone </th><td><input name="phone" type="text" class="textfield" id="phone" ></td></tr><tr><th > Check to display on event page </th> <td><input type="checkbox" name="check_phone" id="check_phone" value="1"> phone<input type="checkbox" name="check_email" id="check_email" value="1"> email</td></tr><tr><th width="40%">Details *</th><td ><textarea name="details" id="details" style="width:400px; height:200px;" onfocus="this.value=''; setbg("#e5fff3");" onblur="setbg("white")"></textarea></td></tr><tr><th></th><td><input type="submit" name="submit" id="submit" value="Submit" ></td></tr>'; 
 	}
 
 	else if(category_num.category.value == 'services')
 	{
-	issue1.innerHTML='<tr id="myDiv"><th>Amount: ($) </th><td><input name="amount" type="text" class="textfield" id="amount" ></td></tr>';
+	issue1.innerHTML='<tr> <th>Amount </th> <td><input name="amount" type="text" class="textfield" id="amount" ></td></tr><tr><th > Submitter Email * </th><td><input name="email" size="70" type="text" class="textfield" id="email" ></td></tr> <tr> <th>  </th> <td> <input type="checkbox" name="contact_check" id="contact_check" value="1" onclick="FillContactEmail(this.form)"> same as above </td> </tr><tr><th> Contact Email  </th><td><input name="contact_email" size="70" type="text" class="textfield" id="contact_email" ></td></tr><tr><th> Contact Person </th><td><input name="person" size="70" type="text" class="textfield" id="person" ></td></tr><tr><th>Contact Phone </th><td><input name="phone" type="text" class="textfield" id="phone" ></td></tr><tr><th > Check to display on event page </th> <td><input type="checkbox" name="check_phone" id="check_phone" value="1"> phone<input type="checkbox" name="check_email" id="check_email" value="1"> email</td></tr><tr><th width="40%">Details *</th><td ><textarea name="details" id="details" style="width:400px; height:200px;" onfocus="this.value=''; setbg("#e5fff3");" onblur="setbg("white")"></textarea></td></tr><tr><th></th><td><input type="submit" name="submit" id="submit" value="Submit" ></td></tr>'; 
 	}
 
 	else if(category_num.category.value == 'tutoring')
 	{
-	issue1.innerHTML='<tr id="myDiv"><th>Amount: ($) </th><td><input name="amount" type="text" class="textfield" id="amount" ></td></tr>';
+	issue1.innerHTML='<tr> <th>Amount </th> <td><input name="amount" type="text" class="textfield" id="amount" ></td></tr><tr><th > Submitter Email * </th><td><input name="email" size="70" type="text" class="textfield" id="email" ></td></tr> <tr> <th>  </th> <td> <input type="checkbox" name="contact_check" id="contact_check" value="1" onclick="FillContactEmail(this.form)"> same as above </td> </tr><tr><th> Contact Email  </th><td><input name="contact_email" size="70" type="text" class="textfield" id="contact_email" ></td></tr><tr><th> Contact Person </th><td><input name="person" size="70" type="text" class="textfield" id="person" ></td></tr><tr><th>Contact Phone </th><td><input name="phone" type="text" class="textfield" id="phone" ></td></tr><tr><th > Check to display on event page </th> <td><input type="checkbox" name="check_phone" id="check_phone" value="1"> phone<input type="checkbox" name="check_email" id="check_email" value="1"> email</td></tr><tr><th width="40%">Details *</th><td ><textarea name="details" id="details" style="width:400px; height:200px;" onfocus="this.value=''; setbg("#e5fff3");" onblur="setbg("white")"></textarea></td></tr><tr><th></th><td><input type="submit" name="submit" id="submit" value="Submit" ></td></tr>'; 
 	}
 
 	else if(category_num.category.value == 'textbooks wanted')
 	{
-	issue1.innerHTML='<tr id="myDiv"><th>Amount: ($) </th><td><input name="amount" type="text" class="textfield" id="amount" ></td></tr>';
+	issue1.innerHTML='<tr><th > Submitter Email * </th><td><input name="email" size="70" type="text" class="textfield" id="email" ></td></tr> <tr> <th>  </th> <td> <input type="checkbox" name="contact_check" id="contact_check" value="1" onclick="FillContactEmail(this.form)"> same as above </td> </tr><tr><th> Contact Email  </th><td><input name="contact_email" size="70" type="text" class="textfield" id="contact_email" ></td></tr><tr><th> Contact Person </th><td><input name="person" size="70" type="text" class="textfield" id="person" ></td></tr><tr><th>Contact Phone </th><td><input name="phone" type="text" class="textfield" id="phone" ></td></tr><tr><th > Check to display on event page </th> <td><input type="checkbox" name="check_phone" id="check_phone" value="1"> phone<input type="checkbox" name="check_email" id="check_email" value="1"> email</td></tr><tr><th width="40%">Details *</th><td ><textarea name="details" id="details" style="width:400px; height:200px;" onfocus="this.value=''; setbg("#e5fff3");" onblur="setbg("white")"></textarea></td></tr><tr><th></th><td><input type="submit" name="submit" id="submit" value="Submit" ></td></tr>'; 
 	}
 
 	else if(category_num.category.value == 'textbooks for sale')
 	{
-	issue1.innerHTML='<tr id="myDiv"><th>Amount: ($) </th><td><input name="amount" type="text" class="textfield" id="amount" ></td></tr>';
+	issue1.innerHTML='<tr> <th>Amount </th> <td><input name="amount" type="text" class="textfield" id="amount" ></td></tr><tr><th > Submitter Email * </th><td><input name="email" size="70" type="text" class="textfield" id="email" ></td></tr> <tr> <th>  </th> <td> <input type="checkbox" name="contact_check" id="contact_check" value="1" onclick="FillContactEmail(this.form)"> same as above </td> </tr><tr><th> Contact Email  </th><td><input name="contact_email" size="70" type="text" class="textfield" id="contact_email" ></td></tr><tr><th> Contact Person </th><td><input name="person" size="70" type="text" class="textfield" id="person" ></td></tr><tr><th>Contact Phone </th><td><input name="phone" type="text" class="textfield" id="phone" ></td></tr><tr><th > Check to display on event page </th> <td><input type="checkbox" name="check_phone" id="check_phone" value="1"> phone<input type="checkbox" name="check_email" id="check_email" value="1"> email</td></tr><tr><th width="40%">Details *</th><td ><textarea name="details" id="details" style="width:400px; height:200px;" onfocus="this.value=''; setbg("#e5fff3");" onblur="setbg("white")"></textarea></td></tr><tr><th></th><td><input type="submit" name="submit" id="submit" value="Submit" ></td></tr>'; 
+	}
+
+	else if(category_num.category.value == 'choose category')
+	{
+	issue1.innerHTML='';
 	}
 
 
 
-	if(amount_num.admission.value == '1')
+	if(category_num.category.value == '1')
 	{
 	issue1.innerHTML='<tr id="myDiv"><th>Amount: ($) </th><td><input name="amount" type="text" class="textfield" id="amount" ></td></tr>';
 	}
 	
 
-	if(category_num.admission.value == '0')
+	if(category_num.category.value == '0')
 	{
 	issue1.removeChild(issue1.firstChild);
 	issue1.removeChild(issue1.firstChild);
@@ -189,118 +196,6 @@ die("promotion query failed!");
     </tr>
 
 
-
-	
-	   <tr>
-      <th  >Location *</th>
-      <td><input name="location" size="70" type="text" class="textfield" id="location" /></td>
-    </tr>
-	
-	 
-
-	   <tr>
-      <th >Admission *</th>
-      <td>
-	  <select name="admission" id="drop"  onclick="addAmount2(this.form)">
-<option style="background-color:#58B9EB"; value="0">free</option>
-<option style="background-color:#58B9EB"; value="1">paid</option>
-</select>
-	  
-	  </td>
-    </tr>
-
-
-
-   <tr id="myDiv">
-      
-
-    </tr>
-
-	   <tr>
-      <th>Reservation required? *</th>
-      <td >
-	  <select name="reservation" id="drop">
-<option style="background-color:#58B9EB"; value="0">no</option>
-<option style="background-color:#58B9EB"; value="1">yes</option>
-</select>
-	  
-	  </td>
-    </tr>
-
-
-
-
-
-    <tr>
-      <th > Submitter Email * </th>
-      <td><input name="email" size="70" type="text" class="textfield" id="email" /></td>
-    </tr>
-
-<tr>
-
-<th>  </th> 
-<td>
-<input type="checkbox" name="contact_check" id="contact_check" value="1" onclick="FillContactEmail(this.form)"> same as above
-</td>
-</tr>
-
-    <tr>
-      <th> Contact Email  </th>
-      <td><input name="contact_email" size="70" type="text" class="textfield" id="contact_email" /></td>
-    </tr>
-    <tr>
-      <th> Contact Person </th>
-      <td><input name="person" size="70" type="text" class="textfield" id="person" /></td>
-    </tr>
-    <tr>
-      <th>Contact Phone </th>
-      <td><input name="phone" type="text" class="textfield" id="phone" /></td>
-    </tr>
-
-    <tr>
-      <th> Event Website </th>
-      <td><input name="website" size="70" type="text" class="textfield" id="website" /></td>
-    </tr> 
-
-
-<tr>
-
-<th > Check to display on event page </th> 
-<td>
-<input type="checkbox" name="check_phone" id="check_phone" value="1"> phone
-<input type="checkbox" name="check_email" id="check_email" value="1"> email
-</td>
-</tr>
-  
-
-
-
-
-<tr>
-
-<th width="40%">
-    Details *
-</th>
-
-
-<td >
-
-
-<textarea name="details" id="details" style="width:400px; height:200px;" onfocus="this.value=''; setbg('#e5fff3');" onblur="setbg('white')"></textarea>
-
-
-
-</td>
-</tr>
-
-
-<tr>
-<th>
-</th>
-<td>
-		<input type="submit" name='submit' id="submit" value="Submit" >
-</td>
-</tr> 
 
 </table>
 </form>
