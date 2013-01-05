@@ -23,7 +23,7 @@ function addCategory(category_num)
 	var issue1= document.getElementById('myCategory');
 
 
-	if(category_num.category.value == '0')
+	if(category_num.admission.value == '0')
 	{
 	issue1.innerHTML='<tr id="myCategory"><th>Amount: ($) </th><td><input name="amount" type="text" class="textfield" id="amount" ></td></tr>';
 	}
@@ -70,7 +70,7 @@ function addCategory(category_num)
 	issue1.innerHTML='<tr> <th>Amount </th> <td><input name="amount" type="text" class="textfield" id="amount" ></td></tr><tr><th > Submitter Email * </th><td><input name="email" size="70" type="text" class="textfield" id="email" ></td></tr> <tr> <th>  </th> <td> <input type="checkbox" name="contact_check" id="contact_check" value="1" onclick="FillContactEmail(this.form)"> same as above </td> </tr><tr><th> Contact Email  </th><td><input name="contact_email" size="70" type="text" class="textfield" id="contact_email" ></td></tr><tr><th> Contact Person </th><td><input name="person" size="70" type="text" class="textfield" id="person" ></td></tr><tr><th>Contact Phone </th><td><input name="phone" type="text" class="textfield" id="phone" ></td></tr><tr><th > Check to display on event page </th> <td><input type="checkbox" name="check_phone" id="check_phone" value="1"> phone<input type="checkbox" name="check_email" id="check_email" value="1"> email</td></tr><tr><th width="40%">Details *</th><td ><textarea name="details" id="details" style="width:400px; height:200px;" onfocus="this.value=''; setbg("#e5fff3");" onblur="setbg("white")"></textarea></td></tr><tr><th></th><td><input type="submit" name="submit" id="submit" value="Submit" ></td></tr>'; 
 	}
 
-	issue1.innerHTML=category_num.category.value;
+	//issue1.innerHTML=category_num.category.value;
 
 }
 
@@ -151,7 +151,7 @@ die("promotion query failed!");
 
 
     <tr>
-      <th > Title * </th>
+      <th > Title ** </th>
       <td><input name="title" size="70" type="text" class="textfield" id="title" /></td>
     </tr>
 
@@ -159,18 +159,18 @@ die("promotion query failed!");
   <tr>
       <th>Event Type (*)</th>
       <td>
-	  <select name="category" id="drop" onclick="addCategory(this.form)">
-<option style="background-color:#58B9EB"; value="choose_category">Choose a category</option>
-<option style="background-color:#58B9EB"; value="0">for sale</option>
-<option style="background-color:#58B9EB"; value="housing wanted">housing wanted</option>
-<option style="background-color:#58B9EB"; value="housing available">housing available</option>
-<option style="background-color:#58B9EB"; value="job">job</option>
-<option style="background-color:#58B9EB"; value="internship">internship</option>
-<option style="background-color:#58B9EB"; value="services">services</option>
-<option style="background-color:#58B9EB"; value="tutoring">tutoring</option>
-<option style="background-color:#58B9EB"; value="textbooks wanted">textbooks wanted</option>
-<option style="background-color:#58B9EB"; value="textbooks available">textbooks available</option>
-</select>
+	<select name="admission" id="drop" onclick="addCategory(this.form)">
+	<option style="background-color:#58B9EB"; value="choose_category">Choose a category</option>
+	<option style="background-color:#58B9EB"; value="0">for sale</option>
+	<option style="background-color:#58B9EB"; value="housing wanted">housing wanted</option>
+	<option style="background-color:#58B9EB"; value="housing available">housing available</option>
+	<option style="background-color:#58B9EB"; value="job">job</option>
+	<option style="background-color:#58B9EB"; value="internship">internship</option>
+	<option style="background-color:#58B9EB"; value="services">services</option>
+	<option style="background-color:#58B9EB"; value="tutoring">tutoring</option>
+	<option style="background-color:#58B9EB"; value="textbooks wanted">textbooks wanted</option>
+	<option style="background-color:#58B9EB"; value="textbooks available">textbooks available</option>
+	</select>
 	  
 	  </td>
     </tr>
