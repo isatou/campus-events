@@ -26,6 +26,50 @@ function addAmount2(amount_num)
 
 	if(amount_num.admission.value == '1')
 	{
+	//var issue1= document.getElementById('myDiv');
+	//var text=document.createElement('div1'); 
+
+	//text.innerHTML='<th>Amount: ($) </th><td><input name="amount" type="text" class="textfield" id="amount" ></td>';
+	
+//"Hello this is a test"; 
+	//issue1.appendChild(text);
+	issue1.innerHTML='<tr id="myDiv"><th>Amount: ($) </th><td><input name="amount" type="text" class="textfield" id="amount" ></td></tr>';
+	//issue1.removeChild(text);
+
+	}
+	
+	
+	
+
+	if(amount_num.admission.value == '0')
+	{
+	//var issue1= document.getElementById('myDiv');
+	//var text=document.createElement('div1'); 
+
+	//text.innerHTML='<th>Amount: ($) </th><td><input name="amount" type="text" class="textfield" id="amount" ></td>';
+	//var d = document.getElementById('myDiv');
+  	//var olddiv = document.getElementById(divNum);
+  	//d.removeChild(text);
+	//text.parentNode.removeChild(text);
+	//issue1.removeChild(issue1.firstChild);
+
+
+	issue1.removeChild(issue1.firstChild);
+	issue1.removeChild(issue1.firstChild);
+	//issue1.innerHTMl='<tr id="myDiv"></tr>'
+	}
+}
+
+function addAmount22(amount_num)
+{
+	var issue1= document.getElementById('myDiv');
+	var text=document.createElement('div1'); 
+
+	text.innerHTML='<th>Amount: ($) </th><td><input name="amount" type="text" class="textfield" id="amount" ></td>';
+
+
+	if(amount_num.admission.value == '1')
+	{
 	issue1.innerHTML='<tr id="myDiv"><th>Amount: ($) </th><td><input name="amount" type="text" class="textfield" id="amount" ></td></tr>';
 	}
 	
@@ -173,7 +217,7 @@ die("promotion query failed!");
 
 
     <tr>
-      <th > Title ** </th>
+      <th > Title * </th>
       <td><input name="title" size="70" type="text" class="textfield" id="title" /></td>
     </tr>
 
