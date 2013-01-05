@@ -60,6 +60,10 @@ function addAmount2(amount_num)
 	}
 }
 
+</script>
+
+<script type="text/javascript">
+
 function addCategory(category_num)
 {
 	var issue1= document.getElementById('myCategory');
@@ -192,7 +196,7 @@ die("promotion query failed!");
 
 
     <tr>
-      <th > Title * </th>
+      <th > Title ** </th>
       <td><input name="title" size="70" type="text" class="textfield" id="title" /></td>
     </tr>
 
