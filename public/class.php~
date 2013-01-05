@@ -586,15 +586,6 @@ die("promotion query failed!");
     </tr>
 
 
-
-<tr>
-<th>
-</th>
-<td>
-		<input type="submit" name='submit' id="submit" value="Submit" >
-</td>
-</tr> 
-
 </table>
 </form>
 
