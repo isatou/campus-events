@@ -23,7 +23,7 @@ function addCategory(category_num)
 	var issue1= document.getElementById('myCategory');
 
 
-	if(category_num.category.value == 'for sale')
+	if(category_num.category.value == '0')
 	{
 	issue1.innerHTML='<tr id="myCategory"><th>Amount: ($) </th><td><input name="amount" type="text" class="textfield" id="amount" ></td></tr>';
 	}
@@ -161,7 +161,7 @@ die("promotion query failed!");
       <td>
 	  <select name="category" id="drop" onclick="addCategory(this.form)">
 <option style="background-color:#58B9EB"; value="choose_category">Choose a category</option>
-<option style="background-color:#58B9EB"; value="for sale">for sale</option>
+<option style="background-color:#58B9EB"; value="0">for sale</option>
 <option style="background-color:#58B9EB"; value="housing wanted">housing wanted</option>
 <option style="background-color:#58B9EB"; value="housing available">housing available</option>
 <option style="background-color:#58B9EB"; value="job">job</option>
