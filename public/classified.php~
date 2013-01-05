@@ -225,8 +225,7 @@ die("promotion query failed!");
    <tr id="myCategory">
     </tr>
 
-<div id = "test" style="display:none">
-<tr>
+<tr id = "test" style="display:none">
 <th>Amount </th> 
 <td><input name="amount" type="text" class="textfield" id="amount" ></td>
 </tr>
@@ -262,11 +261,6 @@ die("promotion query failed!");
 <th></th>
 <td><input type="submit" name="submit" id="submit" value="Submit" ></td>
 </tr>
-</div>
-
-
-
-
 
 
 	   <tr>
