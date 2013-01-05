@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <title>Dynamic Form Example</title>
+    <!-- this is the class you will use to style the hidden divs
+        or even the visible ones. I'm using display: none, but
+        you can style them however you want: visibility: hidden,
+        zero width, etc etc -->
+    <style>
+        .hidden { display: none }
+    </style>
+    </link>
+    <script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+    <script type="text/javascript">
+        var myApp = {
+            init: function init(){
+                $("#food_select").change(function(evnt){
+                    myApp.setComment(this.value);
+                });
+
+                //Set default value
+                document.my_form.food_select.selectedIndex = 0;
+
+                //Show appropriate comment for default value
+                myApp.setComment(document.my_form.food_select[0].value);
+            },
+
+            setComment: function setComment(food){
+                // This is jus an example, you will prob
+                // need more complicated logic, maybe a switch etc
+                if((food === "pizza") || (food === "burrito")){
+
+                    // here we toggle the class that styles the elements
+                    //     the second argument is whether the class should
+                    //      be added or removed
+                    $("#yum").toggleClass("hidden", false);
+                    $("#yuck").toggleClass("hidden", true); 
+                };
+                if((food === "haggis") || (food === "sardines")){
+
+                    $("#yum").toggleClass("hidden", true);
+                    $("#yuck").toggleClass("hidden", false); 
+                };
+            }
+        };
+        $("document").ready( function () { myApp.init() } );
+    </script>
+</head>
+<body>
+<div id="yuck">YUCK!</div>
+<div id="yum">mmmm yummy.</div>
+<div id="form_div">
+<form name="my_form">
+<select name="food" id="food_select">
+<option value="pizza">Pizza</option>
+<option value="burrito">Burrito</option>
+<option value="sardines">Sardines</option>
+<option value="haggis">Haggis</option>
+</select>
+<button id="submit_food_button" value="submit">Submit</button> 
+</form>
+</div>
+</body>
+</html>

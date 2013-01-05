@@ -53,7 +53,7 @@
 		</ul>
 	</div>
 
-<h1 style="text-align:center"> Event </h1>
+<h1 style="text-align:center"> Announcements </h1>
 
 	<div id="content-container1">
 
@@ -81,27 +81,15 @@ if($result) {
     else {
         // Print the top of a table
         echo '<form action="filetablefunctions.php" method="post">
-			<table width="100%" border="1" cellpadding="0" >
-                <tr>
-                <td class=tabhead><br /><b>Date</b></td>
-		<td class=tabhead><br /><b>Time</b></td>
-		<td class=tabhead><br /><b>Event</b></td>
-		<td class=tabhead><br /><b>Location</b></td>
-		
-		
-	
-		
-                
-            </tr>';
+			<table width="100%" border="0" cellpadding="0" >';
+          
  
         // Print each file
         while($row = $result->fetch_assoc()) {
             echo "<tr valign='middle'>";
 
-echo '<td width="15%">'.$row['Business_Name'].'</td>'; 
-		echo '<td width="15%">'.$row['State'].'</td>';
+
 		echo '<td width="55%"><a href=\'' . $row['Street'] . '.php \'>'.$row['Street'].'</a></td>';
-		echo '<td width="15%">'.$row['City'].'</td>';
 		echo "</tr>";
         }
  
@@ -124,72 +112,9 @@ else
 $dbLink->close();
 ?>
 		
-</br>
 
-<h2> March </h2>
 
-<table width="100%" border="1" cellpadding="0" >
-<tr>
-<td> Sun </td>
-<td> Mon </td>
-<td> Tues </td>
-<td> Wed </td>
-<td> Thur </td>
-<td> Fri </td>
-<td> Sat </td>
-</tr>
 
-<tr>
-<td>  </td>
-<td>  </td>
-<td>  </td>
-<td> </td>
-<td> 1 </td>
-<td> 2 </td>
-<td> 3 </td>
-</tr>
-
-<tr>
-<td> 4 </td>
-<td> 5 </td>
-<td> 6 </td>
-<td> 7 </td>
-<td> 8 </td>
-<td> 9 </td>
-<td> 10 </td>
-</tr>
-
-<tr>
-<td>11  </td>
-<td> 12 </td>
-<td> 13 </td>
-<td> 14</td>
-<td> 15 </td>
-<td> 16 </td>
-<td> 17 </td>
-</tr>
-
-<tr>
-<td>18  </td>
-<td> 19 </td>
-<td> 20 </td>
-<td> 21</td>
-<td> 22 </td>
-<td> 23 </td>
-<td> 24 </td>
-</tr>
-
-<tr>
-<td> 25 </td>
-<td> 26 </td>
-<td> 27 </td>
-<td> 28</td>
-<td> 29 </td>
-<td> 30 </td>
-<td> 31 </td>
-</tr>
-
-</table>
 
 
 

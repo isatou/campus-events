@@ -46,7 +46,7 @@
 		</ul>
 	</div>
 
-<h1 style="text-align:center"> Add an event </h1>
+<h1 style="text-align:center"> What I'm Seeking </h1>
 
 	<div id="content-container1">
 
@@ -62,32 +62,9 @@
 
 <form id="loginForm" name="loginForm" method="post" action="business_register_exec.php">
   <table width="100%" border="0" align="left" cellpadding="2" cellspacing="0">
-
-    <tr>
-      <th > Title </th>
-      <td><input name="business_name" size="70" type="text" class="textfield" id="business_name" /></td>
-    </tr>
-	   <tr>
-      <th>Day </th>
-      <td>
-	<select name="event_day">
-<option value="choose_business_category">Choose a day</option>
-<option value="restaurant">1</option>
-<option value="dentist">2</option>
-<option value="laundromat">3</option>
-<option value="day_care">4</option>
-<option value="supermarket">5</option>
-</select>
-	  
-	  </td>
-	 
-    </tr>
-	
-	   <tr>
-      <th>Day </th>
-      <td>
-	<select name="event_month">
-<option value="choose_business_category">Choose a month</option>
+  
+  <select name="event_month">
+<option value="choose_business_category">Choose a category</option>
 <option value="restaurant">January</option>
 <option value="dentist">February</option>
 <option value="laundromat">March</option>
@@ -95,58 +72,11 @@
 <option value="supermarket">May</option>
 </select>
 	  
-	  </td>
-	 
-    </tr>
-	
-	   <tr>
-      <th>Day </th>
-      <td>
-	<select name="event_day">
-<option value="choose_business_category">Choose a year</option>
-<option value="restaurant">2012</option>
-<option value="dentist">2013</option>
-<option value="laundromat">2014</option>
-<option value="day_care">2015</option>
-<option value="supermarket">2016</option>
-</select>
-	  
-	  </td>
-	 
-    </tr>
-	
-	   <tr>
-      <th>Address </th>
-      <td><input name="street" size="70" type="text" class="textfield" id="street" /></td>
-    </tr>
-	
-	   <tr>
-      <th>Borough </th>
-      <td>
-	  <select name="borough">
-<option value="choose_borough">Choose a borough</option>
-<option value="brooklyn">Brooklyn</option>
-<option value="bronx">Bronx</option>
-<option value="manhattan">Manhattan</option>
-<option value="queens">Queens</option>
-<option value="staten_island">Staten Island</option>
-</select>
-	  
-	  </td>
-    </tr>
-	
-	  
-	
-	   <tr>
-      <th>Zipcode </th>
-      <td><input name="zipcode" type="text" class="textfield" id="zipcode" /></td>
-    </tr>
-		
 
-    
-
-  </br>
-</br>
+    <tr>
+      <th > Title </th>
+      <td><input name="business_name" size="70" type="text" class="textfield" id="business_name" /></td>
+    </tr>
 
   </table>
   
@@ -156,21 +86,57 @@
 
 
 <p>
-   <b> Event Details </b>
+   <b> Details </b>
 </p>
 
 <textarea name="description" id="styled"  onfocus="this.value=''; setbg('#e5fff3');" onblur="setbg('white')"></textarea>
 
 </div>
 
+  <table width="100%" border="0" align="left" cellpadding="2" cellspacing="0">
+  
+  <select name="event_month">
+<option value="choose_business_category">Swap type</option>
+<option value="restaurant">Direct swap only</option>
+<option value="dentist">Point swap only</option>
+<option value="laundromat">Both</option>
+</select>
+
+
 </br>
 
+<h2> What I can offer: </h2>
+
+<table  border="0"  cellpadding="2" cellspacing="0">
+<tr>
+<td><b>Check all categories that apply:</b></td>
+   
+<td ><input name="adventure" value='SET' type="checkbox"> Adventure</td>
+<td ><input name="romance" value='SET' type="checkbox"> Romance</td>
+<td ><input name="suspense" value='SET' type="checkbox"> Suspense</td>
+<td ><input name="mystery" value='SET' type="checkbox"> Mystery</td>
+<td ><input name="fantasy" value='SET' type="checkbox"> Fantasy</td>
+<td ><input name="non_fiction" value='SET' type="checkbox"> Non Fiction</td>
+    </tr>
+ 
+  </table>
+  
+</br>
+	  
+
+ <div>
+
+
 <p>
-   <b> Upload event flier or picture (optional) </b>
+   <b> Details </b>
 </p>
 
-<label for="file">Filename:</label>
- <input type="file" name="file" id="file" /> 
+<textarea name="description" id="styled"  onfocus="this.value=''; setbg('#e5fff3');" onblur="setbg('white')"></textarea>
+
+</div>
+
+ 
+
 
 <div >
 		<input type="submit" name='Submit' value="Submit" >

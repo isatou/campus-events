@@ -46,7 +46,7 @@
 		</ul>
 	</div>
 
-<h1 style="text-align:center"> Add an event </h1>
+<h1 style="text-align:center"> Business Registration </h1>
 
 	<div id="content-container1">
 
@@ -64,59 +64,72 @@
   <table width="100%" border="0" align="left" cellpadding="2" cellspacing="0">
 
     <tr>
-      <th > Title </th>
+      <th >Business Name </th>
       <td><input name="business_name" size="70" type="text" class="textfield" id="business_name" /></td>
     </tr>
 	   <tr>
-      <th>Day </th>
+      <th>Category </th>
       <td>
-	<select name="event_day">
-<option value="choose_business_category">Choose a day</option>
-<option value="restaurant">1</option>
-<option value="dentist">2</option>
-<option value="laundromat">3</option>
-<option value="day_care">4</option>
-<option value="supermarket">5</option>
+	<select name="business_category">
+<option value="choose_business_category">Choose a category</option>
+<option value=""></option>
+<option value="grocery_store">Grocery Store</option>
+<option value="bakery">Bakery</option>
+<option value="fast_food">Fast Food</option>
+<option value="furniture">Furniture</option>
+<option value="clothing">Clothing</option>
+<option value="insurance">Insurance</option>
+<option value="tax_preparation">Tax Preparation</option>
+<option value="fish_market">Fish Market</option>
+<option value="african_market">African Market</option>
+<option value="photography">Photography</option>
+<option value="printing">Printing</option>
+<option value="gas_station">Gas Station</option>
+<option value="post_office">Post Office</option>
+<option value="Auto parts"> Auto Parts</option>
+<option value="Car dealers">Car Dealers</option>
+<option value="Electronics">Electronics</option>
+<option value="beauty_supply">Beauty Supply</option>
+<option value="gym">Gym</option>
+<option value="barbershop">Barbershop</option>
+<option value="dollar_store">Dollar Store</option>
+<option value="restaurant">Restaurant</option>
+<option value="dentist">Dentist</option>
+<option value="laundromat">Laundromant</option>
+<option value="day_care">Day Care</option>
+<option value="supermarket">Supermarket</option>
 </select>
 	  
 	  </td>
 	 
     </tr>
 	
-	   <tr>
-      <th>Day </th>
-      <td>
-	<select name="event_month">
-<option value="choose_business_category">Choose a month</option>
-<option value="restaurant">January</option>
-<option value="dentist">February</option>
-<option value="laundromat">March</option>
-<option value="day_care">April</option>
-<option value="supermarket">May</option>
-</select>
+	<tr>
+	<th> </th>
+	 <td > Enter category if none of the above categories match your business  </td>
+	 <td><input name="other_category"  type="text" class="textfield" id="other_category" /></td>
 	  
-	  </td>
-	 
+	</tr>
+	
+
+	
+    <tr>
+      <th>Phone Number </th>
+      <td><input name="phone" size="50" type="text" class="textfield" id="phone" /></td>
+    </tr>
+	
+	<tr>
+      <th>Fax Number (if you have one)  </th>
+      <td><input name="fax" size="50" type="text" class="textfield" id="fax" /></td>
+    </tr>
+	
+	<tr>
+      <th>Website (if you have one) </th>
+      <td><input name="website" size="50" type="text" class="textfield" id="website" /></td>
     </tr>
 	
 	   <tr>
-      <th>Day </th>
-      <td>
-	<select name="event_day">
-<option value="choose_business_category">Choose a year</option>
-<option value="restaurant">2012</option>
-<option value="dentist">2013</option>
-<option value="laundromat">2014</option>
-<option value="day_care">2015</option>
-<option value="supermarket">2016</option>
-</select>
-	  
-	  </td>
-	 
-    </tr>
-	
-	   <tr>
-      <th>Address </th>
+      <th>Street Address </th>
       <td><input name="street" size="70" type="text" class="textfield" id="street" /></td>
     </tr>
 	
@@ -143,8 +156,25 @@
     </tr>
 		
 
-    
+    <tr>
+      <th width="124">Choose a username</th>
+      <td width="168"><input name="user_name" type="text" class="textfield" id="user_name" /></td>
+    </tr>
+	<tr>
+      <th>Email Address </th>
+      <td><input name="email_address" size="50" type="text" class="textfield" id="email_address" /></td>
+    </tr>
 
+
+
+    <tr>
+      <th>Choose a password</th>
+      <td><input name="password" type="password" class="textfield" id="password" /></td>
+    </tr>
+    <tr>
+      <th>Confirm Password </th>
+      <td><input name="confirm_password" type="password" class="textfield" id="confirm_password" /></td>
+    </tr>
   </br>
 </br>
 
@@ -156,7 +186,7 @@
 
 
 <p>
-   <b> Event Details </b>
+   <b>Short Description of your Business (Maximum of 10 lines)</b>
 </p>
 
 <textarea name="description" id="styled"  onfocus="this.value=''; setbg('#e5fff3');" onblur="setbg('white')"></textarea>
@@ -165,25 +195,11 @@
 
 </br>
 
-<p>
-   <b> Upload event flier or picture (optional) </b>
-</p>
-
-<label for="file">Filename:</label>
- <input type="file" name="file" id="file" /> 
-
 <div >
 		<input type="submit" name='Submit' value="Submit" >
 </div>
 
- 
-
 </form>
-
-
-
-
- 
 
 
 
@@ -200,7 +216,7 @@
 			<div id="footer">
 				
 
-<div align= "center">Copyright &copy; My Business Lookup, 2012 
+<div align= "center">Copyright &copy; Neighborhood Portal, 2012 
 </div>
 
 

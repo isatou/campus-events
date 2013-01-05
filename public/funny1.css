@@ -1,0 +1,260 @@
+body {
+
+padding: 2%;
+background: #E0FFFF;
+
+}
+
+#container
+{
+	margin: 0 auto;
+	width: 100%;
+background: #E0FFFF;
+}
+
+#header
+{
+	background:#ccc;
+	padding: 5px;
+}
+
+#cover_ad
+{
+	
+	width= "100%";
+	
+	
+}
+
+
+
+#header h1 { margin: 0; }
+
+#navigation
+{
+	float: left;
+	width: 100%;
+	background: #333;
+}
+
+#navigation ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+#navigation li a:hover { background: #383; }
+
+#content-container1
+{
+	float: left;
+	width: 100%;
+	
+background: #E0FFFF url(/wp-content/uploads/layout-three-liquid-background1.gif) repeat-y 20% 0;
+}
+
+#content-container2
+{
+	float: left;
+	width: 100%;
+	background: url(/wp-content/uploads/layout-three-liquid-background2.gif) repeat-y 80% 0;
+}
+
+#section-navigation
+{
+	float: left;
+	width: 16%;
+	padding: 20px 0;
+	
+margin: 2% 2% 0 0;
+	
+position:relative;
+border:1px solid blue;
+background:#fff;
+}
+
+
+#section-navigation1
+{
+	float: left;
+	padding: 20px 0;
+	
+margin: 2% 2% 0 0;
+	display: inline;
+background: #ccc;
+	height: 200px;
+}
+
+
+#section-navigation2
+{
+	float: left;
+	padding: 20px 0;
+	
+margin: 2% 2% 0 0;
+	display: inline;
+background: #ccc;
+	height: 200px;
+}
+
+#section-navigation ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#section-navigation ul li
+{
+	margin: 0 0 1em;
+	padding: 0;
+	list-style-type: none;
+}
+
+#content
+{
+	float: left;
+	width: 56%;
+	padding: 20px 0;
+	margin: 0 0 0 2%;
+	
+		
+}
+
+#cover
+{
+	float: left;
+	
+	margin: 2% 0 0 2%;
+	border-bottom:1px solid blue;
+	border-radius: 15px;
+	width= "100%";
+	background: #fff;
+	
+}
+
+#cover_title
+{
+	float: left;
+	width= "100%";
+	background: #fff;
+	
+}
+
+#adverts
+{
+	float: left;
+	margin: 10% 0 0 2%;
+	border:1px solid blue;
+	width= "100%";
+	padding-bottom: 10px;
+	background: #fff
+	
+}
+
+
+
+.bl {background: url(bl.gif) 0 100% no-repeat #e68200; width: 20em}
+.br {background: url(br.gif) 100% 100% no-repeat}
+.tl {background: url(tl.gif) 0 0 no-repeat}
+.tr {background: url(tr.gif) 100% 0 no-repeat; padding:10px}
+.clear {font-size: 1px; height: 1px}
+
+
+    #rateStatus{float:left; clear:both; width:100%; height:20px;}
+    #rateMe{float:left; clear:both; width:100%; height:auto; padding:0px; margin:0px;}
+    #rateMe li{float:left;list-style:none;}
+    #rateMe li a:hover,
+    #rateMe .on{background:url(filled_star.gif) no-repeat;}
+    #rateMe a{float:left;background:url(unfilled_star.gif) no-repeat;width:12px; height:12px;}
+    #ratingSaved{display:none;}
+    .saved{color:red; }
+
+.rating_bar {
+  width: 55px;
+  background: url(unfilled_star.gif) 0 0 repeat-x;
+}
+
+.rating_bar div {
+  height: 12px;
+  background: url(filled_star.gif) 0 0 repeat-x;
+}
+
+
+#content h2 { margin: 0; }
+
+#aside
+{
+	float: right;
+	width: 16%;
+	
+	margin: 2% 2% 0 0;
+	display: inline;
+	
+	height: 200px;
+	position:relative;
+}
+
+.right_side
+{
+	float: right;
+	width: 16%;
+	
+	display: inline;
+
+
+	position:relative;
+}
+
+.left_side
+{
+	float: left;
+	width: 16%;
+
+	display: inline;
+	position:relative;
+}
+
+.test
+{
+display: inline;
+}
+
+
+.middle
+{
+	float: left;
+	width: 60%;
+	position:relative;
+		
+}
+
+
+
+#aside h3 { margin: 0; }
+
+#footer
+{
+	clear: both;
+	text-align: right;
+	padding: 20px;
+	height: 1%;
+}
+
+//altera
+//c:\altera\11.1\modelsim_ase\win32aloem
