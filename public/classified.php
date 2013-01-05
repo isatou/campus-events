@@ -202,7 +202,7 @@ die("promotion query failed!");
     </tr>
 
 	   <tr>
-      <th >Admission *</th>
+      <th >Admission **</th>
       <td>
 	<select name="admission" id="drop"  onclick="addAmount2(this.form)">
 	<option style="background-color:#58B9EB"; value="0">free</option>
@@ -210,6 +210,10 @@ die("promotion query failed!");
 	</select>
 	  
 	  </td>
+    </tr>
+   <tr id="myDiv">
+      
+
     </tr>
 
 
