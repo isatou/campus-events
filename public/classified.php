@@ -141,6 +141,30 @@ die("promotion query failed!");
     </tr>
 
 
+  <tr>
+      <th>Event Type (*)</th>
+      <td>
+	<select name="category" id="drop">
+	<option style="background-color:#58B9EB"; value="choose_category">Choose a category</option>
+	<option style="background-color:#58B9EB"; value="0">for sale</option>
+	<option style="background-color:#58B9EB"; value="housing wanted">housing wanted</option>
+	<option style="background-color:#58B9EB"; value="housing available">housing available</option>
+	<option style="background-color:#58B9EB"; value="job">job</option>
+	<option style="background-color:#58B9EB"; value="internship">internship</option>
+	<option style="background-color:#58B9EB"; value="services">services</option>
+	<option style="background-color:#58B9EB"; value="tutoring">tutoring</option>
+	<option style="background-color:#58B9EB"; value="textbooks wanted">textbooks wanted</option>
+	<option style="background-color:#58B9EB"; value="textbooks available">textbooks available</option>
+	</select>
+	  
+	  </td>
+    </tr>
+   <tr id="myCategory">
+      
+
+    </tr>
+
+
 	   <tr>
       <th >Admission **</th>
       <td>
