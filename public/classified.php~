@@ -16,7 +16,29 @@
 
 <script type="text/javascript">
 
+function addAmount2(amount_num)
+{
+	var issue1= document.getElementById('myDiv');
+	var text=document.createElement('div1'); 
 
+	text.innerHTML='<th>Amount: ($) </th><td><input name="amount" type="text" class="textfield" id="amount" ></td>';
+
+
+	if(amount_num.admission.value == '1')
+	{
+	issue1.innerHTML='<tr id="myDiv"><th>Amount: ($) </th><td><input name="amount" type="text" class="textfield" id="amount" ></td></tr>';
+	}
+	
+	
+	
+
+	if(amount_num.admission.value == '0')
+	{
+	issue1.removeChild(issue1.firstChild);
+	issue1.removeChild(issue1.firstChild);
+
+	}
+}
 
 function addCategory(category_num)
 {
@@ -178,6 +200,18 @@ die("promotion query failed!");
       
 
     </tr>
+
+	   <tr>
+      <th >Admission *</th>
+      <td>
+	<select name="admission" id="drop"  onclick="addAmount2(this.form)">
+	<option style="background-color:#58B9EB"; value="0">free</option>
+	<option style="background-color:#58B9EB"; value="1">paid</option>
+	</select>
+	  
+	  </td>
+    </tr>
+
 
 
 
