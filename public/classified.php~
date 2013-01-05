@@ -217,7 +217,7 @@ die("promotion query failed!");
 
 
     <tr>
-      <th > Title * </th>
+      <th > Title ** </th>
       <td><input name="title" size="70" type="text" class="textfield" id="title" /></td>
     </tr>
 
@@ -225,7 +225,7 @@ die("promotion query failed!");
   <tr>
       <th>Event Type (*)</th>
       <td>
-	<select name="admission" id="drop" onclick="addCategory(this.form)">
+	<select name="admission" id="drop" >
 	<option style="background-color:#58B9EB"; value="choose_category">Choose a category</option>
 	<option style="background-color:#58B9EB"; value="0">for sale</option>
 	<option style="background-color:#58B9EB"; value="housing wanted">housing wanted</option>
