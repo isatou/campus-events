@@ -74,41 +74,36 @@ function addCategory(category_num)
 	//issue1.innerHTML='<tr ><th>Amount: ($) </th><td><input name="amount" type="text" class="textfield" id="amount" ></td></tr>';
 
 //issue1.style.display="inline";
-var sale1= document.getElementById("sale1");
-issue1.appendChild(sale1);
-//sale1.style.display="inline";
+
+var sale= document.getElementById("sale");
+sale.style.display="inline";
+
+/*var sale1= document.getElementById("sale1");
+sale1.style.display="inline";
 
 var sale2= document.getElementById("sale2");
-issue1.appendChild(sale2);
-//sale2.style.display="inline";
+sale2.style.display="inline";
 
 var sale3= document.getElementById("sale3");
-issue1.appendChild(sale3);
-//sale3.style.display="inline";
+sale3.style.display="inline";
 
 var sale4= document.getElementById("sale4");
-issue1.appendChild(sale4);
-//sale4.style.display="inline";
+sale4.style.display="inline";
 
 var sale5= document.getElementById("sale5");
-issue1.appendChild(sale5);
-//sale5.style.display="inline";
+sale5.style.display="inline";
 
 var sale6= document.getElementById("sale6");
-issue1.appendChild(sale6);
-//sale6.style.display="inline";
+sale6.style.display="inline";
 
 var sale7= document.getElementById("sale7");
-issue1.appendChild(sale7);
-//sale7.style.display="inline";
+sale7.style.display="inline";
 
 var sale8= document.getElementById("sale8");
-issue1.appendChild(sale8);
-//sale8.style.display="inline";
+sale8.style.display="inline";
 
 var sale9= document.getElementById("sale9");
-issue1.appendChild(sale9);
-//sale9.style.display="inline";
+sale9.style.display="inline";*/
 
 	}
 
@@ -234,7 +229,7 @@ die("promotion query failed!");
 
 
     <tr>
-      <th > Title * </th>
+      <th > Title ** </th>
       <td><input name="title" size="70" type="text" class="textfield" id="title" /></td>
     </tr>
 
@@ -263,7 +258,7 @@ die("promotion query failed!");
 
 
 
-
+<tr id = "sale" style="display:none">
 <tr id = "sale1" style="display:none">
 <th>Amount </th> 
 <td><input name="amount" type="text" class="textfield" id="amount" ></td>
@@ -299,6 +294,7 @@ die("promotion query failed!");
 <tr id = "sale9" style="display:none">
 <th></th>
 <td><input type="submit" name="submit" id="submit" value="Submit" ></td>
+</tr>
 </tr>
 
 
