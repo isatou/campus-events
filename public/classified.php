@@ -229,7 +229,7 @@ die("promotion query failed!");
 
 
     <tr>
-      <th > Title ** </th>
+      <th > Title * </th>
       <td><input name="title" size="70" type="text" class="textfield" id="title" /></td>
     </tr>
 
@@ -257,9 +257,7 @@ die("promotion query failed!");
 </tr>
 
 
-
-<table id = "sale" style="display:none">
-<tr id = "sale1" >
+<tr id = "sale1" style="display:none">
 <th>Amount </th> 
 <td><input name="amount" type="text" class="textfield" id="amount" ></td>
 </tr>
@@ -295,7 +293,7 @@ die("promotion query failed!");
 <th></th>
 <td><input type="submit" name="submit" id="submit" value="Submit" ></td>
 </tr>
-</table>
+
 
 
 
