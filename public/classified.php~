@@ -66,7 +66,7 @@ function addAmount2(amount_num)
 
 function addCategory(category_num)
 {
-	var issue1= document.getElementById('test');
+	var issue1= document.getElementById('myCategory');
 
 
 	if(category_num.category.value == '0')
@@ -234,7 +234,7 @@ die("promotion query failed!");
 
 
     <tr>
-      <th > Title ** </th>
+      <th > Title * </th>
       <td><input name="title" size="70" type="text" class="textfield" id="title" /></td>
     </tr>
 
