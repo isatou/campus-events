@@ -76,7 +76,7 @@ function addCategory(category_num)
 //issue1.style.display="inline";
 
 var sale= document.getElementById("sale");
-sale.style.display="table";
+sale.style.display="table-row";
 
 /*var sale1= document.getElementById("sale1");
 sale1.style.display="inline";
