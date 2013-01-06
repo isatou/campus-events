@@ -75,31 +75,40 @@ function addCategory(category_num)
 
 //issue1.style.display="inline";
 var sale1= document.getElementById("sale1");
-sale1.style.display="inline";
+issue1.appendChild(sale1);
+//sale1.style.display="inline";
 
 var sale2= document.getElementById("sale2");
-sale2.style.display="inline";
+issue1.appendChild(sale2);
+//sale2.style.display="inline";
 
 var sale3= document.getElementById("sale3");
-sale3.style.display="inline";
+issue1.appendChild(sale3);
+//sale3.style.display="inline";
 
 var sale4= document.getElementById("sale4");
-sale4.style.display="inline";
+issue1.appendChild(sale4);
+//sale4.style.display="inline";
 
 var sale5= document.getElementById("sale5");
-sale5.style.display="inline";
+issue1.appendChild(sale5);
+//sale5.style.display="inline";
 
 var sale6= document.getElementById("sale6");
-sale6.style.display="inline";
+issue1.appendChild(sale6);
+//sale6.style.display="inline";
 
 var sale7= document.getElementById("sale7");
-sale7.style.display="inline";
+issue1.appendChild(sale7);
+//sale7.style.display="inline";
 
 var sale8= document.getElementById("sale8");
-sale8.style.display="inline";
+issue1.appendChild(sale8);
+//sale8.style.display="inline";
 
 var sale9= document.getElementById("sale9");
-sale9.style.display="inline";
+issue1.appendChild(sale9);
+//sale9.style.display="inline";
 
 	}
 
