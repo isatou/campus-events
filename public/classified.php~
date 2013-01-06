@@ -78,32 +78,32 @@ function addCategory(category_num)
 var sale= document.getElementById("sale");
 sale.style.display="table-row";
 
-/*var sale1= document.getElementById("sale1");
-sale1.style.display="inline";
+var sale1= document.getElementById("sale1");
+sale1.style.display="table-row";
 
 var sale2= document.getElementById("sale2");
-sale2.style.display="inline";
+sale2.style.display="table-row";
 
 var sale3= document.getElementById("sale3");
-sale3.style.display="inline";
+sale3.style.display="table-row";
 
 var sale4= document.getElementById("sale4");
-sale4.style.display="inline";
+sale4.style.display="table-row";
 
 var sale5= document.getElementById("sale5");
-sale5.style.display="inline";
+sale5.style.display="table-row";
 
 var sale6= document.getElementById("sale6");
-sale6.style.display="inline";
+sale6.style.display="table-row";
 
 var sale7= document.getElementById("sale7");
-sale7.style.display="inline";
+sale7.style.display="table-row";
 
 var sale8= document.getElementById("sale8");
-sale8.style.display="inline";
+sale8.style.display="table-row";
 
 var sale9= document.getElementById("sale9");
-sale9.style.display="inline";*/
+sale9.style.display="table-row";
 
 	}
 
@@ -229,7 +229,7 @@ die("promotion query failed!");
 
 
     <tr>
-      <th > Title ** </th>
+      <th > Title * </th>
       <td><input name="title" size="70" type="text" class="textfield" id="title" /></td>
     </tr>
 
@@ -257,11 +257,11 @@ die("promotion query failed!");
 </tr>
 
 
-<tr id = "sale" style="display:none">
+<tr id = "sale1" style="display:none">
 <th>Amount </th> 
 <td><input name="amount" type="text" class="textfield" id="amount" ></td>
 </tr>
-<tr id = "sale2" >
+<tr id = "sale2" style="display:none">
 <th > Submitter Email * </th>
 <td><input name="email" size="70" type="text" class="textfield" id="email" ></td>
 </tr> 
@@ -269,27 +269,27 @@ die("promotion query failed!");
 <th>  </th>
 <td> <input type="checkbox" name="contact_check" id="contact_check" value="1" onclick="FillContactEmail(this.form)"> same as above </td> 
 </tr>
-<tr id = "sale4" >
+<tr id = "sale4" style="display:none">
 <th> Contact Email  </th>
 <td><input name="contact_email" size="70" type="text" class="textfield" id="contact_email" ></td>
 </tr>
-<tr id = "sale5" >
+<tr id = "sale5" style="display:none">
 <th> Contact Person </th>
 <td><input name="person" size="70" type="text" class="textfield" id="person" ></td>
 </tr>
-<tr id = "sale6" >
+<tr id = "sale6" style="display:none">
 <th>Contact Phone </th>
 <td><input name="phone" type="text" class="textfield" id="phone" ></td>
 </tr>
-<tr id = "sale7" >
+<tr id = "sale7" style="display:none">
 <th > Check to display on event page </th>
 <td><input type="checkbox" name="check_phone" id="check_phone" value="1"> phone<input type="checkbox" name="check_email" id="check_email" value="1"> email</td>
 </tr>
-<tr id = "sale8" >
+<tr id = "sale8" style="display:none">
 <th width="40%">Details *</th>
 <td ><textarea name="details" id="details" style="width:400px; height:200px;" onfocus="this.value=''; setbg("#e5fff3");" onblur="setbg("white")"></textarea></td>
 </tr>
-<tr id = "sale9" >
+<tr id = "sale9" style="display:none">
 <th></th>
 <td><input type="submit" name="submit" id="submit" value="Submit" ></td>
 </tr>
