@@ -76,7 +76,7 @@ function addCategory(category_num)
 //issue1.style.display="inline";
 
 var sale= document.getElementById("sale");
-sale.style.display="inline";
+sale.style.display="table";
 
 /*var sale1= document.getElementById("sale1");
 sale1.style.display="inline";
@@ -229,7 +229,7 @@ die("promotion query failed!");
 
 
     <tr>
-      <th > Title ** </th>
+      <th > Title * </th>
       <td><input name="title" size="70" type="text" class="textfield" id="title" /></td>
     </tr>
 
