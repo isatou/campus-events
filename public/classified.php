@@ -225,7 +225,7 @@ die("promotion query failed!");
 
 
     <tr>
-      <th > Title ** </th>
+      <th > Title * </th>
       <td><input name="title" size="70" type="text" class="textfield" id="title" /></td>
     </tr>
 
@@ -248,8 +248,7 @@ die("promotion query failed!");
 	  
 	  </td>
     </tr>
-   <tr id="myCategory">
-    </tr>
+
 
 <tr id = "sale1" style="display:none">
 <th>Amount </th> 
@@ -289,20 +288,6 @@ die("promotion query failed!");
 </tr>
 
 
-	   <tr>
-      <th >Admission **</th>
-      <td>
-	<select name="admission" id="drop"  onclick="addAmount2(this.form)">
-	<option style="background-color:#58B9EB"; value="0">free</option>
-	<option style="background-color:#58B9EB"; value="1">paid</option>
-	</select>
-	  
-	  </td>
-    </tr>
-   <tr id="myDiv">
-      
-
-    </tr>
 
 
 
