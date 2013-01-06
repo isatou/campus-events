@@ -229,7 +229,7 @@ die("promotion query failed!");
 
 
     <tr>
-      <th > Title ** </th>
+      <th > Title * </th>
       <td><input name="title" size="70" type="text" class="textfield" id="title" /></td>
     </tr>
 
@@ -259,11 +259,11 @@ die("promotion query failed!");
 
 
 <tr id = "sale" style="display:none">
-<tr id = "sale1" style="display:none">
+<tr id = "sale1" >
 <th>Amount </th> 
 <td><input name="amount" type="text" class="textfield" id="amount" ></td>
 </tr>
-<tr id = "sale2" style="display:none">
+<tr id = "sale2" >
 <th > Submitter Email * </th>
 <td><input name="email" size="70" type="text" class="textfield" id="email" ></td>
 </tr> 
@@ -271,27 +271,27 @@ die("promotion query failed!");
 <th>  </th>
 <td> <input type="checkbox" name="contact_check" id="contact_check" value="1" onclick="FillContactEmail(this.form)"> same as above </td> 
 </tr>
-<tr id = "sale4" style="display:none">
+<tr id = "sale4" >
 <th> Contact Email  </th>
 <td><input name="contact_email" size="70" type="text" class="textfield" id="contact_email" ></td>
 </tr>
-<tr id = "sale5" style="display:none">
+<tr id = "sale5" >
 <th> Contact Person </th>
 <td><input name="person" size="70" type="text" class="textfield" id="person" ></td>
 </tr>
-<tr id = "sale6" style="display:none">
+<tr id = "sale6" >
 <th>Contact Phone </th>
 <td><input name="phone" type="text" class="textfield" id="phone" ></td>
 </tr>
-<tr id = "sale7" style="display:none">
+<tr id = "sale7" >
 <th > Check to display on event page </th>
 <td><input type="checkbox" name="check_phone" id="check_phone" value="1"> phone<input type="checkbox" name="check_email" id="check_email" value="1"> email</td>
 </tr>
-<tr id = "sale8" style="display:none">
+<tr id = "sale8" >
 <th width="40%">Details *</th>
 <td ><textarea name="details" id="details" style="width:400px; height:200px;" onfocus="this.value=''; setbg("#e5fff3");" onblur="setbg("white")"></textarea></td>
 </tr>
-<tr id = "sale9" style="display:none">
+<tr id = "sale9" >
 <th></th>
 <td><input type="submit" name="submit" id="submit" value="Submit" ></td>
 </tr>
