@@ -60,9 +60,9 @@ function addAmount2(amount_num)
 	}
 }
 
-</script
+</script>
 
-<script type="text/javascript>
+<script type="text/javascript">
 
 function hide_fields()
 {
@@ -333,7 +333,7 @@ function addCategory(category_num)
 
 //issue1.style.display="inline";
 
-	//hide_fields();
+	hide_fields();
 
 	var sale1= document.getElementById("sale1");
 	sale1.style.display="table-row";
@@ -364,7 +364,7 @@ function addCategory(category_num)
 
 	}
 
-/*	else if(category_num.category.value == 'housing wanted')
+	else if(category_num.category.value == 'housing wanted')
 	{
 
 	hide_fields();
@@ -629,7 +629,7 @@ else	//hide the fields
 	hide_fields();
 	}
 
-*/
+
 }
 
 
@@ -708,7 +708,7 @@ die("promotion query failed!");
 
 
     <tr>
-     <th > Title * </th>
+     <th > Title ** </th>
       <td><input name="title" size="70" type="text" class="textfield" id="title" /></td>
     </tr>
 
