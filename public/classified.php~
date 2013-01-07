@@ -62,7 +62,263 @@ function addAmount2(amount_num)
 
 </script
 
+<script type="text/javascript>
 
+function hide_fields()
+{
+
+	//hide for sale	
+	var sale1= document.getElementById("sale1");
+	sale1.style.display="none";
+
+	var sale2= document.getElementById("sale2");
+	sale2.style.display="none";
+
+	var sale3= document.getElementById("sale3");
+	sale3.style.display="none";
+
+	var sale4= document.getElementById("sale4");
+	sale4.style.display="none";
+
+	var sale5= document.getElementById("sale5");
+	sale5.style.display="none";
+
+	var sale6= document.getElementById("sale6");
+	sale6.style.display="none";
+
+	var sale7= document.getElementById("sale7");
+	sale7.style.display="none";
+
+	var sale8= document.getElementById("sale8");
+	sale8.style.display="none";
+
+	var sale9= document.getElementById("sale9");
+	sale9.style.display="none";
+
+	//hide housing wanted
+	var housing-wanted1= document.getElementById("housing-wanted1");
+	housing-wanted1.style.display="none";
+
+	var housing-wanted2= document.getElementById("housing-wanted2");
+	housing-wanted2.style.display="none";
+
+	var housing-wanted3= document.getElementById("housing-wanted3");
+	housing-wanted3.style.display="none";
+
+	var housing-wanted4= document.getElementById("housing-wanted4");
+	housing-wanted4.style.display="none";
+
+	var housing-wanted5= document.getElementById("housing-wanted5");
+	housing-wanted5.style.display="none";
+
+	var housing-wanted6= document.getElementById("housing-wanted6");
+	housing-wanted6.style.display="none";
+
+	var housing-wanted7= document.getElementById("housing-wanted7");
+	housing-wanted7.style.display="none";
+
+	var housing-wanted8= document.getElementById("housing-wanted8");
+	housing-wanted8.style.display="none";
+
+	var housing-wanted9= document.getElementById("housing-wanted9");
+	housing-wanted9.style.display="none"; 
+
+	//hide housing available
+	var housing-available1= document.getElementById("housing-available1");
+	housing-available1.style.display="none";
+
+	var housing-available2= document.getElementById("housing-available2");
+	housing-available2.style.display="none";
+
+	var housing-available3= document.getElementById("housing-available3");
+	housing-available3.style.display="none";
+
+	var housing-available4= document.getElementById("housing-available4");
+	housing-available4.style.display="none";
+
+	var housing-available5= document.getElementById("housing-available5");
+	housing-available5.style.display="none";
+
+	var housing-available6= document.getElementById("housing-available6");
+	housing-available6.style.display="none";
+
+	var housing-available7= document.getElementById("housing-available7");
+	housing-available7.style.display="none";
+
+	var housing-available8= document.getElementById("housing-available8");
+	housing-available8.style.display="none";
+
+	var housing-available9= document.getElementById("housing-available9");
+	housing-available9.style.display="none"; 
+
+	//hide job
+	var job1= document.getElementById("job1");
+	job1.style.display="none";
+
+	var job2= document.getElementById("job2");
+	job2.style.display="none";
+
+	var job3= document.getElementById("job3");
+	job3.style.display="none";
+
+	var job4= document.getElementById("job4");
+	job4.style.display="none";
+
+	var job5= document.getElementById("job5");
+	job5.style.display="none";
+
+	var job6= document.getElementById("job6");
+	job6.style.display="none";
+
+	var job7= document.getElementById("job7");
+	job7.style.display="none";
+
+	var job8= document.getElementById("job8");
+	job8.style.display="none";
+
+	var job9= document.getElementById("job9");
+	job9.style.display="none";
+
+	//hide internship
+	var internship1= document.getElementById("internship1");
+	internship1.style.display="none";
+
+	var internship2= document.getElementById("internship2");
+	internship2.style.display="none";
+
+	var internship3= document.getElementById("internship3");
+	internship3.style.display="none";
+
+	var internship4= document.getElementById("internship4");
+	internship4.style.display="none";
+
+	var internship5= document.getElementById("internship5");
+	internship5.style.display="none";
+
+	var internship6= document.getElementById("internship6");
+	internship6.style.display="none";
+
+	var internship7= document.getElementById("internship7");
+	internship7.style.display="none";
+
+	var internship8= document.getElementById("internship8");
+	internship8.style.display="none";
+
+	var internship9= document.getElementById("internship9");
+	internship9.style.display="none"; 
+
+	//hide services
+	var services1= document.getElementById("services1");
+	services1.style.display="none";
+
+	var services2= document.getElementById("services2");
+	services2.style.display="none";
+
+	var services3= document.getElementById("services3");
+	services3.style.display="none";
+
+	var services4= document.getElementById("services4");
+	services4.style.display="none";
+
+	var services5= document.getElementById("services5");
+	services5.style.display="none";
+
+	var services6= document.getElementById("services6");
+	services6.style.display="none";
+
+	var services7= document.getElementById("services7");
+	services7.style.display="none";
+
+	var services8= document.getElementById("services8");
+	services8.style.display="none";
+
+	var services9= document.getElementById("services9");
+	services9.style.display="none";
+
+	//hide tutoring
+	var tutoring1= document.getElementById("tutoring1");
+	tutoring1.style.display="none";
+
+	var tutoring2= document.getElementById("tutoring2");
+	tutoring2.style.display="none";
+
+	var tutoring3= document.getElementById("tutoring3");
+	tutoring3.style.display="none";
+
+	var tutoring4= document.getElementById("tutoring4");
+	tutoring4.style.display="none";
+
+	var tutoring5= document.getElementById("tutoring5");
+	tutoring5.style.display="none";
+
+	var tutoring6= document.getElementById("tutoring6");
+	tutoring6.style.display="none";
+
+	var tutoring7= document.getElementById("tutoring7");
+	tutoring7.style.display="none";
+
+	var tutoring8= document.getElementById("tutoring8");
+	tutoring8.style.display="nonen";
+
+	var tutoring9= document.getElementById("tutoring9");
+	tutoring9.style.display="none";
+
+	//hide textbooks wanted
+	var textbooks-wanted1= document.getElementById("textbooks-wanted1");
+	textbooks-wanted1.style.display="none";
+
+	var textbooks-wanted2= document.getElementById("textbooks-wanted2");
+	textbooks-wanted2.style.display="none";
+
+	var textbooks-wanted3= document.getElementById("textbooks-wanted3");
+	textbooks-wanted3.style.display="none";
+
+	var textbooks-wanted4= document.getElementById("textbooks-wanted4");
+	textbooks-wanted4.style.display="none";
+
+	var textbooks-wanted5= document.getElementById("textbooks-wanted5");
+	textbooks-wanted5.style.display="none";
+
+	var textbooks-wanted6= document.getElementById("textbooks-wanted6");
+	textbooks-wanted6.style.display="none";
+
+	var textbooks-wanted7= document.getElementById("textbooks-wanted7");
+	textbooks-wanted7.style.display="none";
+
+	var textbooks-wanted8= document.getElementById("textbooks-wanted8");
+	textbooks-wanted8.style.display="none";
+
+	//hide textbooks for sale
+	var textbooks-for-sale1= document.getElementById("textbooks-for-sale1");
+	textbooks-for-sale1.style.display="none";
+
+	var textbooks-for-sale2= document.getElementById("textbooks-for-sale2");
+	textbooks-for-sale2.style.display="none";
+
+	var textbooks-for-sale3= document.getElementById("textbooks-for-sale3");
+	textbooks-for-sale3.style.display="none";
+
+	var textbooks-for-sale4= document.getElementById("textbooks-for-sale4");
+	textbooks-for-sale4.style.display="none";
+
+	var textbooks-for-sale5= document.getElementById("textbooks-for-sale5");
+	textbooks-for-sale5.style.display="none";
+
+	var textbooks-for-sale6= document.getElementById("textbooks-for-sale6");
+	textbooks-for-sale6.style.display="none";
+
+	var textbooks-for-sale7= document.getElementById("textbooks-for-sale7");
+	textbooks-for-sale7.style.display="none";
+
+	var textbooks-for-sale8= document.getElementById("textbooks-for-sale8");
+	textbooks-for-sale8.style.display="none";
+
+	var textbooks-for-sale9= document.getElementById("textbooks-for-sale9");
+	textbooks-for-sale9.style.display="none";
+
+}
+
+</script>
 
 <script type="text/javascript">
 
@@ -77,522 +333,301 @@ function addCategory(category_num)
 
 //issue1.style.display="inline";
 
+	//hide_fields();
 
-var sale1= document.getElementById("sale1");
-sale1.style.display="table-row";
+	var sale1= document.getElementById("sale1");
+	sale1.style.display="table-row";
 
-var sale2= document.getElementById("sale2");
-sale2.style.display="table-row";
+	var sale2= document.getElementById("sale2");
+	sale2.style.display="table-row";
 
-var sale3= document.getElementById("sale3");
-sale3.style.display="table-row";
+	var sale3= document.getElementById("sale3");
+	sale3.style.display="table-row";
 
-var sale4= document.getElementById("sale4");
-sale4.style.display="table-row";
+	var sale4= document.getElementById("sale4");
+	sale4.style.display="table-row";
 
-var sale5= document.getElementById("sale5");
-sale5.style.display="table-row";
+	var sale5= document.getElementById("sale5");
+	sale5.style.display="table-row";
 
-var sale6= document.getElementById("sale6");
-sale6.style.display="table-row";
+	var sale6= document.getElementById("sale6");
+	sale6.style.display="table-row";
 
-var sale7= document.getElementById("sale7");
-sale7.style.display="table-row";
+	var sale7= document.getElementById("sale7");
+	sale7.style.display="table-row";
 
-var sale8= document.getElementById("sale8");
-sale8.style.display="table-row";
+	var sale8= document.getElementById("sale8");
+	sale8.style.display="table-row";
 
-var sale9= document.getElementById("sale9");
-sale9.style.display="table-row";
+	var sale9= document.getElementById("sale9");
+	sale9.style.display="table-row";
 
 	}
 
 	else if(category_num.category.value == 'housing wanted')
 	{
-var housing-wanted1= document.getElementById("housing-wanted1");
-housing-wanted1.style.display="table-row";
 
-var housing-wanted2= document.getElementById("housing-wanted2");
-housing-wanted2.style.display="table-row";
+	hide_fields();
 
-var housing-wanted3= document.getElementById("housing-wanted3");
-housing-wanted3.style.display="table-row";
+	var housing-wanted1= document.getElementById("housing-wanted1");
+	housing-wanted1.style.display="table-row";
 
-var housing-wanted4= document.getElementById("housing-wanted4");
-housing-wanted4.style.display="table-row";
+	var housing-wanted2= document.getElementById("housing-wanted2");
+	housing-wanted2.style.display="table-row";
 
-var housing-wanted5= document.getElementById("housing-wanted5");
-housing-wanted5.style.display="table-row";
+	var housing-wanted3= document.getElementById("housing-wanted3");
+	housing-wanted3.style.display="table-row";
 
-var housing-wanted6= document.getElementById("housing-wanted6");
-housing-wanted6.style.display="table-row";
+	var housing-wanted4= document.getElementById("housing-wanted4");
+	housing-wanted4.style.display="table-row";
 
-var housing-wanted7= document.getElementById("housing-wanted7");
-housing-wanted7.style.display="table-row";
+	var housing-wanted5= document.getElementById("housing-wanted5");
+	housing-wanted5.style.display="table-row";
 
-var housing-wanted8= document.getElementById("housing-wanted8");
-housing-wanted8.style.display="table-row";
+	var housing-wanted6= document.getElementById("housing-wanted6");
+	housing-wanted6.style.display="table-row";
 
-var housing-wanted9= document.getElementById("housing-wanted9");
-housing-wanted9.style.display="table-row"; 
+	var housing-wanted7= document.getElementById("housing-wanted7");
+	housing-wanted7.style.display="table-row";
+
+	var housing-wanted8= document.getElementById("housing-wanted8");
+	housing-wanted8.style.display="table-row";
+
+	var housing-wanted9= document.getElementById("housing-wanted9");
+	housing-wanted9.style.display="table-row"; 
 
 	}
 
 
 	else if(category_num.category.value == 'housing available')
 	{
-var housing-available1= document.getElementById("housing-available1");
-housing-available1.style.display="table-row";
+	hide_fields();
 
-var housing-available2= document.getElementById("housing-available2");
-housing-available2.style.display="table-row";
+	var housing-available1= document.getElementById("housing-available1");
+	housing-available1.style.display="table-row";
 
-var housing-available3= document.getElementById("housing-available3");
-housing-available3.style.display="table-row";
+	var housing-available2= document.getElementById("housing-available2");
+	housing-available2.style.display="table-row";
 
-var housing-available4= document.getElementById("housing-available4");
-housing-available4.style.display="table-row";
+	var housing-available3= document.getElementById("housing-available3");
+	housing-available3.style.display="table-row";
 
-var housing-available5= document.getElementById("housing-available5");
-housing-available5.style.display="table-row";
+	var housing-available4= document.getElementById("housing-available4");
+	housing-available4.style.display="table-row";
 
-var housing-available6= document.getElementById("housing-available6");
-housing-available6.style.display="table-row";
+	var housing-available5= document.getElementById("housing-available5");
+	housing-available5.style.display="table-row";
 
-var housing-available7= document.getElementById("housing-available7");
-housing-available7.style.display="table-row";
+	var housing-available6= document.getElementById("housing-available6");
+	housing-available6.style.display="table-row";
 
-var housing-available8= document.getElementById("housing-available8");
-housing-available8.style.display="table-row";
+	var housing-available7= document.getElementById("housing-available7");
+	housing-available7.style.display="table-row";
 
-var housing-available9= document.getElementById("housing-available9");
-housing-available9.style.display="table-row"; 
+	var housing-available8= document.getElementById("housing-available8");
+	housing-available8.style.display="table-row";
+
+	var housing-available9= document.getElementById("housing-available9");
+	housing-available9.style.display="table-row"; 
 	}
 
 	else if(category_num.category.value == 'job')
 	{
-var job1= document.getElementById("job1");
-job1.style.display="table-row";
+	hide_fields();
 
-var job2= document.getElementById("job2");
-job2.style.display="table-row";
+	var job1= document.getElementById("job1");
+	job1.style.display="table-row";
 
-var job3= document.getElementById("job3");
-job3.style.display="table-row";
+	var job2= document.getElementById("job2");
+	job2.style.display="table-row";
 
-var job4= document.getElementById("job4");
-job4.style.display="table-row";
+	var job3= document.getElementById("job3");
+	job3.style.display="table-row";
 
-var job5= document.getElementById("job5");
-job5.style.display="table-row";
+	var job4= document.getElementById("job4");
+	job4.style.display="table-row";
 
-var job6= document.getElementById("job6");
-job6.style.display="table-row";
+	var job5= document.getElementById("job5");
+	job5.style.display="table-row";
 
-var job7= document.getElementById("job7");
-job7.style.display="table-row";
+	var job6= document.getElementById("job6");
+	job6.style.display="table-row";
 
-var job8= document.getElementById("job8");
-job8.style.display="table-row";
+	var job7= document.getElementById("job7");
+	job7.style.display="table-row";
 
-var job9= document.getElementById("job9");
-job9.style.display="table-row";
+	var job8= document.getElementById("job8");
+	job8.style.display="table-row";
+
+	var job9= document.getElementById("job9");
+	job9.style.display="table-row";
 	}
 
 	else if(category_num.category.value == 'internship')
 	{
-var internship1= document.getElementById("internship1");
-internship1.style.display="table-row";
+	hide_fields();
 
-var internship2= document.getElementById("internship2");
-internship2.style.display="table-row";
+	var internship1= document.getElementById("internship1");
+	internship1.style.display="table-row";
 
-var internship3= document.getElementById("internship3");
-internship3.style.display="table-row";
+	var internship2= document.getElementById("internship2");
+	internship2.style.display="table-row";
 
-var internship4= document.getElementById("internship4");
-internship4.style.display="table-row";
+	var internship3= document.getElementById("internship3");
+	internship3.style.display="table-row";
 
-var internship5= document.getElementById("internship5");
-internship5.style.display="table-row";
+	var internship4= document.getElementById("internship4");
+	internship4.style.display="table-row";
 
-var internship6= document.getElementById("internship6");
-internship6.style.display="table-row";
+	var internship5= document.getElementById("internship5");
+	internship5.style.display="table-row";
 
-var internship7= document.getElementById("internship7");
-internship7.style.display="table-row";
+	var internship6= document.getElementById("internship6");
+	internship6.style.display="table-row";
 
-var internship8= document.getElementById("internship8");
-internship8.style.display="table-row";
+	var internship7= document.getElementById("internship7");
+	internship7.style.display="table-row";
 
-var internship9= document.getElementById("internship9");
-internship9.style.display="table-row"; 
+	var internship8= document.getElementById("internship8");
+	internship8.style.display="table-row";
+
+	var internship9= document.getElementById("internship9");
+	internship9.style.display="table-row"; 
 	}
 
 	else if(category_num.category.value == 'services')
 	{
-var services1= document.getElementById("services1");
-services1.style.display="table-row";
+	hide_fields();
 
-var services2= document.getElementById("services2");
-services2.style.display="table-row";
+	var services1= document.getElementById("services1");
+	services1.style.display="table-row";
 
-var services3= document.getElementById("services3");
-services3.style.display="table-row";
+	var services2= document.getElementById("services2");
+	services2.style.display="table-row";
 
-var services4= document.getElementById("services4");
-services4.style.display="table-row";
+	var services3= document.getElementById("services3");
+	services3.style.display="table-row";
 
-var services5= document.getElementById("services5");
-services5.style.display="table-row";
+	var services4= document.getElementById("services4");
+	services4.style.display="table-row";
 
-var services6= document.getElementById("services6");
-services6.style.display="table-row";
+	var services5= document.getElementById("services5");
+	services5.style.display="table-row";
 
-var services7= document.getElementById("services7");
-services7.style.display="table-row";
+	var services6= document.getElementById("services6");
+	services6.style.display="table-row";
 
-var services8= document.getElementById("services8");
-services8.style.display="table-row";
+	var services7= document.getElementById("services7");
+	services7.style.display="table-row";
 
-var services9= document.getElementById("services9");
-services9.style.display="table-row";
+	var services8= document.getElementById("services8");
+	services8.style.display="table-row";
+
+	var services9= document.getElementById("services9");
+	services9.style.display="table-row";
 	}
 
 	else if(category_num.category.value == 'tutoring')
 	{
-var tutoring1= document.getElementById("tutoring1");
-tutoring1.style.display="table-row";
+	hide_fields();
 
-var tutoring2= document.getElementById("tutoring2");
-tutoring2.style.display="table-row";
+	var tutoring1= document.getElementById("tutoring1");
+	tutoring1.style.display="table-row";
 
-var tutoring3= document.getElementById("tutoring3");
-tutoring3.style.display="table-row";
+	var tutoring2= document.getElementById("tutoring2");
+	tutoring2.style.display="table-row";
 
-var tutoring4= document.getElementById("tutoring4");
-tutoring4.style.display="table-row";
+	var tutoring3= document.getElementById("tutoring3");
+	tutoring3.style.display="table-row";
 
-var tutoring5= document.getElementById("tutoring5");
-tutoring5.style.display="table-row";
+	var tutoring4= document.getElementById("tutoring4");
+	tutoring4.style.display="table-row";
 
-var tutoring6= document.getElementById("tutoring6");
-tutoring6.style.display="table-row";
+	var tutoring5= document.getElementById("tutoring5");
+	tutoring5.style.display="table-row";
 
-var tutoring7= document.getElementById("tutoring7");
-tutoring7.style.display="table-row";
+	var tutoring6= document.getElementById("tutoring6");
+	tutoring6.style.display="table-row";
 
-var tutoring8= document.getElementById("tutoring8");
-tutoring8.style.display="table-row";
+	var tutoring7= document.getElementById("tutoring7");
+	tutoring7.style.display="table-row";
 
-var tutoring9= document.getElementById("tutoring9");
-tutoring9.style.display="table-row";
+	var tutoring8= document.getElementById("tutoring8");
+	tutoring8.style.display="table-row";
+
+	var tutoring9= document.getElementById("tutoring9");
+	tutoring9.style.display="table-row";
 	}
 
 	else if(category_num.category.value == 'textbooks wanted')
 	{
-var textbooks-wanted1= document.getElementById("textbooks-wanted1");
-textbooks-wanted1.style.display="table-row";
+	hide_fields();
+	var textbooks-wanted1= document.getElementById("textbooks-wanted1");
+	textbooks-wanted1.style.display="table-row";
 
-var textbooks-wanted2= document.getElementById("textbooks-wanted2");
-textbooks-wanted2.style.display="table-row";
+	var textbooks-wanted2= document.getElementById("textbooks-wanted2");
+	textbooks-wanted2.style.display="table-row";
 
-var textbooks-wanted3= document.getElementById("textbooks-wanted3");
-textbooks-wanted3.style.display="table-row";
+	var textbooks-wanted3= document.getElementById("textbooks-wanted3");
+	textbooks-wanted3.style.display="table-row";
 
-var textbooks-wanted4= document.getElementById("textbooks-wanted4");
-textbooks-wanted4.style.display="table-row";
+	var textbooks-wanted4= document.getElementById("textbooks-wanted4");
+	textbooks-wanted4.style.display="table-row";
 
-var textbooks-wanted5= document.getElementById("textbooks-wanted5");
-textbooks-wanted5.style.display="table-row";
+	var textbooks-wanted5= document.getElementById("textbooks-wanted5");
+	textbooks-wanted5.style.display="table-row";
 
-var textbooks-wanted6= document.getElementById("textbooks-wanted6");
-textbooks-wanted6.style.display="table-row";
+	var textbooks-wanted6= document.getElementById("textbooks-wanted6");
+	textbooks-wanted6.style.display="table-row";
 
-var textbooks-wanted7= document.getElementById("textbooks-wanted7");
-textbooks-wanted7.style.display="table-row";
+	var textbooks-wanted7= document.getElementById("textbooks-wanted7");
+	textbooks-wanted7.style.display="table-row";
 
-var textbooks-wanted8= document.getElementById("textbooks-wanted8");
-textbooks-wanted8.style.display="table-row";
+	var textbooks-wanted8= document.getElementById("textbooks-wanted8");
+	textbooks-wanted8.style.display="table-row";
 
-var textbooks-wanted9= document.getElementById("textbooks-wanted9");
-textbooks-wanted9.style.display="table-row";
+	var textbooks-wanted9= document.getElementById("textbooks-wanted9");
+	textbooks-wanted9.style.display="table-row";
 	}
 
-	else if(category_num.category.value == 'textbooks for sale')
+	else if(category_num.category.value == 'textbooks available')
 	{
-var textbooks-for-sale1= document.getElementById("textbooks-for-sale1");
-textbooks-for-sale1.style.display="table-row";
+	hide_fields();
 
-var textbooks-for-sale2= document.getElementById("textbooks-for-sale2");
-textbooks-for-sale2.style.display="table-row";
+	var textbooks-available1= document.getElementById("textbooks-available1");
+	textbooks-available1.style.display="table-row";
 
-var textbooks-for-sale3= document.getElementById("textbooks-for-sale3");
-textbooks-for-sale3.style.display="table-row";
+	var textbooks-available2= document.getElementById("textbooks-available2");
+	textbooks-available2.style.display="table-row";
 
-var textbooks-for-sale4= document.getElementById("textbooks-for-sale4");
-textbooks-for-sale4.style.display="table-row";
+	var textbooks-available3= document.getElementById("textbooks-available3");
+	textbooks-available3.style.display="table-row";
 
-var textbooks-for-sale5= document.getElementById("textbooks-for-sale5");
-textbooks-for-sale5.style.display="table-row";
+	var textbooks-available4= document.getElementById("textbooks-available4");
+	textbooks-available4.style.display="table-row";
 
-var textbooks-for-sale6= document.getElementById("textbooks-for-sale6");
-textbooks-for-sale6.style.display="table-row";
+	var textbooks-available5= document.getElementById("textbooks-available5");
+	textbooks-available5.style.display="table-row";
 
-var textbooks-for-sale7= document.getElementById("textbooks-for-sale7");
-textbooks-for-sale7.style.display="table-row";
+	var textbooks-available6= document.getElementById("textbooks-available6");
+	textbooks-available6.style.display="table-row";
 
-var textbooks-for-sale8= document.getElementById("textbooks-for-sale8");
-textbooks-for-sale8.style.display="table-row";
+	var textbooks-available7= document.getElementById("textbooks-available7");
+	textbooks-available7.style.display="table-row";
 
-var textbooks-for-sale9= document.getElementById("textbooks-for-sale9");
-textbooks-for-sale9.style.display="table-row"; 
+	var textbooks-available8= document.getElementById("textbooks-available8");
+	textbooks-available8.style.display="table-row";
+
+	var textbooks-available9= document.getElementById("textbooks-available9");
+	textbooks-available9.style.display="table-row"; 
 	}
 
 	//issue1.innerHTML=category_num.category.value;
 
 else	//hide the fields
-{
-var sale1= document.getElementById("sale1");
-sale1.style.display="none";
-
-var sale2= document.getElementById("sale2");
-sale2.style.display="none";
-
-var sale3= document.getElementById("sale3");
-sale3.style.display="none";
-
-var sale4= document.getElementById("sale4");
-sale4.style.display="none";
-
-var sale5= document.getElementById("sale5");
-sale5.style.display="none";
-
-var sale6= document.getElementById("sale6");
-sale6.style.display="none";
-
-var sale7= document.getElementById("sale7");
-sale7.style.display="none";
-
-var sale8= document.getElementById("sale8");
-sale8.style.display="none";
-
-var sale9= document.getElementById("sale9");
-sale9.style.display="none";
-
-var housing-wanted1= document.getElementById("housing-wanted1");
-housing-wanted1.style.display="none";
-
-var housing-wanted2= document.getElementById("housing-wanted2");
-housing-wanted2.style.display="none";
-
-var housing-wanted3= document.getElementById("housing-wanted3");
-housing-wanted3.style.display="none";
-
-var housing-wanted4= document.getElementById("housing-wanted4");
-housing-wanted4.style.display="none";
-
-var housing-wanted5= document.getElementById("housing-wanted5");
-housing-wanted5.style.display="none";
-
-var housing-wanted6= document.getElementById("housing-wanted6");
-housing-wanted6.style.display="none";
-
-var housing-wanted7= document.getElementById("housing-wanted7");
-housing-wanted7.style.display="none";
-
-var housing-wanted8= document.getElementById("housing-wanted8");
-housing-wanted8.style.display="none";
-
-var housing-wanted9= document.getElementById("housing-wanted9");
-housing-wanted9.style.display="none"; 
-
-var housing-available1= document.getElementById("housing-available1");
-housing-available1.style.display="none";
-
-var housing-available2= document.getElementById("housing-available2");
-housing-available2.style.display="none";
-
-var housing-available3= document.getElementById("housing-available3");
-housing-available3.style.display="none";
-
-var housing-available4= document.getElementById("housing-available4");
-housing-available4.style.display="none";
-
-var housing-available5= document.getElementById("housing-available5");
-housing-available5.style.display="none";
-
-var housing-available6= document.getElementById("housing-available6");
-housing-available6.style.display="none";
-
-var housing-available7= document.getElementById("housing-available7");
-housing-available7.style.display="none";
-
-var housing-available8= document.getElementById("housing-available8");
-housing-available8.style.display="none";
-
-var housing-available9= document.getElementById("housing-available9");
-housing-available9.style.display="none"; 
-
-var job1= document.getElementById("job1");
-job1.style.display="none";
-
-var job2= document.getElementById("job2");
-job2.style.display="none";
-
-var job3= document.getElementById("job3");
-job3.style.display="none";
-
-var job4= document.getElementById("job4");
-job4.style.display="none";
-
-var job5= document.getElementById("job5");
-job5.style.display="none";
-
-var job6= document.getElementById("job6");
-job6.style.display="none";
-
-var job7= document.getElementById("job7");
-job7.style.display="none";
-
-var job8= document.getElementById("job8");
-job8.style.display="none";
-
-var job9= document.getElementById("job9");
-job9.style.display="none";
-
-var internship1= document.getElementById("internship1");
-internship1.style.display="none";
-
-var internship2= document.getElementById("internship2");
-internship2.style.display="none";
-
-var internship3= document.getElementById("internship3");
-internship3.style.display="none";
-
-var internship4= document.getElementById("internship4");
-internship4.style.display="none";
-
-var internship5= document.getElementById("internship5");
-internship5.style.display="none";
-
-var internship6= document.getElementById("internship6");
-internship6.style.display="none";
-
-var internship7= document.getElementById("internship7");
-internship7.style.display="none";
-
-var internship8= document.getElementById("internship8");
-internship8.style.display="none";
-
-var internship9= document.getElementById("internship9");
-internship9.style.display="none"; 
-
-var services1= document.getElementById("services1");
-services1.style.display="none";
-
-var services2= document.getElementById("services2");
-services2.style.display="none";
-
-var services3= document.getElementById("services3");
-services3.style.display="none";
-
-var services4= document.getElementById("services4");
-services4.style.display="none";
-
-var services5= document.getElementById("services5");
-services5.style.display="none";
-
-var services6= document.getElementById("services6");
-services6.style.display="none";
-
-var services7= document.getElementById("services7");
-services7.style.display="none";
-
-var services8= document.getElementById("services8");
-services8.style.display="none";
-
-var services9= document.getElementById("services9");
-services9.style.display="none";
-
-var tutoring1= document.getElementById("tutoring1");
-tutoring1.style.display="none";
-
-var tutoring2= document.getElementById("tutoring2");
-tutoring2.style.display="none";
-
-var tutoring3= document.getElementById("tutoring3");
-tutoring3.style.display="none";
-
-var tutoring4= document.getElementById("tutoring4");
-tutoring4.style.display="none";
-
-var tutoring5= document.getElementById("tutoring5");
-tutoring5.style.display="none";
-
-var tutoring6= document.getElementById("tutoring6");
-tutoring6.style.display="none";
-
-var tutoring7= document.getElementById("tutoring7");
-tutoring7.style.display="none";
-
-var tutoring8= document.getElementById("tutoring8");
-tutoring8.style.display="none";
-
-var tutoring9= document.getElementById("tutoring9");
-tutoring9.style.display="none";
-
-var textbooks-wanted1= document.getElementById("textbooks-wanted1");
-textbooks-wanted1.style.display="none";
-
-var textbooks-wanted2= document.getElementById("textbooks-wanted2");
-textbooks-wanted2.style.display="none";
-
-var textbooks-wanted3= document.getElementById("textbooks-wanted3");
-textbooks-wanted3.style.display="none";
-
-var textbooks-wanted4= document.getElementById("textbooks-wanted4");
-textbooks-wanted4.style.display="none";
-
-var textbooks-wanted5= document.getElementById("textbooks-wanted5");
-textbooks-wanted5.style.display="none";
-
-var textbooks-wanted6= document.getElementById("textbooks-wanted6");
-textbooks-wanted6.style.display="none";
-
-var textbooks-wanted7= document.getElementById("textbooks-wanted7");
-textbooks-wanted7.style.display="none";
-
-var textbooks-wanted8= document.getElementById("textbooks-wanted8");
-textbooks-wanted8.style.display="none";
-
-var textbooks-for-sale1= document.getElementById("textbooks-for-sale1");
-textbooks-for-sale1.style.display="none";
-
-var textbooks-for-sale2= document.getElementById("textbooks-for-sale2");
-textbooks-for-sale2.style.display="none";
-
-var textbooks-for-sale3= document.getElementById("textbooks-for-sale3");
-textbooks-for-sale3.style.display="none";
-
-var textbooks-for-sale4= document.getElementById("textbooks-for-sale4");
-textbooks-for-sale4.style.display="none";
-
-var textbooks-for-sale5= document.getElementById("textbooks-for-sale5");
-textbooks-for-sale5.style.display="none";
-
-var textbooks-for-sale6= document.getElementById("textbooks-for-sale6");
-textbooks-for-sale6.style.display="none";
-
-var textbooks-for-sale7= document.getElementById("textbooks-for-sale7");
-textbooks-for-sale7.style.display="none";
-
-var textbooks-for-sale8= document.getElementById("textbooks-for-sale8");
-textbooks-for-sale8.style.display="none";
-
-var textbooks-for-sale9= document.getElementById("textbooks-for-sale9");
-textbooks-for-sale9.style.display="none";
-}
+	{
+	hide_fields();
+	}
 }
 
 
@@ -671,7 +706,7 @@ die("promotion query failed!");
 
 
     <tr>
-      <th > Title * </th>
+      <th > Title ** </th>
       <td><input name="title" size="70" type="text" class="textfield" id="title" /></td>
     </tr>
 
@@ -689,7 +724,7 @@ die("promotion query failed!");
 	<option style="background-color:#58B9EB"; value="services">services</option>
 	<option style="background-color:#58B9EB"; value="tutoring">tutoring</option>
 	<option style="background-color:#58B9EB"; value="textbooks wanted">textbooks wanted</option>
-	<option style="background-color:#58B9EB"; value="textbooks for sale">textbooks for sale</option>
+	<option style="background-color:#58B9EB"; value="textbooks available">textbooks for sale</option>
 	</select>
 	  
 	  </td>
