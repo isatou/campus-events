@@ -289,32 +289,32 @@ function hide_fields()
 	textbooks-wanted8.style.display="none";
 
 	//hide textbooks for sale
-	var textbooks-for-sale1= document.getElementById("textbooks-for-sale1");
-	textbooks-for-sale1.style.display="none";
+	var textbooks-available1= document.getElementById("textbooks-available1");
+	textbooks-available1.style.display="none";
 
-	var textbooks-for-sale2= document.getElementById("textbooks-for-sale2");
-	textbooks-for-sale2.style.display="none";
+	var textbooks-available2= document.getElementById("textbooks-available2");
+	textbooks-available2.style.display="none";
 
-	var textbooks-for-sale3= document.getElementById("textbooks-for-sale3");
-	textbooks-for-sale3.style.display="none";
+	var textbooks-available3= document.getElementById("textbooks-available3");
+	textbooks-available3.style.display="none";
 
-	var textbooks-for-sale4= document.getElementById("textbooks-for-sale4");
-	textbooks-for-sale4.style.display="none";
+	var textbooks-available4= document.getElementById("textbooks-available4");
+	textbooks-available4.style.display="none";
 
-	var textbooks-for-sale5= document.getElementById("textbooks-for-sale5");
-	textbooks-for-sale5.style.display="none";
+	var textbooks-available5= document.getElementById("textbooks-available5");
+	textbooks-available5.style.display="none";
 
-	var textbooks-for-sale6= document.getElementById("textbooks-for-sale6");
-	textbooks-for-sale6.style.display="none";
+	var textbooks-available6= document.getElementById("textbooks-available6");
+	textbooks-available6.style.display="none";
 
-	var textbooks-for-sale7= document.getElementById("textbooks-for-sale7");
-	textbooks-for-sale7.style.display="none";
+	var textbooks-available7= document.getElementById("textbooks-available7");
+	textbooks-available7.style.display="none";
 
-	var textbooks-for-sale8= document.getElementById("textbooks-for-sale8");
-	textbooks-for-sale8.style.display="none";
+	var textbooks-available8= document.getElementById("textbooks-available8");
+	textbooks-available8.style.display="none";
 
-	var textbooks-for-sale9= document.getElementById("textbooks-for-sale9");
-	textbooks-for-sale9.style.display="none";
+	var textbooks-available9= document.getElementById("textbooks-available9");
+	textbooks-available9.style.display="none";
 
 }
 
@@ -708,7 +708,7 @@ die("promotion query failed!");
 
 
     <tr>
-     <th > Title ** </th>
+     <th > Title * </th>
       <td><input name="title" size="70" type="text" class="textfield" id="title" /></td>
     </tr>
 
