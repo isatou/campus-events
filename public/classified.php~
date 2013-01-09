@@ -708,7 +708,7 @@ die("promotion query failed!");
 
 
     <tr>
-     <th > Title * </th>
+     <th > Title ** </th>
       <td><input name="title" size="70" type="text" class="textfield" id="title" /></td>
     </tr>
 
@@ -769,6 +769,43 @@ die("promotion query failed!");
 <td ><textarea name="details" id="details" style="width:400px; height:200px;" onfocus="this.value=''; setbg("#e5fff3");" onblur="setbg("white")"></textarea></td>
 </tr>
 <tr id = "sale9" style="display:none">
+<th></th>
+<td><input type="submit" name="submit" id="submit" value="Submit" ></td>
+</tr>
+
+<tr id = "housing-wanted1" style="display:none">
+<th>Amount </th> 
+<td><input name="amount" type="text" class="textfield" id="amount" ></td>
+</tr>
+<tr id = "housing-wanted2" style="display:none">
+<th > Submitter Email * </th>
+<td><input name="email" size="70" type="text" class="textfield" id="email" ></td>
+</tr> 
+<tr id = "housing-wanted3" style="display:none"> 
+<th>  </th>
+<td> <input type="checkbox" name="contact_check" id="contact_check" value="1" onclick="FillContactEmail(this.form)"> same as above </td> 
+</tr>
+<tr id = "housing-wanted4" style="display:none">
+<th> Contact Email  </th>
+<td><input name="contact_email" size="70" type="text" class="textfield" id="contact_email" ></td>
+</tr>
+<tr id = "housing-wanted5" style="display:none">
+<th> Contact Person </th>
+<td><input name="person" size="70" type="text" class="textfield" id="person" ></td>
+</tr>
+<tr id = "housing-wanted6" style="display:none">
+<th>Contact Phone </th>
+<td><input name="phone" type="text" class="textfield" id="phone" ></td>
+</tr>
+<tr id = "housing-wanted7" style="display:none">
+<th > Check to display on event page </th>
+<td><input type="checkbox" name="check_phone" id="check_phone" value="1"> phone<input type="checkbox" name="check_email" id="check_email" value="1"> email</td>
+</tr>
+<tr id = "housing-wanted8" style="display:none">
+<th width="40%">Details *</th>
+<td ><textarea name="details" id="details" style="width:400px; height:200px;" onfocus="this.value=''; setbg("#e5fff3");" onblur="setbg("white")"></textarea></td>
+</tr>
+<tr id = "housing-wanted9" style="display:none">
 <th></th>
 <td><input type="submit" name="submit" id="submit" value="Submit" ></td>
 </tr>
