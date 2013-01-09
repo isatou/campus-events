@@ -96,7 +96,7 @@ function hide_fields()
 	sale9.style.display="none";
 
 	//hide housing wanted
-	var housing-wanted1= document.getElementById("housing-wanted1");
+	/*var housing-wanted1= document.getElementById("housing-wanted1");
 	housing-wanted1.style.display="none";
 
 	var housing-wanted2= document.getElementById("housing-wanted2");
@@ -314,7 +314,7 @@ function hide_fields()
 	textbooks-available8.style.display="none";
 
 	var textbooks-available9= document.getElementById("textbooks-available9");
-	textbooks-available9.style.display="none";
+	textbooks-available9.style.display="none";*/
 
 }
 
@@ -708,7 +708,7 @@ die("promotion query failed!");
 
 
     <tr>
-     <th > Title * </th>
+     <th > Title ** </th>
       <td><input name="title" size="70" type="text" class="textfield" id="title" /></td>
     </tr>
 
