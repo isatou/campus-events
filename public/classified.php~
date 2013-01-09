@@ -364,7 +364,7 @@ function addCategory(category_num)
 
 	}
 
-	else if(category_num.category.value == 'housing wanted')
+	/* else if(category_num.category.value == 'housing wanted')
 	{
 
 	hide_fields();
@@ -629,7 +629,7 @@ else	//hide the fields
 	hide_fields();
 	}
 
-
+*/
 }
 
 
