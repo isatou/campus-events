@@ -708,7 +708,7 @@ die("promotion query failed!");
 
 
     <tr>
-     <th > Title * </th>
+     <th > Title ** </th>
       <td><input name="title" size="70" type="text" class="textfield" id="title" /></td>
     </tr>
 
@@ -806,6 +806,259 @@ die("promotion query failed!");
 <td ><textarea name="details" id="details" style="width:400px; height:200px;" onfocus="this.value=''; setbg("#e5fff3");" onblur="setbg("white")"></textarea></td>
 </tr>
 <tr id = "housing_wanted9" style="display:none">
+<th></th>
+<td><input type="submit" name="submit" id="submit" value="Submit" ></td>
+</tr>
+
+<tr id = "housing_available1" style="display:none">
+<th>Amount </th> 
+<td><input name="amount" type="text" class="textfield" id="amount" ></td>
+</tr>
+<tr id = "housing_available2" style="display:none">
+<th > Submitter Email * </th>
+<td><input name="email" size="70" type="text" class="textfield" id="email" ></td>
+</tr> 
+<tr id = "housing_available3" style="display:none"> 
+<th>  </th>
+<td> <input type="checkbox" name="contact_check" id="contact_check" value="1" onclick="FillContactEmail(this.form)"> same as above </td> 
+</tr>
+<tr id = "housing_available4" style="display:none">
+<th> Contact Email  </th>
+<td><input name="contact_email" size="70" type="text" class="textfield" id="contact_email" ></td>
+</tr>
+<tr id = "housing_available5" style="display:none">
+<th> Contact Person </th>
+<td><input name="person" size="70" type="text" class="textfield" id="person" ></td>
+</tr>
+<tr id = "housing_available6" style="display:none">
+<th>Contact Phone </th>
+<td><input name="phone" type="text" class="textfield" id="phone" ></td>
+</tr>
+<tr id = "housing_available7" style="display:none">
+<th > Check to display on event page </th>
+<td><input type="checkbox" name="check_phone" id="check_phone" value="1"> phone<input type="checkbox" name="check_email" id="check_email" value="1"> email</td>
+</tr>
+<tr id = "housing_available8" style="display:none">
+<th width="40%">Details *</th>
+<td ><textarea name="details" id="details" style="width:400px; height:200px;" onfocus="this.value=''; setbg("#e5fff3");" onblur="setbg("white")"></textarea></td>
+</tr>
+<tr id = "housing_available9" style="display:none">
+<th></th>
+<td><input type="submit" name="submit" id="submit" value="Submit" ></td>
+</tr>
+
+
+<tr id = "job2" style="display:none">
+<th > Submitter Email * </th>
+<td><input name="email" size="70" type="text" class="textfield" id="email" ></td>
+</tr> 
+<tr id = "job3" style="display:none"> 
+<th>  </th
+<td> <input type="checkbox" name="contact_check" id="contact_check" value="1" onclick="FillContactEmail(this.form)"> same as above </td> 
+</tr>
+<tr id = "job4" style="display:none">
+<th> Contact Email  </th>
+<td><input name="contact_email" size="70" type="text" class="textfield" id="contact_email" ></td>
+</tr>
+<tr id = "job5" style="display:none">
+<th> Contact Person </th>
+<td><input name="person" size="70" type="text" class="textfield" id="person" ></td>
+</tr>
+<tr id = "job6" style="display:none">
+<th>Contact Phone </th>
+<td><input name="phone" type="text" class="textfield" id="phone" ></td>
+</tr>
+<tr id = "job7" style="display:none">
+<th > Check to display on event page </th>
+<td><input type="checkbox" name="check_phone" id="check_phone" value="1"> phone<input type="checkbox" name="check_email" id="check_email" value="1"> email</td>
+</tr>
+<tr id = "job8" style="display:none">
+<th width="40%">Details *</th>
+<td ><textarea name="details" id="details" style="width:400px; height:200px;" onfocus="this.value=''; setbg("#e5fff3");" onblur="setbg("white")"></textarea></td>
+</tr>
+<tr id = "job9" style="display:none">
+<th></th>
+<td><input type="submit" name="submit" id="submit" value="Submit" ></td>
+</tr>
+
+
+<tr id = "internship2" style="display:none">
+<th > Submitter Email * </th>
+<td><input name="email" size="70" type="text" class="textfield" id="email" ></td>
+</tr> 
+<tr id = "internship3" style="display:none"> 
+<th>  </th
+<td> <input type="checkbox" name="contact_check" id="contact_check" value="1" onclick="FillContactEmail(this.form)"> same as above </td> 
+</tr>
+<tr id = "internship4" style="display:none">
+<th> Contact Email  </th>
+<td><input name="contact_email" size="70" type="text" class="textfield" id="contact_email" ></td>
+</tr>
+<tr id = "internship5" style="display:none">
+<th> Contact Person </th>
+<td><input name="person" size="70" type="text" class="textfield" id="person" ></td>
+</tr>
+<tr id = "internship6" style="display:none">
+<th>Contact Phone </th>
+<td><input name="phone" type="text" class="textfield" id="phone" ></td>
+</tr>
+<tr id = "internship7" style="display:none">
+<th > Check to display on event page </th>
+<td><input type="checkbox" name="check_phone" id="check_phone" value="1"> phone<input type="checkbox" name="check_email" id="check_email" value="1"> email</td>
+</tr>
+<tr id = "internship8" style="display:none">
+<th width="40%">Details *</th>
+<td ><textarea name="details" id="details" style="width:400px; height:200px;" onfocus="this.value=''; setbg("#e5fff3");" onblur="setbg("white")"></textarea></td>
+</tr>
+<tr id = "internship9" style="display:none">
+<th></th>
+<td><input type="submit" name="submit" id="submit" value="Submit" ></td>
+</tr>
+
+<tr id = "services1" style="display:none">
+<th>Amount </th> 
+<td><input name="amount" type="text" class="textfield" id="amount" ></td>
+</tr>
+<tr id = "services2" style="display:none">
+<th > Submitter Email * </th>
+<td><input name="email" size="70" type="text" class="textfield" id="email" ></td>
+</tr> 
+<tr id = "services3" style="display:none"> 
+<th>  </th
+<td> <input type="checkbox" name="contact_check" id="contact_check" value="1" onclick="FillContactEmail(this.form)"> same as above </td> 
+</tr>
+<tr id = "services4" style="display:none">
+<th> Contact Email  </th>
+<td><input name="contact_email" size="70" type="text" class="textfield" id="contact_email" ></td>
+</tr>
+<tr id = "services5" style="display:none">
+<th> Contact Person </th>
+<td><input name="person" size="70" type="text" class="textfield" id="person" ></td>
+</tr>
+<tr id = "services6" style="display:none">
+<th>Contact Phone </th>
+<td><input name="phone" type="text" class="textfield" id="phone" ></td>
+</tr>
+<tr id = "services7" style="display:none">
+<th > Check to display on event page </th>
+<td><input type="checkbox" name="check_phone" id="check_phone" value="1"> phone<input type="checkbox" name="check_email" id="check_email" value="1"> email</td>
+</tr>
+<tr id = "services8" style="display:none">
+<th width="40%">Details *</th>
+<td ><textarea name="details" id="details" style="width:400px; height:200px;" onfocus="this.value=''; setbg("#e5fff3");" onblur="setbg("white")"></textarea></td>
+</tr>
+<tr id = "services9" style="display:none">
+<th></th>
+<td><input type="submit" name="submit" id="submit" value="Submit" ></td>
+</tr>
+
+<tr id = "tutoring1" style="display:none">
+<th>Amount </th> 
+<td><input name="amount" type="text" class="textfield" id="amount" ></td>
+</tr>
+<tr id = "tutoring2" style="display:none">
+<th > Submitter Email * </th>
+<td><input name="email" size="70" type="text" class="textfield" id="email" ></td>
+</tr> 
+<tr id = "tutoring3" style="display:none"> 
+<th>  </th
+<td> <input type="checkbox" name="contact_check" id="contact_check" value="1" onclick="FillContactEmail(this.form)"> same as above </td> 
+</tr>
+<tr id = "tutoring4" style="display:none">
+<th> Contact Email  </th>
+<td><input name="contact_email" size="70" type="text" class="textfield" id="contact_email" ></td>
+</tr>
+<tr id = "tutoring5" style="display:none">
+<th> Contact Person </th>
+<td><input name="person" size="70" type="text" class="textfield" id="person" ></td>
+</tr>
+<tr id = "tutoring6" style="display:none">
+<th>Contact Phone </th>
+<td><input name="phone" type="text" class="textfield" id="phone" ></td>
+</tr>
+<tr id = "tutoring7" style="display:none">
+<th > Check to display on event page </th>
+<td><input type="checkbox" name="check_phone" id="check_phone" value="1"> phone<input type="checkbox" name="check_email" id="check_email" value="1"> email</td>
+</tr>
+<tr id = "tutoring8" style="display:none">
+<th width="40%">Details *</th>
+<td ><textarea name="details" id="details" style="width:400px; height:200px;" onfocus="this.value=''; setbg("#e5fff3");" onblur="setbg("white")"></textarea></td>
+</tr>
+<tr id = "tutoring9" style="display:none">
+<th></th>
+<td><input type="submit" name="submit" id="submit" value="Submit" ></td>
+</tr>
+
+<tr id = "textbooks_wanted1" style="display:none">
+<th>Amount </th> 
+<td><input name="amount" type="text" class="textfield" id="amount" ></td>
+</tr>
+<tr id = "textbooks_wanted2" style="display:none">
+<th > Submitter Email * </th>
+<td><input name="email" size="70" type="text" class="textfield" id="email" ></td>
+</tr> 
+<tr id = "textbooks_wanted3" style="display:none"> 
+<th>  </th
+<td> <input type="checkbox" name="contact_check" id="contact_check" value="1" onclick="FillContactEmail(this.form)"> same as above </td> 
+</tr>
+<tr id = "textbooks_wanted4" style="display:none">
+<th> Contact Email  </th>
+<td><input name="contact_email" size="70" type="text" class="textfield" id="contact_email" ></td>
+</tr>
+<tr id = "textbooks_wanted5" style="display:none">
+<th> Contact Person </th>
+<td><input name="person" size="70" type="text" class="textfield" id="person" ></td>
+</tr>
+<tr id = "textbooks_wanted6" style="display:none">
+<th>Contact Phone </th>
+<td><input name="phone" type="text" class="textfield" id="phone" ></td>
+</tr>
+<tr id = "textbooks_wanted7" style="display:none">
+<th > Check to display on event page </th>
+<td><input type="checkbox" name="check_phone" id="check_phone" value="1"> phone<input type="checkbox" name="check_email" id="check_email" value="1"> email</td>
+</tr>
+<tr id = "textbooks_wanted8" style="display:none">
+<th width="40%">Details *</th>
+<td ><textarea name="details" id="details" style="width:400px; height:200px;" onfocus="this.value=''; setbg("#e5fff3");" onblur="setbg("white")"></textarea></td>
+</tr>
+<tr id = "textbooks_wanted9" style="display:none">
+<th></th>
+<td><input type="submit" name="submit" id="submit" value="Submit" ></td>
+</tr>
+
+<tr id = "textbooks_available1" style="display:none">
+<th>Amount </th> 
+<td><input name="amount" type="text" class="textfield" id="amount" ></td>
+</tr>
+<tr id = "textbooks_available2" style="display:none">
+<th > Submitter Email * </th>
+<td><input name="email" size="70" type="text" class="textfield" id="email" ></td>
+</tr> 
+<tr id = "textbooks_available3" style="display:none"> 
+<th>  </th
+<td> <input type="checkbox" name="contact_check" id="contact_check" value="1" onclick="FillContactEmail(this.form)"> same as above </td> 
+</tr>
+<tr id = "textbooks_available4" style="display:none">
+<th> Contact Email  </th>
+<td><input name="contact_email" size="70" type="text" class="textfield" id="contact_email" ></td>
+</tr>
+<tr id = "textbooks_available5" style="display:none">
+<th> Contact Person </th>
+<td><input name="person" size="70" type="text" class="textfield" id="person" ></td>
+</tr>
+<tr id = "textbooks_available6" style="display:none">
+<th>Contact Phone </th>
+<td><input name="phone" type="text" class="textfield" id="phone" ></td>
+</tr>
+<tr id = "textbooks_available7" style="display:none">
+<th > Check to display on event page </th>
+<td><input type="checkbox" name="check_phone" id="check_phone" value="1"> phone<input type="checkbox" name="check_email" id="check_email" value="1"> email</td>
+</tr>
+<tr id = "textbooks_available8" style="display:none">
+<th width="40%">Details *</th>
+<td ><textarea name="details" id="details" style="width:400px; height:200px;" onfocus="this.value=''; setbg("#e5fff3");" onblur="setbg("white")"></textarea></td>
+</tr>
+<tr id = "textbooks_available9" style="display:none">
 <th></th>
 <td><input type="submit" name="submit" id="submit" value="Submit" ></td>
 </tr>
