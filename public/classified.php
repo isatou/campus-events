@@ -300,6 +300,9 @@ function hide_fields()
 	var textbooks_wanted8= document.getElementById("textbooks_wanted8");
 	textbooks_wanted8.style.display="none";
 
+	var textbooks_wanted9= document.getElementById("textbooks_wanted9");
+	textbooks_wanted9.style.display="none";
+
 	//hide textbooks for sale
 	var textbooks_available1= document.getElementById("textbooks_available1");
 	textbooks_available1.style.display="none";
@@ -447,8 +450,8 @@ function addCategory(category_num)
 	{
 	hide_fields();
 
-	var job1= document.getElementById("job1");
-	job1.style.display="table-row";
+	//var job1= document.getElementById("job1");
+	//job1.style.display="table-row";
 
 	var job2= document.getElementById("job2");
 	job2.style.display="table-row";
@@ -479,8 +482,8 @@ function addCategory(category_num)
 	{
 	hide_fields();
 
-	var internship1= document.getElementById("internship1");
-	internship1.style.display="table-row";
+	//var internship1= document.getElementById("internship1");
+	//internship1.style.display="table-row";
 
 	var internship2= document.getElementById("internship2");
 	internship2.style.display="table-row";
@@ -720,7 +723,7 @@ die("promotion query failed!");
 
 
     <tr>
-     <th > Title ** </th>
+     <th > Title * </th>
       <td><input name="title" size="70" type="text" class="textfield" id="title" /></td>
     </tr>
 
