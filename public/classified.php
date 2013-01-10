@@ -16,6 +16,18 @@
 
 <script type="text/javascript">
 
+function FillContactEmail(contact) 
+{
+	if(contact.contact_check.checked == true)
+	{
+	contact.contact_email.value=contact.email.value;
+  	}
+}
+
+</script>
+
+<script type="text/javascript">
+
 function addAmount2(amount_num)
 {
 	var issue1= document.getElementById('myDiv');
@@ -152,8 +164,8 @@ function hide_fields()
 	housing_available9.style.display="none"; 
 
 	//hide job
-	var job1= document.getElementById("job1");
-	job1.style.display="none";
+	//var job1= document.getElementById("job1");
+	//job1.style.display="none";
 
 	var job2= document.getElementById("job2");
 	job2.style.display="none";
@@ -180,8 +192,8 @@ function hide_fields()
 	job9.style.display="none";
 
 	//hide internship
-	var internship1= document.getElementById("internship1");
-	internship1.style.display="none";
+	//var internship1= document.getElementById("internship1");
+	//internship1.style.display="none";
 
 	var internship2= document.getElementById("internship2");
 	internship2.style.display="none";
@@ -708,7 +720,7 @@ die("promotion query failed!");
 
 
     <tr>
-     <th > Title ** </th>
+     <th > Title * </th>
       <td><input name="title" size="70" type="text" class="textfield" id="title" /></td>
     </tr>
 
