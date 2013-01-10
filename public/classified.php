@@ -122,34 +122,34 @@ function hide_fields()
 
 	var housing_wanted9= document.getElementById("housing_wanted9");
 	housing_wanted9.style.display="none"; 
-/*
+
 	//hide housing available
-	var housing-available1= document.getElementById("housing-available1");
-	housing-available1.style.display="none";
+	var housing_available1= document.getElementById("housing_available1");
+	housing_available1.style.display="none";
 
-	var housing-available2= document.getElementById("housing-available2");
-	housing-available2.style.display="none";
+	var housing_available2= document.getElementById("housing_available2");
+	housing_available2.style.display="none";
 
-	var housing-available3= document.getElementById("housing-available3");
-	housing-available3.style.display="none";
+	var housing_available3= document.getElementById("housing_available3");
+	housing_available3.style.display="none";
 
-	var housing-available4= document.getElementById("housing-available4");
-	housing-available4.style.display="none";
+	var housing_available4= document.getElementById("housing_available4");
+	housing_available4.style.display="none";
 
-	var housing-available5= document.getElementById("housing-available5");
-	housing-available5.style.display="none";
+	var housing_available5= document.getElementById("housing_available5");
+	housing_available5.style.display="none";
 
-	var housing-available6= document.getElementById("housing-available6");
-	housing-available6.style.display="none";
+	var housing_available6= document.getElementById("housing_available6");
+	housing_available6.style.display="none";
 
-	var housing-available7= document.getElementById("housing-available7");
-	housing-available7.style.display="none";
+	var housing_available7= document.getElementById("housing_available7");
+	housing_available7.style.display="none";
 
-	var housing-available8= document.getElementById("housing-available8");
-	housing-available8.style.display="none";
+	var housing_available8= document.getElementById("housing_available8");
+	housing_available8.style.display="none";
 
-	var housing-available9= document.getElementById("housing-available9");
-	housing-available9.style.display="none"; 
+	var housing_available9= document.getElementById("housing_available9");
+	housing_available9.style.display="none"; 
 
 	//hide job
 	var job1= document.getElementById("job1");
@@ -264,57 +264,57 @@ function hide_fields()
 	tutoring9.style.display="none";
 
 	//hide textbooks wanted
-	var textbooks-wanted1= document.getElementById("textbooks-wanted1");
-	textbooks-wanted1.style.display="none";
+	var textbooks_wanted1= document.getElementById("textbooks_wanted1");
+	textbooks_wanted1.style.display="none";
 
-	var textbooks-wanted2= document.getElementById("textbooks-wanted2");
-	textbooks-wanted2.style.display="none";
+	var textbooks_wanted2= document.getElementById("textbooks_wanted2");
+	textbooks_wanted2.style.display="none";
 
-	var textbooks-wanted3= document.getElementById("textbooks-wanted3");
-	textbooks-wanted3.style.display="none";
+	var textbooks_wanted3= document.getElementById("textbooks_wanted3");
+	textbooks_wanted3.style.display="none";
 
-	var textbooks-wanted4= document.getElementById("textbooks-wanted4");
-	textbooks-wanted4.style.display="none";
+	var textbooks_wanted4= document.getElementById("textbooks_wanted4");
+	textbooks_wanted4.style.display="none";
 
-	var textbooks-wanted5= document.getElementById("textbooks-wanted5");
-	textbooks-wanted5.style.display="none";
+	var textbooks_wanted5= document.getElementById("textbooks_wanted5");
+	textbooks_wanted5.style.display="none";
 
-	var textbooks-wanted6= document.getElementById("textbooks-wanted6");
-	textbooks-wanted6.style.display="none";
+	var textbooks_wanted6= document.getElementById("textbooks_wanted6");
+	textbooks_wanted6.style.display="none";
 
-	var textbooks-wanted7= document.getElementById("textbooks-wanted7");
-	textbooks-wanted7.style.display="none";
+	var textbooks_wanted7= document.getElementById("textbooks_wanted7");
+	textbooks_wanted7.style.display="none";
 
-	var textbooks-wanted8= document.getElementById("textbooks-wanted8");
-	textbooks-wanted8.style.display="none";
+	var textbooks_wanted8= document.getElementById("textbooks_wanted8");
+	textbooks_wanted8.style.display="none";
 
 	//hide textbooks for sale
-	var textbooks-available1= document.getElementById("textbooks-available1");
-	textbooks-available1.style.display="none";
+	var textbooks_available1= document.getElementById("textbooks_available1");
+	textbooks_available1.style.display="none";
 
-	var textbooks-available2= document.getElementById("textbooks-available2");
-	textbooks-available2.style.display="none";
+	var textbooks_available2= document.getElementById("textbooks_available2");
+	textbooks_available2.style.display="none";
 
-	var textbooks-available3= document.getElementById("textbooks-available3");
-	textbooks-available3.style.display="none";
+	var textbooks_available3= document.getElementById("textbooks_available3");
+	textbooks_available3.style.display="none";
 
-	var textbooks-available4= document.getElementById("textbooks-available4");
-	textbooks-available4.style.display="none";
+	var textbooks_available4= document.getElementById("textbooks_available4");
+	textbooks_available4.style.display="none";
 
-	var textbooks-available5= document.getElementById("textbooks-available5");
-	textbooks-available5.style.display="none";
+	var textbooks_available5= document.getElementById("textbooks_available5");
+	textbooks_available5.style.display="none";
 
-	var textbooks-available6= document.getElementById("textbooks-available6");
-	textbooks-available6.style.display="none";
+	var textbooks_available6= document.getElementById("textbooks_available6");
+	textbooks_available6.style.display="none";
 
-	var textbooks-available7= document.getElementById("textbooks-available7");
-	textbooks-available7.style.display="none";
+	var textbooks_available7= document.getElementById("textbooks_available7");
+	textbooks_available7.style.display="none";
 
-	var textbooks-available8= document.getElementById("textbooks-available8");
-	textbooks-available8.style.display="none";
+	var textbooks_available8= document.getElementById("textbooks_available8");
+	textbooks_available8.style.display="none";
 
-	var textbooks-available9= document.getElementById("textbooks-available9");
-	textbooks-available9.style.display="none";*/
+	var textbooks_available9= document.getElementById("textbooks_available9");
+	textbooks_available9.style.display="none";
 
 }
 
@@ -403,32 +403,32 @@ function addCategory(category_num)
 	{
 	hide_fields();
 
-	var housing-available1= document.getElementById("housing-available1");
-	housing-available1.style.display="table-row";
+	var housing_available1= document.getElementById("housing_available1");
+	housing_available1.style.display="table-row";
 
-	var housing-available2= document.getElementById("housing-available2");
-	housing-available2.style.display="table-row";
+	var housing_available2= document.getElementById("housing_available2");
+	housing_available2.style.display="table-row";
 
-	var housing-available3= document.getElementById("housing-available3");
-	housing-available3.style.display="table-row";
+	var housing_available3= document.getElementById("housing_available3");
+	housing_available3.style.display="table-row";
 
-	var housing-available4= document.getElementById("housing-available4");
-	housing-available4.style.display="table-row";
+	var housing_available4= document.getElementById("housing_available4");
+	housing_available4.style.display="table-row";
 
-	var housing-available5= document.getElementById("housing-available5");
-	housing-available5.style.display="table-row";
+	var housing_available5= document.getElementById("housing_available5");
+	housing_available5.style.display="table-row";
 
-	var housing-available6= document.getElementById("housing-available6");
-	housing-available6.style.display="table-row";
+	var housing_available6= document.getElementById("housing_available6");
+	housing_available6.style.display="table-row";
 
-	var housing-available7= document.getElementById("housing-available7");
-	housing-available7.style.display="table-row";
+	var housing_available7= document.getElementById("housing_available7");
+	housing_available7.style.display="table-row";
 
-	var housing-available8= document.getElementById("housing-available8");
-	housing-available8.style.display="table-row";
+	var housing_available8= document.getElementById("housing_available8");
+	housing_available8.style.display="table-row";
 
-	var housing-available9= document.getElementById("housing-available9");
-	housing-available9.style.display="table-row"; 
+	var housing_available9= document.getElementById("housing_available9");
+	housing_available9.style.display="table-row"; 
 	}
 
 	else if(category_num.category.value == 'job')
@@ -562,64 +562,64 @@ function addCategory(category_num)
 	else if(category_num.category.value == 'textbooks wanted')
 	{
 	hide_fields();
-	var textbooks-wanted1= document.getElementById("textbooks-wanted1");
-	textbooks-wanted1.style.display="table-row";
+	var textbooks_wanted1= document.getElementById("textbooks_wanted1");
+	textbooks_wanted1.style.display="table-row";
 
-	var textbooks-wanted2= document.getElementById("textbooks-wanted2");
-	textbooks-wanted2.style.display="table-row";
+	var textbooks_wanted2= document.getElementById("textbooks_wanted2");
+	textbooks_wanted2.style.display="table-row";
 
-	var textbooks-wanted3= document.getElementById("textbooks-wanted3");
-	textbooks-wanted3.style.display="table-row";
+	var textbooks_wanted3= document.getElementById("textbooks_wanted3");
+	textbooks_wanted3.style.display="table-row";
 
-	var textbooks-wanted4= document.getElementById("textbooks-wanted4");
-	textbooks-wanted4.style.display="table-row";
+	var textbooks_wanted4= document.getElementById("textbooks_wanted4");
+	textbooks_wanted4.style.display="table-row";
 
-	var textbooks-wanted5= document.getElementById("textbooks-wanted5");
-	textbooks-wanted5.style.display="table-row";
+	var textbooks_wanted5= document.getElementById("textbooks_wanted5");
+	textbooks_wanted5.style.display="table-row";
 
-	var textbooks-wanted6= document.getElementById("textbooks-wanted6");
-	textbooks-wanted6.style.display="table-row";
+	var textbooks_wanted6= document.getElementById("textbooks_wanted6");
+	textbooks_wanted6.style.display="table-row";
 
-	var textbooks-wanted7= document.getElementById("textbooks-wanted7");
-	textbooks-wanted7.style.display="table-row";
+	var textbooks_wanted7= document.getElementById("textbooks_wanted7");
+	textbooks_wanted7.style.display="table-row";
 
-	var textbooks-wanted8= document.getElementById("textbooks-wanted8");
-	textbooks-wanted8.style.display="table-row";
+	var textbooks_wanted8= document.getElementById("textbooks_wanted8");
+	textbooks_wanted8.style.display="table-row";
 
-	var textbooks-wanted9= document.getElementById("textbooks-wanted9");
-	textbooks-wanted9.style.display="table-row";
+	var textbooks_wanted9= document.getElementById("textbooks_wanted9");
+	textbooks_wanted9.style.display="table-row";
 	}
 
 	else if(category_num.category.value == 'textbooks available')
 	{
 	hide_fields();
 
-	var textbooks-available1= document.getElementById("textbooks-available1");
-	textbooks-available1.style.display="table-row";
+	var textbooks_available1= document.getElementById("textbooks_available1");
+	textbooks_available1.style.display="table-row";
 
-	var textbooks-available2= document.getElementById("textbooks-available2");
-	textbooks-available2.style.display="table-row";
+	var textbooks_available2= document.getElementById("textbooks_available2");
+	textbooks_available2.style.display="table-row";
 
-	var textbooks-available3= document.getElementById("textbooks-available3");
-	textbooks-available3.style.display="table-row";
+	var textbooks_available3= document.getElementById("textbooks_available3");
+	textbooks_available3.style.display="table-row";
 
-	var textbooks-available4= document.getElementById("textbooks-available4");
-	textbooks-available4.style.display="table-row";
+	var textbooks_available4= document.getElementById("textbooks_available4");
+	textbooks_available4.style.display="table-row";
 
-	var textbooks-available5= document.getElementById("textbooks-available5");
-	textbooks-available5.style.display="table-row";
+	var textbooks_available5= document.getElementById("textbooks_available5");
+	textbooks_available5.style.display="table-row";
 
-	var textbooks-available6= document.getElementById("textbooks-available6");
-	textbooks-available6.style.display="table-row";
+	var textbooks_available6= document.getElementById("textbooks_available6");
+	textbooks_available6.style.display="table-row";
 
-	var textbooks-available7= document.getElementById("textbooks-available7");
-	textbooks-available7.style.display="table-row";
+	var textbooks_available7= document.getElementById("textbooks_available7");
+	textbooks_available7.style.display="table-row";
 
-	var textbooks-available8= document.getElementById("textbooks-available8");
-	textbooks-available8.style.display="table-row";
+	var textbooks_available8= document.getElementById("textbooks_available8");
+	textbooks_available8.style.display="table-row";
 
-	var textbooks-available9= document.getElementById("textbooks-available9");
-	textbooks-available9.style.display="table-row"; 
+	var textbooks_available9= document.getElementById("textbooks_available9");
+	textbooks_available9.style.display="table-row"; 
 	}
 
 	//issue1.innerHTML=category_num.category.value;
@@ -708,7 +708,7 @@ die("promotion query failed!");
 
 
     <tr>
-     <th > Title ** </th>
+     <th > Title * </th>
       <td><input name="title" size="70" type="text" class="textfield" id="title" /></td>
     </tr>
 
