@@ -96,32 +96,32 @@ function hide_fields()
 	sale9.style.display="none";
 
 	//hide housing wanted
-	var housing-wanted1= document.getElementById("housing-wanted1");
-	housing-wanted1.style.display="none";
+	var housing_wanted1= document.getElementById("housing_wanted1");
+	housing_wanted1.style.display="none";
 
-	var housing-wanted2= document.getElementById("housing-wanted2");
-	housing-wanted2.style.display="none";
+	var housing_wanted2= document.getElementById("housing_wanted2");
+	housing_wanted2.style.display="none";
 
-	var housing-wanted3= document.getElementById("housing-wanted3");
-	housing-wanted3.style.display="none";
+	var housing_wanted3= document.getElementById("housing_wanted3");
+	housing_wanted3.style.display="none";
 
-	var housing-wanted4= document.getElementById("housing-wanted4");
-	housing-wanted4.style.display="none";
+	var housing_wanted4= document.getElementById("housing_wanted4");
+	housing_wanted4.style.display="none";
 
-	var housing-wanted5= document.getElementById("housing-wanted5");
-	housing-wanted5.style.display="none";
+	var housing_wanted5= document.getElementById("housing_wanted5");
+	housing_wanted5.style.display="none";
 
-	var housing-wanted6= document.getElementById("housing-wanted6");
-	housing-wanted6.style.display="none";
+	var housing_wanted6= document.getElementById("housing_wanted6");
+	housing_wanted6.style.display="none";
 
-	var housing-wanted7= document.getElementById("housing-wanted7");
-	housing-wanted7.style.display="none";
+	var housing_wanted7= document.getElementById("housing_wanted7");
+	housing_wanted7.style.display="none";
 
-	var housing-wanted8= document.getElementById("housing-wanted8");
-	housing-wanted8.style.display="none";
+	var housing_wanted8= document.getElementById("housing_wanted8");
+	housing_wanted8.style.display="none";
 
-	var housing-wanted9= document.getElementById("housing-wanted9");
-	housing-wanted9.style.display="none"; 
+	var housing_wanted9= document.getElementById("housing_wanted9");
+	housing_wanted9.style.display="none"; 
 /*
 	//hide housing available
 	var housing-available1= document.getElementById("housing-available1");
@@ -369,32 +369,32 @@ function addCategory(category_num)
 
 	hide_fields();
 
-	var housing-wanted1= document.getElementById("housing-wanted1");
-	housing-wanted1.style.display="table-row";
+	var housing_wanted1= document.getElementById("housing_wanted1");
+	housing_wanted1.style.display="table-row";
 
-	var housing-wanted2= document.getElementById("housing-wanted2");
-	housing-wanted2.style.display="table-row";
+	var housing_wanted2= document.getElementById("housing_wanted2");
+	housing_wanted2.style.display="table-row";
 
-	var housing-wanted3= document.getElementById("housing-wanted3");
-	housing-wanted3.style.display="table-row";
+	var housing_wanted3= document.getElementById("housing_wanted3");
+	housing_wanted3.style.display="table-row";
 
-	var housing-wanted4= document.getElementById("housing-wanted4");
-	housing-wanted4.style.display="table-row";
+	var housing_wanted4= document.getElementById("housing_wanted4");
+	housing_wanted4.style.display="table-row";
 
-	var housing-wanted5= document.getElementById("housing-wanted5");
-	housing-wanted5.style.display="table-row";
+	var housing_wanted5= document.getElementById("housing_wanted5");
+	housing_wanted5.style.display="table-row";
 
-	var housing-wanted6= document.getElementById("housing-wanted6");
-	housing-wanted6.style.display="table-row";
+	var housing_wanted6= document.getElementById("housing_wanted6");
+	housing_wanted6.style.display="table-row";
 
-	var housing-wanted7= document.getElementById("housing-wanted7");
-	housing-wanted7.style.display="table-row";
+	var housing_wanted7= document.getElementById("housing_wanted7");
+	housing_wanted7.style.display="table-row";
 
-	var housing-wanted8= document.getElementById("housing-wanted8");
-	housing-wanted8.style.display="table-row";
+	var housing_wanted8= document.getElementById("housing_wanted8");
+	housing_wanted8.style.display="table-row";
 
-	var housing-wanted9= document.getElementById("housing-wanted9");
-	housing-wanted9.style.display="table-row"; 
+	var housing_wanted9= document.getElementById("housing_wanted9");
+	housing_wanted9.style.display="table-row"; 
 
 	}
 
@@ -708,7 +708,7 @@ die("promotion query failed!");
 
 
     <tr>
-     <th > Title * </th>
+     <th > Title ** </th>
       <td><input name="title" size="70" type="text" class="textfield" id="title" /></td>
     </tr>
 
@@ -773,39 +773,39 @@ die("promotion query failed!");
 <td><input type="submit" name="submit" id="submit" value="Submit" ></td>
 </tr>
 
-<tr id = "housing-wanted1" style="display:none">
+<tr id = "housing_wanted1" style="display:none">
 <th>Amount </th> 
 <td><input name="amount" type="text" class="textfield" id="amount" ></td>
 </tr>
-<tr id = "housing-wanted2" style="display:none">
+<tr id = "housing_wanted2" style="display:none">
 <th > Submitter Email * </th>
 <td><input name="email" size="70" type="text" class="textfield" id="email" ></td>
 </tr> 
-<tr id = "housing-wanted3" style="display:none"> 
+<tr id = "housing_wanted3" style="display:none"> 
 <th>  </th>
 <td> <input type="checkbox" name="contact_check" id="contact_check" value="1" onclick="FillContactEmail(this.form)"> same as above </td> 
 </tr>
-<tr id = "housing-wanted4" style="display:none">
+<tr id = "housing_wanted4" style="display:none">
 <th> Contact Email  </th>
 <td><input name="contact_email" size="70" type="text" class="textfield" id="contact_email" ></td>
 </tr>
-<tr id = "housing-wanted5" style="display:none">
+<tr id = "housing_wanted5" style="display:none">
 <th> Contact Person </th>
 <td><input name="person" size="70" type="text" class="textfield" id="person" ></td>
 </tr>
-<tr id = "housing-wanted6" style="display:none">
+<tr id = "housing_wanted6" style="display:none">
 <th>Contact Phone </th>
 <td><input name="phone" type="text" class="textfield" id="phone" ></td>
 </tr>
-<tr id = "housing-wanted7" style="display:none">
+<tr id = "housing_wanted7" style="display:none">
 <th > Check to display on event page </th>
 <td><input type="checkbox" name="check_phone" id="check_phone" value="1"> phone<input type="checkbox" name="check_email" id="check_email" value="1"> email</td>
 </tr>
-<tr id = "housing-wanted8" style="display:none">
+<tr id = "housing_wanted8" style="display:none">
 <th width="40%">Details *</th>
 <td ><textarea name="details" id="details" style="width:400px; height:200px;" onfocus="this.value=''; setbg("#e5fff3");" onblur="setbg("white")"></textarea></td>
 </tr>
-<tr id = "housing-wanted9" style="display:none">
+<tr id = "housing_wanted9" style="display:none">
 <th></th>
 <td><input type="submit" name="submit" id="submit" value="Submit" ></td>
 </tr>
