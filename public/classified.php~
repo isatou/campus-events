@@ -868,7 +868,7 @@ die("promotion query failed!");
 <td><input name="email" size="70" type="text" class="textfield" id="email" ></td>
 </tr> 
 <tr id = "job3" style="display:none"> 
-<th>  </th
+<th>  </th>
 <td> <input type="checkbox" name="contact_check" id="contact_check" value="1" onclick="FillContactEmail(this.form)"> same as above </td> 
 </tr>
 <tr id = "job4" style="display:none">
@@ -902,7 +902,7 @@ die("promotion query failed!");
 <td><input name="email" size="70" type="text" class="textfield" id="email" ></td>
 </tr> 
 <tr id = "internship3" style="display:none"> 
-<th>  </th
+<th>  </th>
 <td> <input type="checkbox" name="contact_check" id="contact_check" value="1" onclick="FillContactEmail(this.form)"> same as above </td> 
 </tr>
 <tr id = "internship4" style="display:none">
@@ -939,7 +939,7 @@ die("promotion query failed!");
 <td><input name="email" size="70" type="text" class="textfield" id="email" ></td>
 </tr> 
 <tr id = "services3" style="display:none"> 
-<th>  </th
+<th>  </th>
 <td> <input type="checkbox" name="contact_check" id="contact_check" value="1" onclick="FillContactEmail(this.form)"> same as above </td> 
 </tr>
 <tr id = "services4" style="display:none">
@@ -976,7 +976,7 @@ die("promotion query failed!");
 <td><input name="email" size="70" type="text" class="textfield" id="email" ></td>
 </tr> 
 <tr id = "tutoring3" style="display:none"> 
-<th>  </th
+<th>  </th>
 <td> <input type="checkbox" name="contact_check" id="contact_check" value="1" onclick="FillContactEmail(this.form)"> same as above </td> 
 </tr>
 <tr id = "tutoring4" style="display:none">
@@ -1013,7 +1013,7 @@ die("promotion query failed!");
 <td><input name="email" size="70" type="text" class="textfield" id="email" ></td>
 </tr> 
 <tr id = "textbooks_wanted3" style="display:none"> 
-<th>  </th
+<th>  </th>
 <td> <input type="checkbox" name="contact_check" id="contact_check" value="1" onclick="FillContactEmail(this.form)"> same as above </td> 
 </tr>
 <tr id = "textbooks_wanted4" style="display:none">
@@ -1050,7 +1050,7 @@ die("promotion query failed!");
 <td><input name="email" size="70" type="text" class="textfield" id="email" ></td>
 </tr> 
 <tr id = "textbooks_available3" style="display:none"> 
-<th>  </th
+<th>  </th>
 <td> <input type="checkbox" name="contact_check" id="contact_check" value="1" onclick="FillContactEmail(this.form)"> same as above </td> 
 </tr>
 <tr id = "textbooks_available4" style="display:none">
