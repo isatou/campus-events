@@ -376,7 +376,7 @@ function addCategory(category_num)
 
 	}
 
-	/* else if(category_num.category.value == 'housing wanted')
+	 else if(category_num.category.value == 'housing wanted')
 	{
 
 	hide_fields();
@@ -641,7 +641,7 @@ else	//hide the fields
 	hide_fields();
 	}
 
-*/
+
 }
 
 
@@ -720,7 +720,7 @@ die("promotion query failed!");
 
 
     <tr>
-     <th > Title * </th>
+     <th > Title ** </th>
       <td><input name="title" size="70" type="text" class="textfield" id="title" /></td>
     </tr>
 
