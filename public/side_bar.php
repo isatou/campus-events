@@ -13,7 +13,15 @@ if($month=='' || $year=='')
 {
 $month='December';
 $year=2012;
+
+$qry="SELECT * from events ";
+$qry .= $part_qry;
+$qry .="ORDER BY year ASC, month ASC, day ASC";
 }
+
+else
+
+{
 
 
 
@@ -86,7 +94,6 @@ $qry .= $part_qry;
 $qry .="ORDER BY year ASC, month ASC, day ASC";
 }
 
-//$qry .= ", group by month";
 if($month=='January')
 {
 $month_calendar=1;
@@ -150,6 +157,7 @@ SELECT MONTH(GETDATE()) as "Month";
 
 SELECT DAY(GETDATE()) as "Day"; */
 $result=@mysql_query($qry);
+} //end of else	
 ?>
 
 
@@ -160,8 +168,12 @@ $result=@mysql_query($qry);
 
 <?php	
 
-$qry2="SELECT * from dates WHERE month='$month_calendar' and year='$year' ";		
+$qry2="SELECT * from dates WHERE month='$month_calendar' and year='$year' ";	
+
 $result2=mysql_query($qry2);
+
+
+
 if($result2)
 {
 $row2=mysql_fetch_assoc($result2);
@@ -178,7 +190,7 @@ $start_count=0;
 echo '
 
 
-<p><b> '.$month.' '.$year.'  </b></p>
+<p><b> '.$month.' '.$year.' test </b></p>
 <table border="1" style="border:4px solid #58B9EB";>
 <tr>
 <th>S</th>
